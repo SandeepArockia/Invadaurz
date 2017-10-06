@@ -4,17 +4,16 @@
   <title>INVADAURZ | ITA | 2017</title>
   <link rel="icon" href="img/ITALogo.jpeg">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css\materialize.min.css"  media="screen,projection"/>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="css\animate.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="js\materialize.min.js"></script>
   <script>
   $(document).ready(function(){
-    $(".button-collapse").sideNav();
+    $(".button-collapse").sideNav()
   });
   </script>
   <style>
@@ -32,17 +31,19 @@
 </head>
 
 <body style="font-family:Roboto;font-size:1.4rem">
-  <div class="navbar">
     <nav>
+      <div class="navbar">
       <div class="nav-wrapper">
         <a href="#" class="center brand-logo">INVADAURZ</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="home.html">HOME</a></li>
-          <li><a href="events.html">EVENTS</a></li>
-          <li><a href="schedule.html">SCHEDULE</a></li>
-          <li><a href="contact.html">CONTACT US</a></li>
-          <li><a href="about.html">ABOUT US</a></li>
+        <a href="#" data-activates="mobile-demo" class="button-collapse waves-effect"><i class="material-icons">menu</i></a>
+        <ul class=" hide-on-med-and-down">
+          <li class="left"><a class="waves-effect" href="#">LOGIN</a></li>
+          <li class="left"><a class="waves-effect" href="#">REGISTER</a></li>
+          <li class="right"><a class="waves-effect" href="about.html">ABOUT US</a></li>
+          <li class="right"><a class="waves-effect" href="contact.html">CONTACT US</a></li>
+          <li class="right"><a class="waves-effect" href="schedule.html">SCHEDULE</a></li>
+          <li class="right"><a class="waves-effect" href="events.html">EVENTS</a></li>
+          <li class="right"><a class="waves-effect" href="home.html">HOME</a></li>
         </ul>
         <ul class="side-nav active" id="mobile-demo" style="display: block">
           <li><a class="waves-effect" href="home.html"><i class="material-icons">home</i></a></li>
@@ -50,11 +51,12 @@
           <li><a class="waves-effect" href="schedule.html">SCHEDULE</a></li>
           <li><a class="waves-effect" href="contact.html">CONTACT US</a></li>
           <li><a class="waves-effect" href="about.html">ABOUT US</a></li>
+          <li><a class="waves-effect" href="#">LOG IN</a></li>
+          <li><a class="waves-effect" href="#">REGISTER</a></li>
         </ul>
       </div>
+    </div>
     </nav>
-  </div>
-
   <main>
 
   </main>
