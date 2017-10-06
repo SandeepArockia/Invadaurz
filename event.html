@@ -11,6 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="js\materialize.min.js"></script>
+  <!--<script src="js\wow.min.js"></script>-->
   <script>
   $(document).ready(function(){
     $(".button-collapse").sideNav();
@@ -63,21 +64,32 @@
     <div class="parallax-container">
       <div class="parallax"> <img src="img\back.jpg"/> </div>
     </div>
-    <div class="section-white col l12 m12 s12">
-      <ul class="collection with-header">
-        <li class="collection-header red-text text-accent-1"> EVENT NAME </li>
-      </ul>
-      <ul class="collection with-header">
-        <li class="collection-header red-text text-accent-1"> DESCRIPTION</li>
-        <li class="collection-item"> The event description goes here </li>
-      </ul>
-      <ul class="collection with-header">
-        <li class="collection-header red-text text-accent-1"> DETAILS</li>
-        <li class="collection-header red-text text-accent-3"> Round </li>
-        <li class="collection-item"> step 1 </li>
-        <li class="collection-item"> step 2 </li>
-        <li class="collection-item"> step 3 </li>
-      </ul>
+    <div class="row <!--wow rollIn-->">
+    <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
+      <div class="card">
+        <div class="card-content">
+          <span class="red-text text-accent-1 card-title"> EVENT NAME </span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <span class="red-text text-accent-1 card-title"> DESCRIPTION</span>
+          <p> The event description goes here </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <span class="red-text text-accent-1 card-title"> DETAILS</span>
+          <p> The event details goes here </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <span class="red-text text-accent-1 card-title"> CONTACT</span>
+          <p> Organizer1 &nbsp;-&nbsp;<span> <i class="material-icons"> phone </i> 98875 65410 </span> </p>
+          <p> Organizer2 &nbsp;-&nbsp;<span> <i class="material-icons"> phone </i> 98875 65410 </span></p>
+        </div>
+      </div>
     </div>
    </div>
   </main>
