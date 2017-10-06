@@ -13,7 +13,8 @@
   <script src="js\materialize.min.js"></script>
   <script>
   $(document).ready(function(){
-    $(".button-collapse").sideNav()
+    $(".button-collapse").sideNav();
+    $(".parallax").parallax();
   });
   </script>
   <style>
@@ -42,12 +43,12 @@
           <li class="right"><a class="waves-effect" href="about.html">ABOUT US</a></li>
           <li class="right"><a class="waves-effect" href="contact.html">CONTACT US</a></li>
           <li class="right"><a class="waves-effect" href="schedule.html">SCHEDULE</a></li>
-          <li class="right"><a class="waves-effect" href="events.html">EVENTS</a></li>
+          <li class="right active"><a class="waves-effect" href="events.html">EVENTS</a></li>
           <li class="right"><a class="waves-effect" href="home.html">HOME</a></li>
         </ul>
         <ul class="side-nav active" id="mobile-demo" style="display: block">
           <li><a class="waves-effect" href="home.html"><i class="material-icons">home</i></a></li>
-          <li><a class="waves-effect" href="events.html">EVENTS</a></li>
+          <li><a class="waves-effect active" href="events.html">EVENTS</a></li>
           <li><a class="waves-effect" href="schedule.html">SCHEDULE</a></li>
           <li><a class="waves-effect" href="contact.html">CONTACT US</a></li>
           <li><a class="waves-effect" href="about.html">ABOUT US</a></li>
@@ -59,7 +60,26 @@
     </nav>
 
   <main>
-
+    <div class="parallax-container">
+      <div class="parallax"> <img src="img\back.jpg"/> </div>
+    </div>
+    <div class="section-white col l12 m12 s12">
+      <ul class="collection with-header">
+        <li class="collection-header red-text text-accent-1"> EVENT NAME </li>
+      </ul>
+      <ul class="collection with-header">
+        <li class="collection-header red-text text-accent-1"> DESCRIPTION</li>
+        <li class="collection-item"> The event description goes here </li>
+      </ul>
+      <ul class="collection with-header">
+        <li class="collection-header red-text text-accent-1"> DETAILS</li>
+        <li class="collection-header red-text text-accent-3"> Round </li>
+        <li class="collection-item"> step 1 </li>
+        <li class="collection-item"> step 2 </li>
+        <li class="collection-item"> step 3 </li>
+      </ul>
+    </div>
+   </div>
   </main>
 
 
