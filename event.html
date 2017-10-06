@@ -6,15 +6,14 @@
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="css\materialize.min.css"  media="screen,projection"/>
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="css\animate.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="js\materialize.min.js"></script>
   <script>
   $(document).ready(function(){
-    $(".button-collapse").sideNav();
-    $(".parallax").parallax();
+    $(".button-collapse").sideNav()
   });
   </script>
   <style>
@@ -43,7 +42,7 @@
           <li class="right"><a class="waves-effect" href="about.html">ABOUT US</a></li>
           <li class="right"><a class="waves-effect" href="contact.html">CONTACT US</a></li>
           <li class="right"><a class="waves-effect" href="schedule.html">SCHEDULE</a></li>
-          <li class="right active"><a class="waves-effect" href="events.html">EVENTS</a></li>
+          <li class="right"><a class="waves-effect" href="events.html">EVENTS</a></li>
           <li class="right"><a class="waves-effect" href="home.html">HOME</a></li>
         </ul>
         <ul class="side-nav active" id="mobile-demo" style="display: block">
@@ -60,53 +59,48 @@
     </nav>
 
   <main>
-    <div class="parallax-container">
-      <div class="parallax"><img src="img\back.jpg"></div>
-    </div>
-    <div class="section-white">
-      &nbsp;
-    </div>
+
   </main>
 
 
-    <footer class="page-footer">
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 offset-l1 s8">
+          <div id="map"></div>
+          <div id="googleMap" style="width:100%;height:300px;"></div>
+
+          <script>
+          function myMap() {
+          var mapProp= {
+              center:new google.maps.LatLng(11.024389,77.003580),
+              zoom:17,
+          };
+          var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+          }
+          </script>
+
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDInQjNqxLhAH69iVTWAgfl96DhpYr2Ps4&callback=myMap"></script>
+        </div>
+        <div class="col l4 offset-l1 s4">
+          <h5 class="white-text">Contacts</h5>
+          <ul>
+            <li><span class="grey-text text-lighten-3">Harish</span></li>
+            <li><span class="grey-text text-lighten-3">1234567890</span></li>
+            <li><span class="grey-text text-lighten-3">Deepthi</span></li>
+            <li><span class="grey-text text-lighten-3">1234567890</span></li>
+            <li><span class="grey-text text-lighten-3">Kevin</span></li>
+            <li><span class="grey-text text-lighten-3">1234567890</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
       <div class="container">
-        <div class="row">
-          <div class="col l6 offset-l1 s8">
-            <div id="map"></div>
-            <div id="googleMap" style="width:100%;height:300px;"></div>
-
-            <script>
-            function myMap() {
-              var mapProp= {
-                center:new google.maps.LatLng(11.024389,77.003580),
-                zoom:17,
-              };
-              var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-            }
-            </script>
-
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDInQjNqxLhAH69iVTWAgfl96DhpYr2Ps4&callback=myMap"></script>
-          </div>
-          <div class="col l4 offset-l1 s4">
-            <h5 class="white-text">Contacts</h5>
-            <ul>
-              <li><span class="grey-text text-lighten-3">Harish</span></li>
-              <li><span class="grey-text text-lighten-3">1234567890</span></li>
-              <li><span class="grey-text text-lighten-3">Deepthi</span></li>
-              <li><span class="grey-text text-lighten-3">1234567890</span></li>
-              <li><span class="grey-text text-lighten-3">Kevin</span></li>
-              <li><span class="grey-text text-lighten-3">1234567890</span></li>
-            </ul>
-          </div>
-        </div>
+        INVADAURZ 2017
+        <a class="grey-text text-lighten-4 right" href="#!">Quote...</a>
       </div>
-      <div class="footer-copyright">
-        <div class="container">
-          INVADAURZ 2017
-          <a class="grey-text text-lighten-4 right" href="#!">Quote...</a>
-        </div>
-      </div>
-    </footer>
+    </div>
+  </footer>
 
-    </html>
+  </html>
