@@ -10,8 +10,8 @@
   <link rel="stylesheet" href="css\materialize.min.css">
   <link rel="stylesheet" href="css\animate.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-  </script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+  <script src="js\particles.js"></script>
   <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
   <script src="js\materialize.js"></script>
   <script>
@@ -19,133 +19,6 @@
     $(".button-collapse").sideNav();
     Materialize.toast('Something can be informed', 4000);
   });
-  particlesJS({
-  "particles": {
-    "number": {
-      "value": 600,
-      "density": {
-        "enable": true,
-        "value_area": 800
-      }
-    },
-    "color": {
-      "value": "#ffffff"
-    },
-    "shape": {
-      "type": "circle",
-      "stroke": {
-        "width": 0,
-        "color": "#000000"
-      },
-      "polygon": {
-        "nb_sides": 3
-      },
-      "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
-      }
-    },
-    "opacity": {
-      "value": 1,
-      "random": true,
-      "anim": {
-        "enable": true,
-        "speed": 1,
-        "opacity_min": 0,
-        "sync": false
-      }
-    },
-    "size": {
-      "value": 4.008530152163807,
-      "random": true,
-      "anim": {
-        "enable": true,
-        "speed": 4,
-        "size_min": 0.3,
-        "sync": false
-      }
-    },
-    "line_linked": {
-      "enable": false,
-      "distance": 0,
-      "color": "#ffffff",
-      "opacity": 0.2966312312601217,
-      "width": 0
-    },
-    "move": {
-      "enable": true,
-      "speed": 3.206824121731046,
-      "direction": "none",
-      "random": true,
-      "straight": false,
-      "out_mode": "out",
-      "bounce": false,
-      "attract": {
-        "enable": false,
-        "rotateX": 0,
-        "rotateY": 0
-      }
-    }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "bubble"
-      },
-      "onclick": {
-        "enable": true,
-        "mode": "remove"
-      },
-      "resize": true
-    },
-    "modes": {
-      "grab": {
-        "distance": 400,
-        "line_linked": {
-          "opacity": 1
-        }
-      },
-      "bubble": {
-        "distance": 316.71011279752463,
-        "size": 5,
-        "duration": 1.8677775882930938,
-        "opacity": 0.5359709601188878,
-        "speed": 3
-      },
-      "repulse": {
-        "distance": 400,
-        "duration": 0.4
-      },
-      "push": {
-        "particles_nb": 4
-      },
-      "remove": {
-        "particles_nb": 2
-      }
-    }
-  },
-  "retina_detect": true
-});
-var count_particles, stats, update;
-stats = new Stats;
-stats.setMode(0);
-stats.domElement.style.position = 'absolute';
-stats.domElement.style.left = '0px';
-stats.domElement.style.top = '0px';
-document.body.appendChild(stats.domElement);
-count_particles = document.querySelector('.js-count-particles');
-update = function() {
-  stats.begin();
-  stats.end();
-  if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-    count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-  }
-  requestAnimationFrame(update);
-};
-requestAnimationFrame(update);;
 </script>
   <style>
   .psg{ width: 100px;}
@@ -166,32 +39,7 @@ requestAnimationFrame(update);;
 </style>
 </head>
 
-<body data-gr-c-s-loaded="true">
-  <script src="particles.js"></script>
-
-  <div class="navbar">
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#" class="center brand-logo">INVADAURZ</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="home.html">HOME</a></li>
-          <li><a href="events.html">EVENTS</a></li>
-          <li><a href="schedule.html">SCHEDULE</a></li>
-          <li><a href="contact.html">CONTACT US</a></li>
-          <li><a href="about.html">ABOUT US</a></li>
-        </ul>
-        <ul class="side-nav active" id="mobile-demo" style="display: block">
-          <li><a class="waves-effect" href="home.html"><i class="material-icons">home</i></a></li>
-          <li><a class="waves-effect" href="events.html">EVENTS</a></li>
-          <li><a class="waves-effect" href="schedule.html">SCHEDULE</a></li>
-          <li><a class="waves-effect" href="contact.html">CONTACT US</a></li>
-          <li><a class="waves-effect" href="about.html">ABOUT US</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-
+<body data-gr-c-s-loaded="true" id="particles-js">
   <main>
     <div>
       <div>
@@ -217,19 +65,118 @@ requestAnimationFrame(update);;
           </div>
         </div>
       </div>
-
   </main>
-
-  <footer class="page-footer red">
-    <div class="container">
-      &nbsp;
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      INVADAURZ
-      <p class="grey-text text-lighten-4 right">QUOTE....</p>
-      </div>
-    </div>
-  </footer>
+  <script type="text/javascript">
+   particlesJS("particles-js",{
+     "particles": {
+       "number": {
+         "value": 600,
+         "density": {
+           "enable": true,
+           "value_area": 800
+         }
+       },
+       "color": {
+         "value": "#ffffff"
+       },
+       "shape": {
+         "type": "circle",
+         "stroke": {
+           "width": 0,
+           "color": "#000000"
+         },
+         "polygon": {
+           "nb_sides": 3
+         },
+         "image": {
+           "src": "img/github.svg",
+           "width": 100,
+           "height": 100
+         }
+       },
+       "opacity": {
+         "value": 1,
+         "random": true,
+         "anim": {
+           "enable": true,
+           "speed": 1,
+           "opacity_min": 0,
+           "sync": false
+         }
+       },
+       "size": {
+         "value": 4.008530152163807,
+         "random": true,
+         "anim": {
+           "enable": true,
+           "speed": 4,
+           "size_min": 0.3,
+           "sync": false
+         }
+       },
+       "line_linked": {
+         "enable": false,
+         "distance": 0,
+         "color": "#ffffff",
+         "opacity": 0.2966312312601217,
+         "width": 0
+       },
+       "move": {
+         "enable": true,
+         "speed": 3.206824121731046,
+         "direction": "none",
+         "random": true,
+         "straight": false,
+         "out_mode": "out",
+         "bounce": false,
+         "attract": {
+           "enable": false,
+           "rotateX": 0,
+           "rotateY": 0
+         }
+       }
+     },
+     "interactivity": {
+       "detect_on": "canvas",
+       "events": {
+         "onhover": {
+           "enable": true,
+           "mode": "bubble"
+         },
+         "onclick": {
+           "enable": true,
+           "mode": "remove"
+         },
+         "resize": true
+       },
+       "modes": {
+         "grab": {
+           "distance": 400,
+           "line_linked": {
+             "opacity": 1
+           }
+         },
+         "bubble": {
+           "distance": 316.71011279752463,
+           "size": 5,
+           "duration": 1.8677775882930938,
+           "opacity": 0.5359709601188878,
+           "speed": 3
+         },
+         "repulse": {
+           "distance": 400,
+           "duration": 0.4
+         },
+         "push": {
+           "particles_nb": 4
+         },
+         "remove": {
+           "particles_nb": 2
+         }
+       }
+     },
+     "retina_detect": true
+   });
+  </script>
   </body>
 </html>
