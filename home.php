@@ -42,8 +42,8 @@
 </head>
 
 <body style="font-family:Lato;font-size:1.4rem">
-  <nav>
-    <div class="navbar">
+    <div class="navbar-fixed">
+      <nav>
       <div class="nav-wrapper">
         <a href="#" class="center brand-logo">INVADAURZ</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse waves-effect"><i class="material-icons">menu</i></a>
@@ -56,18 +56,18 @@
           <li class="right"><a class="waves-effect" href="events.html">EVENTS</a></li>
           <li class="right active"><a class="waves-effect" href="home.html">HOME</a></li>
         </ul>
-        <ul class="side-nav active" id="mobile-demo" style="display: block">
-          <li class="active"><a class="waves-effect" href="home.html"><i class="material-icons">home</i></a></li>
-          <li><a class="waves-effect" href="events.html">EVENTS</a></li>
-          <li><a class="waves-effect" href="schedule.html">SCHEDULE</a></li>
-          <li><a class="waves-effect" href="contact.html">CONTACT US</a></li>
-          <li><a class="waves-effect" href="about.html">ABOUT US</a></li>
-          <li><a class="waves-effect modal-trigger" href="#loginModal">LOG IN</a></li>
-          <li><a class="waves-effect" href="#">REGISTER</a></li>
-        </ul>
       </div>
+    </nav>
     </div>
-  </nav>
+    <ul class="side-nav" id="mobile-demo">
+      <li class="active"><a class="waves-effect" href="home.html"><i class="material-icons">home</i></a></li>
+      <li><a class="waves-effect" href="events.html">EVENTS</a></li>
+      <li><a class="waves-effect" href="schedule.html">SCHEDULE</a></li>
+      <li><a class="waves-effect" href="contact.html">CONTACT US</a></li>
+      <li><a class="waves-effect" href="about.html">ABOUT US</a></li>
+      <li><a class="waves-effect modal-trigger" href="#loginModal">LOG IN</a></li>
+      <li><a class="waves-effect" href="#">REGISTER</a></li>
+    </ul>
   <main>
 
 
@@ -168,7 +168,7 @@
 </div>
   <footer class="page-footer">
       <div class="row">
-        <div class="col l6 offset-l1 s8">
+        <div class="col l6 offset-l1 s12">
           <div id="map"></div>
           <div id="googleMap" style="width:100%;height:300px;"></div>
           <script>
@@ -182,7 +182,7 @@
           </script>
           <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDInQjNqxLhAH69iVTWAgfl96DhpYr2Ps4&callback=myMap"></script>
         </div>
-        <div class="col l4 offset-l1 s4">
+        <div class="col l4 offset-l1 s12">
           <h5 class="white-text">Contact</h5>
           <ul>
             <li>Kevin &nbsp;-&nbsp; <a class="white-text" href="tel:75984 07070">75984 07070</a></li>
