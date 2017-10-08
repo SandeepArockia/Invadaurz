@@ -80,7 +80,6 @@
     <div class="card">
       <div class="card-content">
         <span class="card-title activator grey-text text-darken-4">
-
           <i class="mdi-navigation-more-vert right"></i></span>
           <p>
             ⁠⁠⁠⁠⁠"The delight of opening a new pursuit imparts the vivacity of youth to all"
