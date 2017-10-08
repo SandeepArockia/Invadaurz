@@ -13,6 +13,12 @@
   <script src="../../js\materialize.min.js"></script>
   <!--<script src="../../js\wow.min.js"></script>-->
   <script>
+  var options = [
+    {selector: '.section-white', offset: 50, callback: function(el) {
+      $(".section-white").addClass("animated slideInUp");
+    } }
+  ];
+  Materialize.scrollFire(options);
   $(document).ready(function(){
     $(".button-collapse").sideNav();
     $(".parallax").parallax();
@@ -23,6 +29,14 @@
   });
   </script>
   <style>
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  main {
+    flex: 1 0 auto;
+  }
   .carousel .carousel-item{
   width:100%;
 }
