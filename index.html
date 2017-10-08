@@ -15,10 +15,14 @@
   <script type="text/javascript" src="js\particles.js"></script>
   <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
   <script src="js\materialize.js"></script>
-  <!--<style>
+  <style>
   .psg{ width: 100px;}
-  @media screen and (max-device-width: 480px) and (min-device-width: 280px){ .psg {width: 20px;}}
-  @media (max-width: 480px){ .psg { width: 40px; }}
+  @media screen and (max-width: 480px) and (min-width: 280px){
+    .psg
+    {width: 20px;}}
+  @media (max-width: 480px){
+    .psg { width: 40px; }
+  }
   @media (max-width: 767px){ .psg { width: 60px;}}
 
   body {
@@ -31,7 +35,7 @@
     flex: 1 0 auto;
   }
 
-</style>-->
+</style>
 </head>
 
 <body>
@@ -41,10 +45,18 @@
             <div class="center white-text">
               <p> &nbsp; </p>
               <p> &nbsp; </p>
-              <h3 class="animated slideInDown">
-               <img class="animated slideInLeft flow-text"  src="img/psgLogo.png" class="psg">
-                   &nbsp;&nbsp; PSG COLLEGE OF TECHNOLOGY &nbsp;&nbsp;
-               <img class="animated slideInRight" src="img\ITA.jpeg" class="psg">
+              <h3 class="animated slideInDown center">
+                <div class="hide-on-med-and-down">
+                  <img class="animated slideInLeft flow-text"  src="img/psgLogo.png" class="">
+                  &nbsp;&nbsp; PSG COLLEGE OF TECHNOLOGY &nbsp;&nbsp;
+                  <img class="animated slideInRight" src="img\ITA.jpeg" class="">
+                </div>
+                  <div class="hide-on-large-only">
+                    <img class="animated slideInLeft flow-text"  src="img/psgLogo.png" class="">
+                    <img class="animated slideInRight" src="img\ITA.jpeg" class="">
+                    <br>
+                    <p>PSG COLLEGE OF TECHNOLOGY</p>
+                  </div>
 
               <h5 class="animated slideInDown"> &nbsp;&nbsp; INFORMATION TECHNOLOGY ASSOCIATION &nbsp;&nbsp; </h5>
               <p> &nbsp; </p>
