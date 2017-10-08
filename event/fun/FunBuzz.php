@@ -60,10 +60,10 @@ a{
           <li class="right"><a class="waves-effect" href="../../contact.html">CONTACT US</a></li>
           <li class="right"><a class="waves-effect" href="../../schedule.html">SCHEDULE</a></li>
           <li class="right active"><a class="waves-effect" href="../../events.html">EVENTS</a></li>
-          <li class="right"><a class="waves-effect" href="../../home.html">HOME</a></li>
+          <li class="right"><a class="waves-effect" href="../../home.php">HOME</a></li>
         </ul>
         <ul class="side-nav active" id="mobile-demo" style="display: block">
-          <li><a class="waves-effect" href="../../home.html"><i class="material-icons">home</i></a></li>
+          <li><a class="waves-effect" href="../../home.php"><i class="material-icons">home</i></a></li>
           <li class="active"><a class="waves-effect" href="../../events.html">EVENTS</a></li>
           <li><a class="waves-effect" href="../../schedule.html">SCHEDULE</a></li>
           <li><a class="waves-effect" href="../../contact.html">CONTACT US</a></li>
@@ -97,29 +97,36 @@ a{
             <div class="card ">
               <div class="card-tabs">
                 <ul class="tabs tabs-fixed-width ">
-                  <li class="tab"><a href="#test1" class="active">ASAP</a></li>
-                  <li class="tab"><a class="" href="#test2">Heads Up</a></li>
-                  <li class="tab"><a href="#test3" class="">Codecode</a></li>
+                  <li class="tab"><a href="#test1" class="active">Round 1</a></li>
+                  <li class="tab"><a class="" href="#test2">Round 2</a></li>
+                  <li class="tab"><a href="#test3" class="">Round 3</a></li>
                 <li class="indicator" style="right: 206px; left: 0px;"></li></ul>
               </div>
-              <div class="card-content ">
-                <div id="test1" style="font-size:1em" class="active">
-                  <p>
-                    Anagram, Ciphers, Crests and Deductions. Just ASAP.
-                  </p>
-                </div>
-                <div id="test2" class="" style="display: none;font-size:1em">
-                  <p>
-                    Rapid show of cards. Find a person. The person is decided from a category pool of choice.
-                  </p>
-                </div>
-                <div id="test3" style="display: none;font-size:1em" class="">
-                <p>
-                  Finding output to get number.
-                	Use the number to code.
-	                Being the final round, it contains both coding and decoding, points allocated such as for the players to compete.
-                </p>
+              <div id="test1" style="font-size:0.78em" class="active">
+                <ul>
+                  <li> <span class="red-text text-accent-1"> > </span> Balloon blowing (maximum number of balloons can be blown)</li>
+                  <li> <span class="red-text text-accent-1"> > </span> Drinking maximum cup of salt and sugar mixed water. </li>
+                  <li> <span class="red-text text-accent-1"> > </span> Smiley challenge (draw maximum known smileys correctly) </li>
+                  <li> <span class="red-text text-accent-1"> > </span> The games must be done in a given sequence and within the given time by the team. </li>
+                </ul>
               </div>
+              <div id="test2" style="font-size:0.78em">
+                <ul>
+                  <li> <span class="red-text text-accent-1"> > </span> SMS typing (A message will be given to type at maximum speed, less errors and including smileys)</li>
+                  <li> <span class="red-text text-accent-1"> > </span> Photomania (3 photos of the fun and frolic around must be captured and sent along with the typed message to a given number. The best will have higher points. Even selfies are allowed)</li>
+                  <li> <span class="red-text text-accent-1"> > </span> Rubix cube (any one colour is sufficient)</li>
+                </ul>
+              </div>
+              <div id="test3" style="font-size:0.78em">
+                <ul>
+                  <li> <span class="red-text text-accent-1"> > </span> Eye contact (The team members should be in eye contact for longest time possible. Laughing and giggling is strictly prohibited).</li>
+                  <li> <span class="red-text text-accent-1"> > </span> Android game (Maximum levels of the given game should be reached) </li>
+                </ul>
+              </div>
+              <div class="card-action">
+                <div style="font-size:0.8em">
+                  <span class="red-text text-accent-1"> Team: 2 members </span>
+                </div>
               </div>
             </div>
           </div>
@@ -127,9 +134,8 @@ a{
 
 
           <span class="red-text text-accent-1"> CONTACT</span>
-          <p> Sandeep Arockia &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:97900 68112">97900 68112</a>  </span> </p>
-          <p> Pooventhiran G &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:79042 58168">79042 58168</a>  </span></p>
-          <p> Sree Saju Dhawani K &nbsp;-&nbsp;<span> <i class="material-icons"> phone  </i> <a href="tel:87546 71891">87546 71891</a>  </span></p>
+          <p> Kaviya M. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:contact">contact</a>  </span> </p>
+          <p> Tharankini N. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:96293 28628">96293 28628</a>  </span></p>
         </div>
       </div>
     </div>

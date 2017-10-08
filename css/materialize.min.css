@@ -4743,12 +4743,12 @@ small {
 }
 
 .card.small .card-image + .card-content, .card.medium .card-image + .card-content, .card.large .card-image + .card-content {
-  max-height: 40%;
+  max-height: 60%;
 }
 
-.card.small .card-content, .card.medium .card-content, .card.large .card-content {
+.card.small .card-content, .card.medium .card-content, .card.large .card-content, .card .card-content {
   max-height: 100%;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .card.small .card-action, .card.medium .card-action, .card.large .card-action {

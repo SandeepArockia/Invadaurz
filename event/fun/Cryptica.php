@@ -60,10 +60,10 @@ a{
           <li class="right"><a class="waves-effect" href="../../contact.html">CONTACT US</a></li>
           <li class="right"><a class="waves-effect" href="../../schedule.html">SCHEDULE</a></li>
           <li class="right active"><a class="waves-effect" href="../../events.html">EVENTS</a></li>
-          <li class="right"><a class="waves-effect" href="../../home.html">HOME</a></li>
+          <li class="right"><a class="waves-effect" href="../../home.php">HOME</a></li>
         </ul>
         <ul class="side-nav active" id="mobile-demo" style="display: block">
-          <li><a class="waves-effect" href="../../home.html"><i class="material-icons">home</i></a></li>
+          <li><a class="waves-effect" href="../../home.php"><i class="material-icons">home</i></a></li>
           <li class="active"><a class="waves-effect" href="../../events.html">EVENTS</a></li>
           <li><a class="waves-effect" href="../../schedule.html">SCHEDULE</a></li>
           <li><a class="waves-effect" href="../../contact.html">CONTACT US</a></li>
@@ -84,11 +84,11 @@ a{
     <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
       <div class="container">
         <div class="">
-          <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> CRYTIES </div>
+          <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> CRIPTICA </div>
           <span class="red-text text-accent-1"> DESCRIPTION</span>
-          <p> TBU </p>
+          <p> Have you ever loved being a mysterious person? Have you ever cracked you heads hard to find a chain of clues finding your way to solve the mystery? Come as a team and dirty your hands in the mysterical case! </p>
           <span class="red-text text-accent-1"> DETAILS</span>
-          <p> TBU </p>
+          <p> TBA </p>
           <p>&nbsp;</p>
           <span class="red-text text-accent-1"> ROUNDS</span>
 
@@ -97,29 +97,33 @@ a{
             <div class="card ">
               <div class="card-tabs">
                 <ul class="tabs tabs-fixed-width ">
-                  <li class="tab"><a href="#test1" class="active">ASAP</a></li>
-                  <li class="tab"><a class="" href="#test2">Heads Up</a></li>
-                  <li class="tab"><a href="#test3" class="">Codecode</a></li>
+                  <li class="tab"><a href="#test1" class="active">Round 1</a></li>
+                  <li class="tab"><a class="" href="#test2">Round 2</a></li>
+                  <li class="tab"><a href="#test3" class="">Round 3</a></li>
                 <li class="indicator" style="right: 206px; left: 0px;"></li></ul>
               </div>
-              <div class="card-content ">
-                <div id="test1" style="font-size:1em" class="active">
-                  <p>
-                    Anagram, Ciphers, Crests and Deductions. Just ASAP.
-                  </p>
-                </div>
-                <div id="test2" class="" style="display: none;font-size:1em">
-                  <p>
-                    Rapid show of cards. Find a person. The person is decided from a category pool of choice.
-                  </p>
-                </div>
-                <div id="test3" style="display: none;font-size:1em" class="">
-                <p>
-                  Finding output to get number.
-                	Use the number to code.
-	                Being the final round, it contains both coding and decoding, points allocated such as for the players to compete.
-                </p>
+              <div id="test1" style="font-size:0.8em" class="active">
+                <ul>
+                  <li> <span class="red-text text-accent-1"> > </span> Answer all the questions</li>
+                  <li> <span class="red-text text-accent-1"> > </span> Jumble the first letters of all the answers to get the Ultimate answer. </li>
+                </ul>
               </div>
+              <div id="test2" style="font-size:0.8em">
+                <ul>
+                  <li> <span class="red-text text-accent-1"> > </span> Find the number in a picture.</li>
+                  <li> <span class="red-text text-accent-1"> > </span> The number is used to open the jar files.</li>
+                  <li> <span class="red-text text-accent-1"> > </span> The next task is story comprehension. </li>
+                </ul>
+              </div>
+              <div id="test3" style="font-size:0.8em">
+                <ul>
+                  <li> <span class="red-text text-accent-1"> > </span> The task is Number Play(similar to Sudoku)</li>
+                </ul>
+              </div>
+              <div class="card-action">
+                <div style="font-size:0.8em">
+                  <span class="red-text text-accent-1"> Team: 2 members </span>
+                </div>
               </div>
             </div>
           </div>
@@ -127,9 +131,8 @@ a{
 
 
           <span class="red-text text-accent-1"> CONTACT</span>
-          <p> Sandeep Arockia &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:97900 68112">97900 68112</a>  </span> </p>
-          <p> Pooventhiran G &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:79042 58168">79042 58168</a>  </span></p>
-          <p> Sree Saju Dhawani K &nbsp;-&nbsp;<span> <i class="material-icons"> phone  </i> <a href="tel:87546 71891">87546 71891</a>  </span></p>
+          <p> Muthu Gomathi T. S. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:76391 67100">76391 67100</a>  </span> </p>
+          <p> Preethi R. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:contact">contact</a>  </span></p>
         </div>
       </div>
     </div>

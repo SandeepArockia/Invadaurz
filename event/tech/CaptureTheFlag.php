@@ -60,10 +60,10 @@ a{
           <li class="right"><a class="waves-effect" href="../../contact.html">CONTACT US</a></li>
           <li class="right"><a class="waves-effect" href="../../schedule.html">SCHEDULE</a></li>
           <li class="right active"><a class="waves-effect" href="../../events.html">EVENTS</a></li>
-          <li class="right"><a class="waves-effect" href="../../home.html">HOME</a></li>
+          <li class="right"><a class="waves-effect" href="../../home.php">HOME</a></li>
         </ul>
         <ul class="side-nav active" id="mobile-demo" style="display: block">
-          <li><a class="waves-effect" href="../../home.html"><i class="material-icons">home</i></a></li>
+          <li><a class="waves-effect" href="../../home.php"><i class="material-icons">home</i></a></li>
           <li class="active"><a class="waves-effect" href="../../events.html">EVENTS</a></li>
           <li><a class="waves-effect" href="../../schedule.html">SCHEDULE</a></li>
           <li><a class="waves-effect" href="../../contact.html">CONTACT US</a></li>

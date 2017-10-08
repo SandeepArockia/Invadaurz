@@ -29,6 +29,12 @@
   });
   </script>
   <style>
+  .carousel .carousel-item{
+    width:100%;
+  }
+  a{
+    text-decoration:none;
+  }
   body {
     display: flex;
     min-height: 100vh;
@@ -38,18 +44,12 @@
   main {
     flex: 1 0 auto;
   }
-  .carousel .carousel-item{
-  width:100%;
-}
-a{
-  text-decoration:none;
-}
   </style>
 </head>
 
 <body style="font-family:Lato;font-size:1.4rem">
+  <div class="navbar-fixed">
     <nav>
-      <div class="navbar">
       <div class="nav-wrapper">
         <a href="../../#" class="center brand-logo">INVADAURZ</a>
         <a href="../../#" data-activates="mobile-demo" class="button-collapse waves-effect"><i class="material-icons">menu</i></a>
@@ -60,121 +60,121 @@ a{
           <li class="right"><a class="waves-effect" href="../../contact.html">CONTACT US</a></li>
           <li class="right"><a class="waves-effect" href="../../schedule.html">SCHEDULE</a></li>
           <li class="right active"><a class="waves-effect" href="../../events.html">EVENTS</a></li>
-          <li class="right"><a class="waves-effect" href="../../home.html">HOME</a></li>
-        </ul>
-        <ul class="side-nav active" id="mobile-demo" style="display: block">
-          <li><a class="waves-effect" href="../../home.html"><i class="material-icons">home</i></a></li>
-          <li class="active"><a class="waves-effect" href="../../events.html">EVENTS</a></li>
-          <li><a class="waves-effect" href="../../schedule.html">SCHEDULE</a></li>
-          <li><a class="waves-effect" href="../../contact.html">CONTACT US</a></li>
-          <li><a class="waves-effect" href="../../about.html">ABOUT US</a></li>
-          <li><a class="waves-effect" href="../../#">LOG IN</a></li>
-          <li><a class="waves-effect" href="../../#">REGISTER</a></li>
+          <li class="right"><a class="waves-effect" href="../../home.php">HOME</a></li>
         </ul>
       </div>
-    </div>
     </nav>
+  </div>
+  <ul class="side-nav active" id="mobile-demo" style="display: block">
+    <li><a class="waves-effect" href="../../home.php"><i class="material-icons">home</i></a></li>
+    <li class="active"><a class="waves-effect" href="../../events.html">EVENTS</a></li>
+    <li><a class="waves-effect" href="../../schedule.html">SCHEDULE</a></li>
+    <li><a class="waves-effect" href="../../contact.html">CONTACT US</a></li>
+    <li><a class="waves-effect" href="../../about.html">ABOUT US</a></li>
+    <li><a class="waves-effect" href="../../#">LOG IN</a></li>
+    <li><a class="waves-effect" href="../../#">REGISTER</a></li>
+  </ul>
 
   <main>
     <div class="parallax-container">
-      <div class="parallax"> <img src="../../img\parallax.jpg"/> </div>
+      <div class="parallax"> <img src="../../img\acute-parallax.png"/> </div>
     </div>
     <p> &nbsp; </p>
     <div class="row <!--wow rollIn--> flow-text">
-    <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-      <div class="container">
-        <div class="">
-          <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> CRIME SCENE </div>
-          <span class="red-text text-accent-1"> DESCRIPTION</span>
-          <p> TBA </p>
-          <span class="red-text text-accent-1"> DETAILS</span>
-          <p> TBA </p>
-          <p>&nbsp;</p>
-          <span class="red-text text-accent-1"> ROUNDS</span>
-
-          <div class="row">
+      <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
+        <div class="container">
           <div class="">
-            <div class="card ">
-              <div class="card-tabs">
-                <ul class="tabs tabs-fixed-width ">
-                  <li class="tab"><a href="#test1" class="active">ASAP</a></li>
-                  <li class="tab"><a class="" href="#test2">Heads Up</a></li>
-                  <li class="tab"><a href="#test3" class="">Codecode</a></li>
-                <li class="indicator" style="right: 206px; left: 0px;"></li></ul>
-              </div>
-              <div class="card-content ">
-                <div id="test1" style="font-size:1em" class="active">
-                  <p>
-                    Anagram, Ciphers, Crests and Deductions. Just ASAP.
-                  </p>
+            <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> CRIME SCENES </div>
+            <span class="red-text text-accent-1"> DESCRIPTION</span>
+            <p> Crime Scene Investigation events are engaging and practical; team work, critical thinking and problem solving skills will be put to the test.  </p>
+            <span class="red-text text-accent-1"> DETAILS</span>
+            <p> details </p>
+            <p>&nbsp;</p>
+            <span class="red-text text-accent-1"> ROUNDS</span>
+
+            <div class="row">
+              <div class="">
+                <div class="card">
+                  <div class="card-tabs">
+                    <ul class="tabs tabs-fixed-width ">
+                      <li class="tab"><a href="#test1" class="active">Round 1</a></li>
+                      <li class="tab"><a class="" href="#test2">Round 2</a></li>
+                      <li class="tab"><a class="" href="#test3">Round 3</a></li>
+                      <li class="indicator" style="right: 206px; left: 0px;"></li></ul>
+                    </div>
+                    <div class="card-content">
+                      <div id="test1" style="font-size:0.8em" class="active">
+                        <ul>
+                          <li> <span class="red-text text-accent-1"> > </span> Prelims include a written test consisting of 30 questions based on logical and reasoning skills. </li>
+                        </ul>
+                      </div>
+                      <div id="test2" class="" style="display: none;font-size:0.8em">
+                        <ul>
+                          <li> <span class="red-text text-accent-1"> > </span> Each shortlisted team will be asked to solve a jigsaw mystery puzzle and crossword.</li>
+                          <li> <span class="red-text text-accent-1"> > </span> The teams will be provided with a video questionnaire on a projector to check out their observation skills. </li>
+                        </ul>
+                      </div>
+                      <div id="test3" class="" style="display: none;font-size:0.8em">
+                        <ul>
+                          <li> <span class="red-text text-accent-1"> > </span> Finalists will be taken to the crime sceneSolve the crime within the allotted time by taking the necessary snapshots, interrogating suspects and witnesses within an hour.. </li>
+                          <li> <span class="red-text text-accent-1"> > </span> Solve the crime within the allotted time by taking the necessary snapshots, interrogating suspects and witnesses within an hour. </li>
+                        </ul>
+                      </div>
+                      </div>
+                      <div class="card-action">
+                        <div style="font-size:0.8em">
+                          <span class="red-text text-accent-1"> Team: 2 members </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div id="test2" class="" style="display: none;font-size:1em">
-                  <p>
-                    Rapid show of cards. Find a person. The person is decided from a category pool of choice.
-                  </p>
-                </div>
-                <div id="test3" style="display: none;font-size:1em" class="">
-                <p>
-                  Finding output to get number.
-                	Use the number to code.
-	                Being the final round, it contains both coding and decoding, points allocated such as for the players to compete.
-                </p>
-              </div>
-              </div>
+            </div>
+              <span class="red-text text-accent-1"> CONTACT</span>
+              <p> Mitra &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:96779 20435">96779 20435</a>  </span> </p>
+              <p> Shruti S. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:contact">contact</a>  </span></p>
             </div>
           </div>
         </div>
+      </main>
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 offset-l1 s8">
+              <div id="map"></div>
+              <div id="googleMap" style="width:100%;height:300px;"></div>
 
+              <script>
+              function myMap() {
+                var mapProp= {
+                  center:new google.maps.LatLng(11.024389,77.003580),
+                  zoom:17,
+                };
+                var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+              }
+              </script>
 
-          <span class="red-text text-accent-1"> CONTACT</span>
-          <p> Sandeep Arockia &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:97900 68112">97900 68112</a>  </span> </p>
-          <p> Pooventhiran G &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:79042 58168">79042 58168</a>  </span></p>
-          <p> Sree Saju Dhawani K &nbsp;-&nbsp;<span> <i class="material-icons"> phone  </i> <a href="tel:87546 71891">87546 71891</a>  </span></p>
+              <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDInQjNqxLhAH69iVTWAgfl96DhpYr2Ps4&callback=myMap"></script>
+            </div>
+            <div class="col l4 offset-l1 s4">
+              <h5 class="white-text">Contacts</h5>
+              <ul>
+                <li><span class="grey-text text-lighten-3">Harish</span></li>
+                <li><span class="grey-text text-lighten-3">1234567890</span></li>
+                <li><span class="grey-text text-lighten-3">Deepthi</span></li>
+                <li><span class="grey-text text-lighten-3">1234567890</span></li>
+                <li><span class="grey-text text-lighten-3">Kevin</span></li>
+                <li><span class="grey-text text-lighten-3">1234567890</span></li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-   </div>
-  </main>
-
-
-  <footer class="page-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 offset-l1 s8">
-          <div id="map"></div>
-          <div id="googleMap" style="width:100%;height:300px;"></div>
-
-          <script>
-          function myMap() {
-          var mapProp= {
-              center:new google.maps.LatLng(11.024389,77.003580),
-              zoom:17,
-          };
-          var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-          }
-          </script>
-
-          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDInQjNqxLhAH69iVTWAgfl96DhpYr2Ps4&callback=myMap"></script>
+        <div class="footer-copyright">
+          <div class="container">
+            INVADAURZ 2017
+            <a class="grey-text text-lighten-4 right" href="../../#!">Quote...</a>
+          </div>
         </div>
-        <div class="col l4 offset-l1 s4">
-          <h5 class="white-text">Contacts</h5>
-          <ul>
-            <li><span class="grey-text text-lighten-3">Harish</span></li>
-            <li><span class="grey-text text-lighten-3">1234567890</span></li>
-            <li><span class="grey-text text-lighten-3">Deepthi</span></li>
-            <li><span class="grey-text text-lighten-3">1234567890</span></li>
-            <li><span class="grey-text text-lighten-3">Kevin</span></li>
-            <li><span class="grey-text text-lighten-3">1234567890</span></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        INVADAURZ 2017
-        <a class="grey-text text-lighten-4 right" href="../../#!">Quote...</a>
-      </div>
-    </div>
-  </footer>
+      </footer>
 
-  </html>
+      </html>
