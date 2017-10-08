@@ -16,6 +16,15 @@
     $(".button-collapse").sideNav();
     $(".parallax").parallax();
   });
+  var options = [
+      {selector: '#techText', offset: 50, callback: function(el) {
+        $("#techText").addClass("animated slideInLeft");
+      } },
+      {selector: '#funText', offset: 50, callback: function(el) {
+        $("#funText").addClass("animated slideInRight");
+      } }
+    ];
+    Materialize.scrollFire(options);
   </script>
   <style>
   body {
@@ -83,7 +92,7 @@
   </div>
   <div class="container row center" style="padding:50px 0px 0px 0px">
     <a href="events.html#technicalText">
-      <div class="col l6 s12 m6 animated slideInLeft">
+      <div class="col l6 s12 m6" id="techText">
         <div class="row">
           <div class="card blue-grey" style="padding:0px 20px 0px 20px">
             <div class="card-content white-text">
@@ -98,7 +107,7 @@
       </div>
     </a>
     <a href="events.html#funText">
-      <div class="col l6 s12 m6 animated slideInRight" style="padding:0px 20px 0px 20px">
+      <div class="col l6 s12 m6" id="funText" style="padding:0px 20px 0px 20px">
         <div class="row">
           <div class="card blue-grey">
             <div class="card-content white-text">

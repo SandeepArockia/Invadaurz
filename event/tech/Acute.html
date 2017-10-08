@@ -21,6 +21,16 @@
       responsiveThreshold : 1920
     });
   });
+  var options = [
+      /*{selector: '.parallax-container', offset: 50, callback: function(el) {
+        $(".parallax-container").addClass("animated slideInUp");
+      } },*/
+      {selector: '.section-white', offset: 50, callback: function(el) {
+        $(".section-white").attr("style","display: inline");
+        $(".section-white").addClass("animated slideInUp");
+      } }
+    ];
+    Materialize.scrollFire(options);
   </script>
   <style>
   .carousel .carousel-item{
@@ -75,7 +85,7 @@ main {
     </div>
     <p> &nbsp; </p>
     <div class="row <!--wow rollIn--> flow-text">
-    <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
+    <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1" style="display: none">
       <div class="container">
         <div class="">
           <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> ACUTE </div>
