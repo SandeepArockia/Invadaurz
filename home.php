@@ -18,14 +18,14 @@
     $(".parallax").parallax();
   });
   var options = [
-      {selector: '#techText', offset: 50, callback: function(el) {
-        $("#techText").addClass("animated slideInLeft");
-      } },
-      {selector: '#funText', offset: 50, callback: function(el) {
-        $("#funText").addClass("animated slideInRight");
-      } }
-    ];
-    Materialize.scrollFire(options);
+    {selector: '#techText', offset: 50, callback: function(el) {
+      $("#techText").addClass("animated slideInLeft");
+    } },
+    {selector: '#funText', offset: 50, callback: function(el) {
+      $("#funText").addClass("animated slideInRight");
+    } }
+  ];
+  Materialize.scrollFire(options);
   </script>
   <style>
   body {
@@ -42,14 +42,14 @@
 </head>
 
 <body style="font-family:Lato;font-size:1.4rem">
-    <div class="navbar-fixed">
-      <nav>
+  <div class="navbar-fixed">
+    <nav>
       <div class="nav-wrapper">
         <a href="#" class="center brand-logo">INVADAURZ</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse waves-effect"><i class="material-icons">menu</i></a>
         <ul class=" hide-on-med-and-down">
           <li class="left"><a class="waves-effect modal-trigger" href="#loginModal">LOGIN</a></li>
-          <li class="left"><a class="waves-effect" href="#">REGISTER</a></li>
+          <li class="left"><a class="waves-effect modal-trigger" href="#registerModal">REGISTER</a></li>
           <li class="right"><a class="waves-effect" href="about.html">ABOUT US</a></li>
           <li class="right"><a class="waves-effect" href="contact.html">CONTACT US</a></li>
           <li class="right"><a class="waves-effect" href="schedule.html">SCHEDULE</a></li>
@@ -58,16 +58,16 @@
         </ul>
       </div>
     </nav>
-    </div>
-    <ul class="side-nav" id="mobile-demo">
-      <li class="active"><a class="waves-effect" href="home.php"><i class="material-icons">home</i></a></li>
-      <li><a class="waves-effect" href="events.html">EVENTS</a></li>
-      <li><a class="waves-effect" href="schedule.html">SCHEDULE</a></li>
-      <li><a class="waves-effect" href="contact.html">CONTACT US</a></li>
-      <li><a class="waves-effect" href="about.html">ABOUT US</a></li>
-      <li><a class="waves-effect modal-trigger" href="#loginModal">LOG IN</a></li>
-      <li><a class="waves-effect" href="#">REGISTER</a></li>
-    </ul>
+  </div>
+  <ul class="side-nav" id="mobile-demo">
+    <li class="active"><a class="waves-effect" href="home.php"><i class="material-icons">home</i></a></li>
+    <li><a class="waves-effect" href="events.html">EVENTS</a></li>
+    <li><a class="waves-effect" href="schedule.html">SCHEDULE</a></li>
+    <li><a class="waves-effect" href="contact.html">CONTACT US</a></li>
+    <li><a class="waves-effect" href="about.html">ABOUT US</a></li>
+    <li><a class="waves-effect modal-trigger" href="#loginModal">LOG IN</a></li>
+    <li><a class="waves-effect modal-trigger" href="#registerModal">REGISTER</a></li>
+  </ul>
   <main>
 
 
@@ -116,85 +116,126 @@
               <p style="text-align: justify">
                 Enjoyment is an incredible energizer to the soul! And here is yet another chance in a million to keep your spirits high with our fun events...
               </p>
-              </div>
             </div>
           </div>
         </div>
-      </a>
-    </div>
-    <hr>
-    <div class="container center">
-      <h4>Sponsors</h4>
-      <marquee behavior="scroll" direction="left">
-        <img class=""  style="height:100px" src="img/time.jpg">
-        &emsp;&emsp;
-        &emsp;&emsp;
-        <img class=""  style="height:100px" src="img/kfcLogo.png">
-      </marquee>
-    </div>
-  </main>
-  <div class="container">
-    <div class="row">
-      <div id="loginModal" class="modal">
-        <form class="col l12 m12 s12" action="">
-          <div class="modal-content">
-            <div class="row center">
-              Login
-            </div>
-            <div class="row">
-              <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-                <i class="prefix material-icons">account_circle</i>
-                <input id="user_name" type="text" class="validate" />
-                <label for="user_name">Username</label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-                <i class="prefix material-icons">lock</i>
-                <input id="password" type="password" class="validate" />
-                <label for="password">Password</label>
-              </div>
+      </div>
+    </a>
+  </div>
+  <hr>
+  <div class="container center">
+    <h4>Sponsors</h4>
+    <marquee behavior="scroll" direction="left">
+      <img class=""  style="height:100px" src="img/time.jpg">
+      &emsp;&emsp;
+      &emsp;&emsp;
+      <img class=""  style="height:100px" src="img/kfcLogo.png">
+    </marquee>
+  </div>
+</main>
+<div class="container">
+  <div class="row">
+    <div id="loginModal" class="modal">
+      <form class="col l12 m12 s12" action="">
+        <div class="modal-content">
+          <div class="row center">
+            Login
+          </div>
+          <div class="row">
+            <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
+              <i class="prefix material-icons">account_circle</i>
+              <input id="user_name" type="text" class="validate" />
+              <label for="user_name">Username</label>
             </div>
           </div>
           <div class="row">
-            <div class="center">
+            <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
+              <i class="prefix material-icons">lock</i>
+              <input id="password" type="password" class="validate" />
+              <label for="password">Password</label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="center">
             <button type="submit" class="btn waves-effect waves-light green center">Login</button>
           </div>
-      </form>
-      </div>
-  </div>
-</div>
-</div>
-  <footer class="page-footer">
-      <div class="row">
-        <div class="col l6 offset-l1 s12">
-          <div id="map"></div>
-          <div id="googleMap" style="width:100%;height:300px;"></div>
-          <script>
-          function myMap() {
-            var mapProp= {
-              center:new google.maps.LatLng(11.024389,77.003580),
-              zoom:17,
-            };
-            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-          }
-          </script>
-          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDInQjNqxLhAH69iVTWAgfl96DhpYr2Ps4&callback=myMap"></script>
-        </div>
-        <div class="col l4 offset-l1 s12">
-          <h5 class="white-text">Contact</h5>
-          <ul>
-            <li>Kevin &nbsp;-&nbsp; <a class="white-text" href="tel:75984 07070">75984 07070</a></li>
-            <li>Madhu &nbsp;-&nbsp; <a class="white-text" href="tel:82208 66766">82208 66766</a></li>
-            <li>Deepthi &nbsp;-&nbsp; <a class="white-text" href="tel:94420 81821">94420 81821</a></li>
-          </ul>
-        </div>
-      </div>
-    <div class="footer-copyright">
-      <div class="container">
-        INVADAURZ 2k17
-        <a class="grey-text text-lighten-4 right" href="#!">The Science of Today is the Technology of Tomorrow!</a>
+        </form>
       </div>
     </div>
-  </footer>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div id="registerModal" class="modal">
+      <form class="col l12 m12 s12" action="">
+        <div class="modal-content">
+          <div class="row center">
+            Register
+          </div>
+          <div class="row">
+            <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
+              <i class="prefix material-icons">account_circle</i>
+              <input id="user_name" type="text" class="validate" />
+              <label for="user_name">Username</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
+              <i class="prefix material-icons">mail_outline</i>
+              <input id="user_name" type="text" class="validate" />
+              <label for="user_name">Mail id</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
+              <i class="prefix material-icons">lock</i>
+              <input id="password" type="password" class="validate" />
+              <label for="password">Password</label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="center">
+            <button type="submit" class="btn waves-effect waves-light green center">Register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="page-footer">
+  <div class="row">
+    <div class="col l6 offset-l1 s12">
+      <div id="map"></div>
+      <div id="googleMap" style="width:100%;height:300px;"></div>
+      <script>
+      function myMap() {
+        var mapProp= {
+          center:new google.maps.LatLng(11.024389,77.003580),
+          zoom:17,
+        };
+        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+      }
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDInQjNqxLhAH69iVTWAgfl96DhpYr2Ps4&callback=myMap"></script>
+    </div>
+    <div class="col l4 offset-l1 s12">
+      <h5 class="white-text">Contact</h5>
+      <ul>
+        <li>Kevin &nbsp;-&nbsp; <a class="white-text" href="tel:75984 07070">75984 07070</a></li>
+        <li>Madhu &nbsp;-&nbsp; <a class="white-text" href="tel:82208 66766">82208 66766</a></li>
+        <li>Deepthi &nbsp;-&nbsp; <a class="white-text" href="tel:94420 81821">94420 81821</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      INVADAURZ 2k17
+      <a class="grey-text text-lighten-4 right" href="#!">The Science of Today is the Technology of Tomorrow!</a>
+    </div>
+  </div>
+</footer>
 </html>
