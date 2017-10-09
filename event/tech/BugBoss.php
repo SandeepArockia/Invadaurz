@@ -138,43 +138,13 @@ a{
 
 
   <footer class="page-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 offset-l1 s8">
-          <div id="map"></div>
-          <div id="googleMap" style="width:100%;height:300px;"></div>
-
-          <script>
-          function myMap() {
-          var mapProp= {
-              center:new google.maps.LatLng(11.024389,77.003580),
-              zoom:17,
-          };
-          var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-          }
-          </script>
-
-          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDInQjNqxLhAH69iVTWAgfl96DhpYr2Ps4&callback=myMap"></script>
-        </div>
-        <div class="col l4 offset-l1 s4">
-          <h5 class="white-text">Contacts</h5>
-          <ul>
-            <li><span class="grey-text text-lighten-3">Harish</span></li>
-            <li><span class="grey-text text-lighten-3">1234567890</span></li>
-            <li><span class="grey-text text-lighten-3">Deepthi</span></li>
-            <li><span class="grey-text text-lighten-3">1234567890</span></li>
-            <li><span class="grey-text text-lighten-3">Kevin</span></li>
-            <li><span class="grey-text text-lighten-3">1234567890</span></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
+    <div class="footer">
       <div class="container">
-        INVADAURZ 2017
-        <a class="grey-text text-lighten-4 right" href="../../#!">Quote...</a>
+        INVADAURZ 2k17
+        <a class="grey-text text-lighten-4 right" href="#!">The Science of Today is the Technology of Tomorrow!</a>
       </div>
     </div>
   </footer>
+
 
   </html>
