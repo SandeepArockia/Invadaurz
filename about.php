@@ -93,7 +93,7 @@
     </div>
     <div class="parallax-container">
       <div class="parallax">
-        <img src="img\about.png"/>
+        <img src="img\about.jpg"/>
       </div>
     </div>
 
@@ -108,57 +108,92 @@
             ITA is a Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
           <h3 class="red-text text-accent-1">  Faculty </h3>
-          <div class="center container">
+          <div class="center push-l3 col l6">
             <div class="card horizontal">
               <div class="card-image">
                 <img src="img\person\faculty.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Kevin</a>
+                  <a href="#">Radhika Engimuri</a>
                 </div>
                 <div class="card-content">
-                  <p>Secre</p>
+                  <p>Faculty Adviser</p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
 
+      <div class="row">
+
+        <div class="container">
           <h3 class="red-text text-accent-1">
-            Office Bearers
+            Members
           </h3>
           <div class="center col l4">
-            <div class="card horizontal">
+            <div class="card  horizontal">
               <div class="card-image">
-                <img src="img\person\faculty.jpg" class="responsive-image">
+                <img src="img\person\kevin.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Radhika Engimuri</a>
+                  <a href="#">Kevin Anto J</a>
                 </div>
                 <div class="card-content">
-                  <p>Our faculty advisor</p>
+                  <p>Secretary</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="center col l4">
-            <div class="card horizontal">
+            <div class="card   horizontal">
               <div class="card-image">
-                <img src="img\person\faculty.jpg" class="responsive-image">
+                <img src="img\person\madhumithag.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Radhika Engimuri</a>
+                  <a href="#">Madhumitha G</a>
                 </div>
                 <div class="card-content">
-                  <p>Our faculty advisor</p>
+                  <p>JS III</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="center col l4">
-            <div class="card horizontal">
+            <div class="card  horizontal">
+              <div class="card-image">
+                <img src="img\person\deepthi.jpg" class="responsive-image">
+              </div>
+              <div class="card-stacked">
+                <div class="card-action">
+                  <a href="#">Deepthi Sri S.</a>
+                </div>
+                <div class="card-content">
+                  <p>JS III</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="center col l4">
+            <div class="card  horizontal">
+              <div class="card-image">
+                <img src="img\person\parthiban.jpg" class="responsive-image">
+              </div>
+              <div class="card-stacked">
+                <div class="card-action">
+                  <a href="#">Parthiban S.</a>
+                </div>
+                <div class="card-content">
+                  <p>Joint Secretary-II Year</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="center col l4">
+            <div class="card  horizontal">
               <div class="card-image">
                 <img src="img\person\harish.jpg" class="responsive-image">
               </div>
@@ -167,99 +202,116 @@
                   <a href="#">Harish D</a>
                 </div>
                 <div class="card-content">
-                  <p>Executive</p>
+                  <p>Executive III</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="center col l4">
-            <div class="card horizontal">
+            <div class="card  horizontal">
               <div class="card-image">
-                <img src="img\person\deepthi.jpeg" class="responsive-image">
+                <img src="img\person\varshini.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Deepthi</a>
+                  <a href="#">Varshini M.E.</a>
                 </div>
                 <div class="card-content">
-                  <p>Joint Secretary</p>
+                  <p>Executive IV</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="center col l4">
-            <div class="card horizontal">
+            <div class="card  horizontal">
               <div class="card-image">
-                <img src="img\person\roshni.jpeg" class="responsive-image">
+                <img src="img\person\sree.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Rosh</a>
+                  <a href="#">Sree Karthik N.</a>
                 </div>
                 <div class="card-content">
-                  <p>Some random person</p>
+                  <p>Executive III</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="center col l4">
-            <div class="card horizontal">
+            <div class="card  horizontal">
               <div class="card-image">
-                <img src="img\person\parthiban.jpeg" class="responsive-image">
+                <img src="img\person\mathumithas.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Pathiban</a>
+                  <a href="#">Mathumitha S.</a>
                 </div>
                 <div class="card-content">
-                  <p>Our faculty advisor</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="center col l4">
-            <div class="card horizontal">
-              <div class="card-image">
-                <img src="img\person\faculty.jpg" class="responsive-image">
-              </div>
-              <div class="card-stacked">
-                <div class="card-action">
-                  <a href="#">Radhika Engimuri</a>
-                </div>
-                <div class="card-content">
-                  <p>Our faculty advisor</p>
+                  <p>Executive II</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="center col l4">
-            <div class="card horizontal">
+            <div class="card  horizontal">
               <div class="card-image">
-                <img src="img\person\faculty.jpg" class="responsive-image">
+                <img src="img\person\sarav.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Radhika Engimuri</a>
+                  <a href="#">Sarav Krishna E</a>
                 </div>
                 <div class="card-content">
-                  <p>Our faculty advisor</p>
+                  <p>Operation Team IV</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="center col l4">
-            <div class="card horizontal">
+            <div class="card  horizontal">
               <div class="card-image">
-                <img src="img\person\faculty.jpg" class="responsive-image">
+                <img src="img\person\roshni.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Radhika Engimuri</a>
+                  <a href="#">Roshni Chandrasekar AR</a>
                 </div>
                 <div class="card-content">
-                  <p>Our faculty advisor</p>
+                  <p>Operation Team</p>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="center col l4">
+            <div class="card  horizontal">
+              <div class="card-image">
+                <img src="img\person\kirubha.jpg" class="responsive-image">
+              </div>
+              <div class="card-stacked">
+                <div class="card-action">
+                  <a href="#">Kirubha R</a>
+                </div>
+                <div class="card-content">
+                  <p>Operation Team</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="center col l4">
+            <div class="card  horizontal">
+              <div class="card-image">
+                <img src="img\person\roohit.jpg" class="responsive-image">
+              </div>
+              <div class="card-stacked">
+                <div class="card-action">
+                  <a href="#">Roohit</a>
+                </div>
+                <div class="card-content">
+                  <p>Operation Team II</p>
+                </div>
+              </div>
+            </div>
+          </div>
               </div>
             </div>
           </div>

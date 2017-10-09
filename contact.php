@@ -39,8 +39,13 @@
         <ul class=" hide-on-med-and-down">
           <li class="left"><a class="waves-effect modal-trigger" href="#loginModal">LOGIN</a></li>
           <li class="left"><a class="waves-effect" href="register.php">REGISTER</a></li>
+<<<<<<< HEAD
           <li class="right"><a class="waves-effect" href="about.php">ABOUT US</a></li>
           <li class="right active"><a class="waves-effect" href="contact.php">CONTACT US</a></li>
+=======
+          <li class="right active"><a class="waves-effect" href="about.php">ABOUT US</a></li>
+          <li class="right"><a class="waves-effect" href="contact.php">CONTACT US</a></li>
+>>>>>>> b8af250a1197f0bfbb9f08836c013ab70147f56f
           <li class="right"><a class="waves-effect" href="schedule.php">SCHEDULE</a></li>
           <li class="right"><a class="waves-effect" href="events.php">EVENTS</a></li>
           <li class="right"><a class="waves-effect" href="home.php">HOME</a></li>
@@ -49,8 +54,13 @@
           <li><a class="waves-effect" href="home.php"><i class="material-icons">home</i></a></li>
           <li><a class="waves-effect" href="events.php">EVENTS</a></li>
           <li><a class="waves-effect" href="schedule.php">SCHEDULE</a></li>
+<<<<<<< HEAD
           <li class="active"><a class="waves-effect" href="contact.php">CONTACT US</a></li>
           <li><a class="waves-effect" href="about.php">ABOUT US</a></li>
+=======
+          <li><a class="waves-effect" href="contact.php">CONTACT US</a></li>
+          <li class="active"><a class="waves-effect" href="about.php">ABOUT US</a></li>
+>>>>>>> b8af250a1197f0bfbb9f08836c013ab70147f56f
           <li><a class="waves-effect modal-trigger" href="#loginModal">LOG IN</a></li>
           <li><a class="waves-effect" href="register.php">REGISTER</a></li>
         </ul>
@@ -87,7 +97,9 @@
         <div class="col l4 m12 s12">
           <ul>
             <li> &nbsp; </li>
-            <li>ita2k17@gmail.com</li>
+            <li>
+              <a href="mailto:ita2k17@gmail.com" target="_blank">ita2k17@gmail.com</a>
+            </li>
           </ul>
         </div>
       </div>
