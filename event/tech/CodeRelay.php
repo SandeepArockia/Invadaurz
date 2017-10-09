@@ -88,7 +88,7 @@ a{
           <span class="red-text text-accent-1"> DESCRIPTION</span>
           <p> A event to prove your team work. </p>
           <span class="red-text text-accent-1"> DETAILS</span>
-          <p> First round it solving the question and second involves simple coding by all 4 members in the team. •	Participants will need to know C or C++. </p>
+          <p> First round it solving the question and second involves simple coding by all 4 members in the team. Participants will need to know C or C++. </p>
           <p>&nbsp;</p>
           <span class="red-text text-accent-1"> ROUNDS</span>
 

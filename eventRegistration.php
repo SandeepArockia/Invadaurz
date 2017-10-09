@@ -87,6 +87,9 @@
           $eventName = $_POST['eventSelect'];
           $passcode = $_POST['passcode'];
           if($passcode == "1234"){
+            $sql = "LOCK TABLE userdetails WRITE";
+            $res = mysqli_query($conn, $sql);
+            echo mysqli_error($conn);
             $sql = "INSERT INTO eventreg (rollno, event, status) VALUES ('$rollno','$eventName','registered')";
             $res = mysqli_query($conn, $sql);
             if($res){
@@ -99,6 +102,9 @@
                       '</div>
                     </div>';
             }
+            $sql = "UNLOCK TABLES";
+            $res = mysqli_query($conn, $sql);
+            echo mysqli_error($conn);
             unset($_POST['btnSubmitPA']);
           }
           else{

@@ -33,6 +33,8 @@ else{
     }
     else{
       echo '<script>swal("Logged in!","You\'re logged in to Invadaurz","success");</script>';
+      session_start();
+      $_SESSION['rollno']=$rollno;
     }
     unset($_POST['btnSubmit']);
   }

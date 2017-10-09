@@ -1,5 +1,4 @@
 <?php
-include "QR_BarCode.php";
 include ".\\PHPMailer\\src\\PHPMailer.php";
 error_reporting(0);
 echo '<html><head><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -45,6 +44,9 @@ else{
         echo '<script>swal("Warning!","You\'re already registered","warning");</script>';
       }
       else{
+        $sql = "LOCK TABLE userdetails WRITE";
+        $res = mysqli_query($conn, $sql);
+        echo mysqli_error($conn);
         $sql = "INSERT INTO userdetails(rollno, name, degree, branch, year, phone, mail, password) VALUES('$rollno', '$name', '$degree', '$branch', $year, '$phone', '$mail', '$password')";
         $res = mysqli_query($conn, $sql);
         if(!$res){
@@ -55,7 +57,7 @@ else{
           </div>';
         }
         else{
-          $width = $height = 100;
+          $width = $height = 200;
           $url   = urlencode("http://invadaurz.in/eventRegistration.php?rollno=$rollno");
           //echo "<img src=\"http://chart.googleapis.com/chart?chs={$width}x{$height}&cht=qr&chl=$url\">";
           $content = file_get_contents("http://chart.googleapis.com/chart?chs={$width}x{$height}&cht=qr&chl=$url");
@@ -104,6 +106,9 @@ else{
             echo '<script>swal("Error!","An unidentified problem occurred. Please try again. Sorry for the inconvenience.","error");</script>';
           }*/
         }
+        $sql = "UNLOCK TABLES";
+        $res = mysqli_query($conn, $sql);
+        echo mysqli_error($conn);
       }
     }
     unset($_POST['btnSubmit']);
