@@ -87,7 +87,9 @@
         <div class="col l4 m12 s12">
           <ul>
             <li> &nbsp; </li>
-            <li>ita2k17@gmail.com</li>
+            <li>
+              <a href="mailto:ita2k17@gmail.com" target="_blank">ita2k17@gmail.com</a>
+            </li>
           </ul>
         </div>
       </div>
