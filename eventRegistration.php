@@ -11,6 +11,7 @@
               <span class="center red-text">Error Occurred: '.mysqli_error($conn).'</span>'.
             '</div>
           </div>';
+    die($conn);
   }
   else{
   //$rollno = $_REQUEST["rollno"];
