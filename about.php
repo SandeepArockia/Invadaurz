@@ -77,7 +77,7 @@
               <div class="row">
                 <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
                   <i class="prefix material-icons">lock</i>
-                  <input id="password" type="password" class="validate" />
+                  <input id="password" type="password" class="validate"/>
                   <label for="password">Password</label>
                 </div>
               </div>
@@ -91,49 +91,9 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div id="registerModal" class="modal">
-          <form class="col l12 m12 s12" action="">
-            <div class="modal-content">
-              <div class="row center">
-                Register
-              </div>
-              <div class="row">
-                <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-                  <i class="prefix material-icons">account_circle</i>
-                  <input id="user_name" type="text" class="validate" />
-                  <label for="user_name">Username</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-                  <i class="prefix material-icons">mail_outline</i>
-                  <input id="user_name" type="text" class="validate" />
-                  <label for="user_name">Mail id</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-                  <i class="prefix material-icons">lock</i>
-                  <input id="password" type="password" class="validate" />
-                  <label for="password">Password</label>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="center">
-                <button type="submit" class="btn waves-effect waves-light green center">Register</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="parallax-container">
       <div class="parallax">
-        <img src="img\invadaurz-banner.png"/>
+        <img src="img\about.png"/>
       </div>
     </div>
 
@@ -142,6 +102,7 @@
 
       <div class="row">
         <div class="container">
+
           <h3 class="red-text text-accent-1">  About ITA </h3>
           <p>
             ITA is a Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -154,10 +115,10 @@
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Radhika Engimuri</a>
+                  <a href="#">Kevin</a>
                 </div>
                 <div class="card-content">
-                  <p>Our faculty advisor</p>
+                  <p>Secre</p>
                 </div>
               </div>
             </div>
@@ -166,7 +127,7 @@
           <h3 class="red-text text-accent-1">
             Office Bearers
           </h3>
-          <div class="center col l6">
+          <div class="center col l4">
             <div class="card horizontal">
               <div class="card-image">
                 <img src="img\person\faculty.jpg" class="responsive-image">
@@ -181,7 +142,7 @@
               </div>
             </div>
           </div>
-          <div class="center col l6">
+          <div class="center col l4">
             <div class="card horizontal">
               <div class="card-image">
                 <img src="img\person\faculty.jpg" class="responsive-image">
@@ -196,94 +157,59 @@
               </div>
             </div>
           </div>
-
-          <div class="center col l6">
+          <div class="center col l4">
             <div class="card horizontal">
               <div class="card-image">
-                <img src="img\person\faculty.jpg" class="responsive-image">
+                <img src="img\person\harish.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Radhika Engimuri</a>
+                  <a href="#">Harish D</a>
                 </div>
                 <div class="card-content">
-                  <p>Our faculty advisor</p>
+                  <p>Executive</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="center col l6">
+          <div class="center col l4">
             <div class="card horizontal">
               <div class="card-image">
-                <img src="img\person\faculty.jpg" class="responsive-image">
+                <img src="img\person\deepthi.jpeg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Radhika Engimuri</a>
+                  <a href="#">Deepthi</a>
                 </div>
                 <div class="card-content">
-                  <p>Our faculty advisor</p>
+                  <p>Joint Secretary</p>
                 </div>
               </div>
             </div>
           </div>
-
-
-          <div class="center col l6">
+          <div class="center col l4">
             <div class="card horizontal">
               <div class="card-image">
-                <img src="img\person\faculty.jpg" class="responsive-image">
+                <img src="img\person\roshni.jpeg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Radhika Engimuri</a>
+                  <a href="#">Rosh</a>
                 </div>
                 <div class="card-content">
-                  <p>Our faculty advisor</p>
+                  <p>Some random person</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="center col l6">
+          <div class="center col l4">
             <div class="card horizontal">
               <div class="card-image">
-                <img src="img\person\faculty.jpg" class="responsive-image">
+                <img src="img\person\parthiban.jpeg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Radhika Engimuri</a>
-                </div>
-                <div class="card-content">
-                  <p>Our faculty advisor</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="center col l6">
-            <div class="card horizontal">
-              <div class="card-image">
-                <img src="img\person\faculty.jpg" class="responsive-image">
-              </div>
-              <div class="card-stacked">
-                <div class="card-action">
-                  <a href="#">Radhika Engimuri</a>
-                </div>
-                <div class="card-content">
-                  <p>Our faculty advisor</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="center col l6">
-            <div class="card horizontal">
-              <div class="card-image">
-                <img src="img\person\faculty.jpg" class="responsive-image">
-              </div>
-              <div class="card-stacked">
-                <div class="card-action">
-                  <a href="#">Radhika Engimuri</a>
+                  <a href="#">Pathiban</a>
                 </div>
                 <div class="card-content">
                   <p>Our faculty advisor</p>
@@ -292,8 +218,7 @@
             </div>
           </div>
 
-
-          <div class="center col l6">
+          <div class="center col l4">
             <div class="card horizontal">
               <div class="card-image">
                 <img src="img\person\faculty.jpg" class="responsive-image">
@@ -308,7 +233,7 @@
               </div>
             </div>
           </div>
-          <div class="center col l6">
+          <div class="center col l4">
             <div class="card horizontal">
               <div class="card-image">
                 <img src="img\person\faculty.jpg" class="responsive-image">
@@ -323,9 +248,7 @@
               </div>
             </div>
           </div>
-
-
-          <div class="center col l6">
+          <div class="center col l4">
             <div class="card horizontal">
               <div class="card-image">
                 <img src="img\person\faculty.jpg" class="responsive-image">
@@ -340,23 +263,6 @@
               </div>
             </div>
           </div>
-          <div class="center col l6">
-            <div class="card horizontal">
-              <div class="card-image">
-                <img src="img\person\faculty.jpg" class="responsive-image">
-              </div>
-              <div class="card-stacked">
-                <div class="card-action">
-                  <a href="#">Radhika Engimuri</a>
-                </div>
-                <div class="card-content">
-                  <p>Our faculty advisor</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
         </div>
 
       </div>
