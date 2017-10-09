@@ -203,10 +203,7 @@ else{
           <h3 class="red-text row center">
             Invadaurz Registration
           </h3>
-
-
           <div>
-
             <div class="row">
               <div class="">
                 <span class="input-field col l3 m3 s6">

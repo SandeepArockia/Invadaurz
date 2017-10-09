@@ -14,17 +14,25 @@ if(!$conn){
   die($conn);
 }
 else{
-  if(isset($_POST['btnSubmit'])){
-    $rollno = $_POST['roll'];
-    $fname = $_POST['fname'];
-    $lname = $_POST['lname'];
-    $name = $fname.' '.$lname;
-    $degree = $_POST['degree'];
-    $branch = $_POST['branch'];
-    $year = $_POST['year'];
-    $phone = $_POST['phone'];
-    $mail = $_POST['mail'];
+  echo '<title>INVADAURZ | ITA | 2017</title>
+  <link rel="icon" href="img/ITALogo.jpeg">
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css\materialize.min.css"  media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="css\animate.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js\materialize.min.js"></script>';
+  if(isset($_POST['btnLogin'])){
+    $rollno = $_POST['rollno'];
     $password = $_POST['pwd'];
+    $sql = "SELECT password FROM userdetails WHERE rollno = $rollno";
+    $res = mysqli_query($conn, $sql);
+    $res = mysqli_fetch_array($res);
+    if($res['password']!=$password){
+      echo '<script>swal("Error!","Roll no. or password invalid","error");</script>';
+    }
     if($_POST['pwd']!=$_POST['cpwd']){
       echo '<script>swal("Warning!","Your passwords don\'t match","warning");</script>';
     }
@@ -196,21 +204,21 @@ else{
           <div class="row">
             <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
               <i class="prefix material-icons">account_circle</i>
-              <input id="user_name" type="text" class="validate" />
-              <label for="user_name">Username</label>
+              <input id="rollno" name="rollno" type="text" class="validate" required/>
+              <label for="rollno">Roll No.</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
               <i class="prefix material-icons">lock</i>
-              <input id="password" type="password" class="validate" />
+              <input id="password" name="pwd" type="password" class="validate" required/>
               <label for="password">Password</label>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="center">
-            <button type="submit" class="btn waves-effect waves-light green center">Login</button>
+            <button type="submit" name="btnLogin" class="btn waves-effect waves-light green center">Login</button>
           </div>
         </form>
       </div>
