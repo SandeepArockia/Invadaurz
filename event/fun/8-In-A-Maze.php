@@ -96,47 +96,46 @@
                 <div class="card ">
                   <div class="card-tabs">
                     <ul class="tabs tabs-fixed-width">
-                      <li class="tab"><a href="#test1" class="active">Round 1</a></li>
-                      <li class="tab"><a href="#test2">Round 2</a></li>
-                      <li class="tab"><a href="#test3">Round 3</a></li>
+                      <li class="tab"><a href="#test1" class="active">Witty Gets</a></li>
+                      <li class="tab"><a href="#test2">Bag Your Favorite Brand</a></li>
+                      <li class="tab"><a href="#test3">Swipe To A Bigger Slice</a></li>
                       <li class="indicator" style="right: 206px; left: 0px;"></li></ul>
                     </div>
                     <div class="card-content">
                       <div id="test1" style="font-size:0.8em" class="active">
                         <ul>
-                          <strong class="red-text text-accent-1">Swipe to a Bigger Slice</strong>
-                          <li> <span class="red-text text-accent-1"> > </span> The participants have to join a game ( a sort of swiping one ). </li>
-                          <li> <span class="red-text text-accent-1"> > </span> The game goes on with a timer. The one who swipes to get the bigger number is selected for further rounds. </li>
                           <strong class="red-text text-accent-1">Witty Gets</strong>
-                          <li> <span class="red-text text-accent-1"> > </span> A Sudoku of different era. Brush up your dictionary to crack this game</li>
+                          <li> <span class="red-text text-accent-1"> > </span> A Sudoku of different era. Brush up your dictionary to crack this game </li>
                         </ul>
                       </div>
                       <div id="test2" class="" style="display: none;font-size:0.8em">
                         <ul>
                           <strong class="red-text text-accent-1">Bag Your Favorite Brand</strong>
-                          <li> <span class="red-text text-accent-1"> > </span> We are to list a few favorite brands ,usually preferred by most. </li>
-                          <li> <span class="red-text text-accent-1"> > </span> The one who identifies  the maximum is forwarded to the next round. </li>
+                          <li> <span class="red-text text-accent-1"> > </span> We are to list a few favorite brands ,usually preferred by most . </li>
+                          <li> <span class="red-text text-accent-1"> > </span> The one who identifies the maximum is forwarded to the next round.A max of 10 teams will be selected. </li>
                         </ul>
                       </div>
                       <div id="test3" class="" style="display: none;font-size:0.8em">
                         <ul>
-                          <li> <span class="red-text text-accent-1"> > </span> Treasure Hunt </li>
+                          <strong class="red-text text-accent-1">Swipe To A Bigger Slice</strong>
+                          <li> <span class="red-text text-accent-1"> > </span> The participants have to join a game ( a sort of swiping one ) .The game goes on with a timer.  </li>
+                          <li> <span class="red-text text-accent-1"> > </span> The one who swipes to get the bigger number is selected for further rounds. </li>
                         </ul>
                       </div>
                     </div>
                     <div class="card-action">
                       <div style="font-size:0.8em">
-                        <span class="red-text text-accent-1"> Team: 8 members </span>
+                        <span class="red-text text-accent-1"> Team: 2 members </span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <span class="red-text text-accent-1"> CONTACT</span>
-              <p> Rajeswari N. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:contact">contact</a>  </span> </p>
-              <p> Akshaya M. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:contact">contact</a>  </span></p>
-              <p> Srivarshni M. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:contact">contact</a>  </span></p>
-              <p> Thiraviya E. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:contact">contact</a>  </span></p>
+              <p> Rajeswari N. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:97519 49969">97519 49969</a>  </span> </p>
+              <p> Akshaya M. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:87600 36589">87600 36589</a>  </span></p>
+              <p> Srivarshni M. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:86952 28773">86952 28773</a>  </span></p>
+              <p> Thiraviya E. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:96295 27026">96295 27026</a>  </span></p>
             </div>
           </div>
         </div>
