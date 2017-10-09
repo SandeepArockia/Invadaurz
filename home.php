@@ -27,36 +27,15 @@ else{
   if(isset($_POST['btnLogin'])){
     $rollno = $_POST['rollno'];
     $password = $_POST['pwd'];
-    $sql = "SELECT password FROM userdetails WHERE rollno = $rollno";
+    $sql = "SELECT password FROM userdetails WHERE rollno = '$rollno'";
     $res = mysqli_query($conn, $sql);
-    $res = mysqli_fetch_array($res);
-    if($res['password']!=$password){
+    $res = mysqli_fetch_row($res);
+    echo '<script>swal("Error!","'.mysqli_error($conn).'","error");</script>';
+    if($res[0]!=$password){
       echo '<script>swal("Error!","Roll no. or password invalid","error");</script>';
     }
-    if($_POST['pwd']!=$_POST['cpwd']){
-      echo '<script>swal("Warning!","Your passwords don\'t match","warning");</script>';
-    }
     else{
-      $sql = "SELECT rollno FROM userdetails WHERE rollno = $rollno";
-      $res = mysqli_query($conn, $sql);
-      $res = mysqli_fetch_array($res);
-      if($res['rollno']=$rollno){
-        echo '<script>swal("Warning!","You\'re already registered","warning");</script>';
-      }
-      else{
-        $sql = "INSERT INTO userdetails(rollno, name, degree, branch, year, phone, mail, password) VALUES('$rollno', '$name', '$degree', '$branch', $year, '$phone', '$mail', '$password')";
-        $res = mysqli_query($conn, $sql);
-        if(!$res){
-          echo '<div class="row">
-          <div class="col l12 m12 s12 center">
-          <span class="center red-text">Error Occurred: '.mysqli_error($conn).'</span>'.
-          '</div>
-          </div>';
-        }
-        else{
-          echo '<script>swal("Success!","You\'re successfully registered. Please check out your mail for further details...","success");</script>';
-        }
-      }
+
     }
     unset($_POST['btnSubmit']);
   }
@@ -196,7 +175,7 @@ else{
 <div class="container">
   <div class="row">
     <div id="loginModal" class="modal">
-      <form class="col l12 m12 s12" action="<?php $_SERVER['PHP_SELF'] ?>" method="get">
+      <form class="col l12 m12 s12" action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
         <div class="modal-content">
           <div class="row center">
             Participant Login

@@ -47,8 +47,9 @@ else{
     else{
       $sql = "SELECT rollno FROM userdetails WHERE rollno = $rollno";
       $res = mysqli_query($conn, $sql);
-      $res = mysqli_fetch_array($res);
-      if($res['rollno']=$rollno){
+      $res = mysqli_fetch_row($res);
+      echo $res[0];
+      if($res[0]==$rollno){
         echo '<script>swal("Warning!","You\'re already registered","warning");</script>';
       }
       else{
@@ -279,8 +280,8 @@ else{
                   <label for="pmobile">Mobile</label>
                 </div>
                 <div id="mail" class="input-field col l6 m6 s12">
-                  <input id="mail" name="mail" type="text" class="validate">
-                  <label for="mail">Mail ID</label>
+                  <input id="mail" name="mail" type="email" class="validate">
+                  <label for="mail" data-success="valid" data-error="invalid">Mail ID</label>
                 </div>
 
                 <div id="pwd" class="input-field col l6 m6 s12">
