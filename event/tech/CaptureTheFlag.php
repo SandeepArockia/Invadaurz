@@ -125,9 +125,8 @@ a{
 
 
           <span class="red-text text-accent-1"> CONTACT</span>
-          <p>  &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span> </p>
-          <p>  &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span></p>
-          <p>  &nbsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span></p>
+          <p>  Akshay Ramnath &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span> </p>
+          <p>  Mohammed Anush &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span></p>
         </div>
       </div>
     </div>

@@ -77,7 +77,7 @@
 
   <main>
     <div class="parallax-container">
-      <div class="parallax"> <img src="../../img\acute-parallax.png"/> </div>
+      <div class="parallax"> <img src="../../img\parallax.jpg"/> </div>
     </div>
     <p> &nbsp; </p>
     <div class="row <!--wow rollIn--> flow-text">
@@ -88,7 +88,7 @@
             <span class="red-text text-accent-1"> DESCRIPTION</span>
             <p> Have you ever wondered what would life be if you have blindfolded for atleast an hour? Do you think you can still be a master in coding and prove your analytical skills even after being blind? Then it’s the right platform for you to show up your skills </p>
             <span class="red-text text-accent-1"> DETAILS</span>
-            <p> details </p>
+            <p> First round is by typing the code by  switching off the monitor and final round by rearranging the given code </p>
             <p>&nbsp;</p>
             <span class="red-text text-accent-1"> ROUNDS</span>
 
