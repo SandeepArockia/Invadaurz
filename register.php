@@ -1,22 +1,13 @@
 <?php
 include "QR_Barcode.php";
+include ".\\PHPMailer\\src\\PHPMailer.php";
 error_reporting(0);
-echo '<html>
-<head>
-<title>INVADAURZ | ITA | 2017</title>
-<link rel="icon" href="img/ITALogo.jpeg">
-<meta charset="utf-8">
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link type="text/css" rel="stylesheet" href="css\materialize.min.css"  media="screen,projection"/>
+echo '<html><head><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-<link rel="stylesheet" href="css\animate.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-<script src="js\materialize.min.js"></script>
-</head>
-</html>';
+<script src="js\materialize.min.js"></script></head></html>';
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "";
@@ -46,7 +37,7 @@ else{
       echo '<script>swal("Warning!","Your passwords don\'t match","warning");</script>';
     }
     else{
-      $sql = "SELECT rollno FROM userdetails WHERE rollno = $rollno";
+      $sql = "SELECT rollno FROM userdetails WHERE rollno = '$rollno'";
       $res = mysqli_query($conn, $sql);
       $res = mysqli_fetch_row($res);
       echo $res[0];
@@ -65,8 +56,51 @@ else{
         }
         else{
           $qr = new QR_Barcode();
-          $qr->url("localhost/Invadaurz/eventRegistration.php?rollno=$rollno");
-          echo '<script>swal("Success!","You\'re successfully registered. Please check out your mail for further details...","success");</script>';
+          $qr->url("http://invadaurz.in?rollno=$rollno");
+          //echo $qr->qrCode(200);//, "\/img\/qr".$rollno);
+          //Mail params
+          $email = new PHPMailer();
+          $email->isSMTP();
+          $email->SMTPDebug=2;
+          $email->Host = 'smtp.gmail.com';
+          $email->Port = 587;
+          $email->SMTPSecure = 'tls';
+          $email->SMTPAuth = true;
+          $email->Username = "pr.gksp@gmail.com";
+          $email->Password = "3110902098";
+          $email->setFrom("pr.gksp@gmail.com","Information Technology Association");
+          $email->Subject = "Invadaurz 2k17 Registration";
+          $email->Body = "hi";/* '<html>
+          <head>
+          <link rel="icon" href="img/ITALogo.jpeg">
+          <meta charset="utf-8">
+          <link type="text/css" rel="stylesheet" href="css\materialize.min.css"  media="screen,projection"/>
+          <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          <script src="js\materialize.min.js"></script>"
+          </head>
+          <body>
+            <div class="row">
+              <div class="col l12 m12 s12">
+                <h1 class="green"> Registration Successful! </h1>
+                <p class="left"> Hey '.$name.'!</p>
+                <p style="text-align: justify"> You\'re sucessfully registered for Invadaurz 2k17. You\'re sent a QR Code along with this mail. While participating in the event, use this QR Code to register for the events.</p>
+                <p class="center" style="color: #005985"> Don\'t miss it!</p>
+              </div>
+            </div>
+          </body>
+          </html>';*/
+          $email->AddAddress("pooventhiran_g@icloud.com");
+          $path_of_qr = "/img/qr/";
+          $email->AddAttachment($path_of_qr, $rollno.".png");
+          $mailStat = $email->Send();
+          $mailStat = true;
+          if($mailStat){
+            echo '<script>swal("Success!","You\'re successfully registered. Please check out your mail for further details...","success");</script>';
+          }
+          else{
+            echo '<script>swal("Error!","An unidentified problem occurred. Please try again. Sorry for the inconvenience.","error");</script>';
+          }
         }
       }
     }
@@ -211,19 +245,19 @@ else{
             <div class="row">
               <div class="">
                 <span class="input-field col l3 m3 s6">
-                  <input id="first_name" name="fname" type="text" class="validate">
+                  <input id="first_name" name="fname" type="text" class="validate" required>
                   <label for="fname">First Name</label>
                 </span>
                 <span class="input-field col l3 m3 s6">
-                  <input id="last_name" name="lname" type="text" class="validate">
+                  <input id="last_name" name="lname" type="text" class="validate" required>
                   <label for="lname">Last Name</label>
                 </span>
                 <span class="input-field col l6 m6 s12">
-                  <input id="roll" type="text" name="roll" class="validate" />
+                  <input id="roll" type="text" name="roll" class="validate" required/>
                   <label for="roll">Roll No.</label>
                 </span>
                 <div id="degree" class="input-field col l6 m6 s12">
-                  <select name="degree">
+                  <select name="degree" required>
                     <option value="1" selected>B.Tech.</option>
                     <option value="2">B.E.</option>
                     <option value="3">M.Tech.</option>
@@ -233,13 +267,13 @@ else{
                   <label for="degree">Degree</label>
                 </div>
                 <div id="branch" class="input-field col l6 m6 s12">
-                  <select name="branch">
+                  <select name="branch" required>
                     <option value="1" selected>Automobile Engineering</option>
                     <option value="2"> Bio Technology</option>
                     <option value="3"> Civil Engineering</option>
                     <option value="4"> Computer Science and Engineering</option>
                     <option value="5"> Electrical and Electronics Engineering </option>
-                    <option value="6"> Electronics & Communication Engineering</option>
+                    <option value="6"> Electronics &amp; Communication Engineering</option>
                     <option value="7">Information Technology</option>
                     <option value="8"> Mechanical Engineering</option>
                     <option value="9"> Metallurgical Engineering</option>
@@ -260,7 +294,7 @@ else{
                 </div>
 
                 <div id="year" class="input-field col l6 m6 s12">
-                  <select name="year">
+                  <select name="year" required>
                     <option value="1" selected>1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -272,27 +306,27 @@ else{
 
 
                 <div id="college" class="input-field col l6 m6 s12">
-                  <select>
+                  <select required>
                     <option value="1">PSG College of Technology</option>
                   </select>
                   <label for="college">College</label>
                 </div>
 
                 <div id="pmobile" class="input-field col l6 m6 s12">
-                  <input id="pmobile" name="phone"type="text" class="validate">
+                  <input id="pmobile" name="phone"type="text" class="validate" required>
                   <label for="pmobile">Mobile</label>
                 </div>
                 <div id="mail" class="input-field col l6 m6 s12">
-                  <input id="mail" name="mail" type="email" class="validate">
+                  <input id="mail" name="mail" type="email" class="validate" required>
                   <label for="mail" data-success="valid" data-error="invalid">Mail ID</label>
                 </div>
 
                 <div id="pwd" class="input-field col l6 m6 s12">
-                  <input id="pwd" name="pwd" type="password" class="validate">
+                  <input id="pwd" name="pwd" type="password" class="validate" required>
                   <label for="pwd">Password</label>
                 </div>
                 <div id="cpwd" class="input-field col l6 m6 s12">
-                  <input id="cpwd" name="cpwd" type="password" class="validate">
+                  <input id="cpwd" name="cpwd" type="password" class="validate" required>
                   <label for="cpwd">Confirm Password</label>
                 </div>
               </div>

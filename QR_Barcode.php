@@ -106,7 +106,7 @@ class QR_BarCode{
                 return file_put_contents($filename, $img);
             } else {
                 header("Content-type: image/png");
-                print $img;
+                //print $img;
                 return true;
             }
         }
