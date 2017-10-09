@@ -40,7 +40,6 @@ else{
       $sql = "SELECT rollno FROM userdetails WHERE rollno = '$rollno'";
       $res = mysqli_query($conn, $sql);
       $res = mysqli_fetch_row($res);
-      echo $res[0];
       if($res[0]==$rollno){
         echo '<script>swal("Warning!","You\'re already registered","warning");</script>';
       }
@@ -59,7 +58,7 @@ else{
           $qr->url("http://invadaurz.in?rollno=$rollno");
           //echo $qr->qrCode(200);//, "\/img\/qr".$rollno);
           //Mail params
-          $email = new PHPMailer();
+          /*$email = new PHPMailer();
           $email->isSMTP();
           $email->SMTPDebug=2;
           $email->Host = 'smtp.gmail.com';
@@ -89,18 +88,18 @@ else{
               </div>
             </div>
           </body>
-          </html>';*/
+          </html>';
           $email->AddAddress("pooventhiran_g@icloud.com");
           $path_of_qr = "/img/qr/";
           $email->AddAttachment($path_of_qr, $rollno.".png");
           $mailStat = $email->Send();
           $mailStat = true;
-          if($mailStat){
+          if($mailStat){*/
             echo '<script>swal("Success!","You\'re successfully registered. Please check out your mail for further details...","success");</script>';
-          }
+          /*}
           else{
             echo '<script>swal("Error!","An unidentified problem occurred. Please try again. Sorry for the inconvenience.","error");</script>';
-          }
+          }*/
         }
       }
     }
