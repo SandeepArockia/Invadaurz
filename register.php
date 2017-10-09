@@ -1,4 +1,5 @@
 <?php
+include "QR_Barcode.php";
 error_reporting(0);
 echo '<html>
 <head>
@@ -63,6 +64,8 @@ else{
           </div>';
         }
         else{
+          $qr = new QR_Barcode();
+          $qr->url("localhost/Invadaurz/eventRegistration.php?rollno=$rollno");
           echo '<script>swal("Success!","You\'re successfully registered. Please check out your mail for further details...","success");</script>';
         }
       }
