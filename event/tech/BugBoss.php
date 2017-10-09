@@ -85,9 +85,9 @@ a{
         <div class="">
           <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> BUG BOSS </div>
           <span class="red-text text-accent-1"> DESCRIPTION</span>
-          <p> Just, don't think too technically. And definitely not too savvy. There's a little grey area in there and that's where you operate. Good luck out there. </p>
+          <p>  </p>
           <span class="red-text text-accent-1"> DETAILS</span>
-          <p> This is a three round event. Early rounds are simple but tricky, later round get just harder. Beat the clock ... </p>
+          <p>  </p>
           <p>&nbsp;</p>
           <span class="red-text text-accent-1"> ROUNDS</span>
 
@@ -96,29 +96,24 @@ a{
             <div class="card ">
               <div class="card-tabs">
                 <ul class="tabs tabs-fixed-width ">
-                  <li class="tab"><a href="#test1" class="active">ASAP</a></li>
-                  <li class="tab"><a class="" href="#test2">Rebus</a></li>
-                  <li class="tab"><a href="#test3" class="">Codecode</a></li>
+                  <li class="tab"><a href="#test1" class="active">LEVEL 1</a></li>
+                  <li class="tab"><a class="" href="#test2">LEVEL 2</a></li>
                 <li class="indicator" style="right: 206px; left: 0px;"></li></ul>
               </div>
-              <div class="card-content ">
+              <div class="card-content">
                 <div id="test1" style="font-size:0.8em" class="active">
                     <ul>
-                      <li> <span class="red-text text-accent-1"> > </span> Anagram, Ciphers, Crests and Deductions</li>
-                      <li> <span class="red-text text-accent-1"> > </span> Just ASAP</li>
+                      <li> <span class="red-text text-accent-1"> > </span>When Bug Gives You Banana </li>
+                      <li> <span class="red-text text-accent-1"> > </span>Refucter it </li>
+                      <li> <span class="red-text text-accent-1"> > </span>A Funking Fault Finder </li>
                     </ul>
                 </div>
                 <div id="test2" class="" style="display: none;font-size:0.8em">
                   <ul>
-                    <li> <span class="red-text text-accent-1"> > </span> A REBUS is a picture representation of a name, work, or phrase</li>
-                    <li> <span class="red-text text-accent-1"> > </span> Each "rebus" puzzle box below portrays a common word or phrase. Can you guess what it is?</li>
+                    <li> <span class="red-text text-accent-1"> > </span>The Failures' Monster Bug </li>
+                    <li> <span class="red-text text-accent-1"> > </span>The Heisenberg </li>
+                    <li> <span class="red-text text-accent-1"> > </span>The Mad Girlfriend Bug </li>
                 </div>
-                <div id="test3" style="display: none;font-size:0.8em" class="">
-                <ul>
-                  <li> <span class="red-text text-accent-1"> > </span> Finding output to get number</li>
-                	<li> <span class="red-text text-accent-1"> > </span> Use the number to code</li>
-	                <li> <span class="red-text text-accent-1"> > </span> Being the final round, it contains both coding and decoding, points allocated such as for the players to compete</li>
-                </ul>
               </div>
               </div>
               <div class="card-action">
@@ -132,9 +127,8 @@ a{
 
 
           <span class="red-text text-accent-1"> CONTACT</span>
-          <p> Sandeep Arockia &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:97900 68112">97900 68112</a>  </span> </p>
-          <p> Pooventhiran G &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:79042 58168">79042 58168</a>  </span></p>
-          <p> Sree Saju Dhawani K &nbsp;-&nbsp;<span> <i class="material-icons"> phone  </i> <a href="tel:87546 71891">87546 71891</a>  </span></p>
+          <p> Akilan &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> 90958 84527<a href="tel:90958 84527"></a>  </span> </p>
+          <p> Abirami &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> 95970 69541<a href="tel:95970 69541 "></a>  </span></p>
         </div>
       </div>
     </div>

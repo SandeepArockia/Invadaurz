@@ -88,7 +88,7 @@ a{
           <span class="red-text text-accent-1"> DESCRIPTION</span>
           <p> Have you ever loved being a mysterious person? Have you ever cracked you heads hard to find a chain of clues finding your way to solve the mystery? Come as a team and dirty your hands in the mysterical case! </p>
           <span class="red-text text-accent-1"> DETAILS</span>
-          <p> TBA </p>
+          <p> Three rounds... </p>
           <p>&nbsp;</p>
           <span class="red-text text-accent-1"> ROUNDS</span>
 

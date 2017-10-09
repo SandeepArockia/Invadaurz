@@ -29,26 +29,27 @@
   });
   </script>
   <style>
-  main {
-    flex: 1 0 auto;
-  }
   body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
   }
+
+  main {
+    flex: 1 0 auto;
+  }
   .carousel .carousel-item{
-    width:100%;
-  }
-  a{
-    text-decoration:none;
-  }
+  width:100%;
+}
+a{
+  text-decoration:none;
+}
   </style>
 </head>
 
 <body style="font-family:Lato;font-size:1.4rem">
-  <nav>
-    <div class="navbar">
+    <nav>
+      <div class="navbar">
       <div class="nav-wrapper">
         <a href="../../#" class="center brand-logo">INVADAURZ</a>
         <a href="../../#" data-activates="mobile-demo" class="button-collapse waves-effect"><i class="material-icons">menu</i></a>
@@ -72,106 +73,106 @@
         </ul>
       </div>
     </div>
-  </nav>
+    </nav>
 
   <main>
     <div class="parallax-container">
-      <div class="parallax"> <img src="../../img/parallax.jpg"/> </div>
+      <div class="parallax"> <img src="../../img\parallax.jpg"/> </div>
     </div>
     <p> &nbsp; </p>
     <div class="row <!--wow rollIn--> flow-text">
-      <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-        <div class="container">
-          <div class="">
-            <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> COMPUTER GEEKS </div>
-            <span class="red-text text-accent-1"> DESCRIPTION</span>
-            <p> Description goes here </p>
-            <span class="red-text text-accent-1"> DETAILS</span>
-            <p> Details go here </p>
-            <p>&nbsp;</p>
-            <span class="red-text text-accent-1"> ROUNDS</span>
+    <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
+      <div class="container">
+        <div class="">
+          <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> Computer Geeks </div>
+          <span class="red-text text-accent-1"> DESCRIPTION</span>
+          <p>  </p>
+          <span class="red-text text-accent-1"> DETAILS</span>
+          <p>  </p>
+          <p>&nbsp;</p>
+          <span class="red-text text-accent-1"> ROUNDS</span>
 
-            <div class="row">
-              <div class="">
-                <div class="card ">
-                  <div class="card-tabs">
-                    <ul class="tabs tabs-fixed-width">
-                      <li class="tab"><a href="#test1" class="active">Scanty Coders</a></li>
-                      <li class="tab"><a href="#test2">CPU Imbroglio</a></li>
-                      <li class="indicator" style="right: 206px; left: 0px;"></li></ul>
-                    </div>
-                    <div class="card-content">
-                      <div id="test1" style="font-size:0.8em" class="active">
-                        <ul>
-                          <li> <span class="red-text text-accent-1"> > </span> It's time to show off your hacking skills!! You will have to prove yourself how good you can code in minimal number of lines. </li>
-                          <li> <span class="red-text text-accent-1"> > </span> The range of the lines of code will be set by the moderators between which you will have to code as short as possible. </li>
-                          <li> <span class="red-text text-accent-1"> > </span> The code that is short and precise wins. </li>
-                        </ul>
-                      </div>
-                      <div id="test2" class="" style="display: none;font-size:0.8em">
-                        <ul>
-                          <li> <span class="red-text text-accent-1"> > </span> The competition is designed for students to display skills in PC assembly with great precision and speed. </li>
-                          <li> <span class="red-text text-accent-1"> > </span> All the computer parts must be replaced back on the computer and to the right positions. </li>
-                          <li> <span class="red-text text-accent-1"> > </span> Participants will identify the different computer components and arrange them to a working Computer, they will be provided Internet and tools until it has started to successful boot to a Microsoft operating system designated.  </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="card-action">
-                      <div style="font-size:0.8em">
-                        <span class="red-text text-accent-1"> Team: 1 (First Round), 2 (Second Round) </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div class="row">
+          <div class="">
+            <div class="card ">
+              <div class="card-tabs">
+                <ul class="tabs tabs-fixed-width ">
+                  <li class="tab"><a href="#test1" class="active"></a></li>
+                  <li class="tab"><a class="" href="#test2"></a></li>
+                  <li class="tab"><a href="#test3" class=""></a></li>
+                <li class="indicator" style="right: 206px; left: 0px;"></li></ul>
               </div>
-              <span class="red-text text-accent-1"> CONTACT</span>
-              <p> Mahesh Kumar &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:97900 68112">contact</a>  </span> </p>
-              <p> Raghavendra &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:79042 58168">contact</a>  </span></p>
+              <div class="card-content ">
+                <div id="test1" style="font-size:1em" class="active">
+                  <p>
+
+                  </p>
+                </div>
+                <div id="test2" class="" style="display: none;font-size:1em">
+                  <p>
+
+                  </p>
+                </div>
+                <div id="test3" style="display: none;font-size:1em" class="">
+                <p>
+
+                </p>
+              </div>
+              </div>
             </div>
           </div>
         </div>
+
+
+          <span class="red-text text-accent-1"> CONTACT</span>
+          <p>  &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span> </p>
+          <p>  &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span></p>
+          <p>  &nbsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span></p>
+        </div>
       </div>
-    </main>
+    </div>
+   </div>
+  </main>
 
 
-    <footer class="page-footer">
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 offset-l1 s8">
+          <div id="map"></div>
+          <div id="googleMap" style="width:100%;height:300px;"></div>
+
+          <script>
+          function myMap() {
+          var mapProp= {
+              center:new google.maps.LatLng(11.024389,77.003580),
+              zoom:17,
+          };
+          var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+          }
+          </script>
+
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDInQjNqxLhAH69iVTWAgfl96DhpYr2Ps4&callback=myMap"></script>
+        </div>
+        <div class="col l4 offset-l1 s4">
+          <h5 class="white-text">Contacts</h5>
+          <ul>
+            <li><span class="grey-text text-lighten-3">Harish</span></li>
+            <li><span class="grey-text text-lighten-3">1234567890</span></li>
+            <li><span class="grey-text text-lighten-3">Deepthi</span></li>
+            <li><span class="grey-text text-lighten-3">1234567890</span></li>
+            <li><span class="grey-text text-lighten-3">Kevin</span></li>
+            <li><span class="grey-text text-lighten-3">1234567890</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
       <div class="container">
-        <div class="row">
-          <div class="col l6 offset-l1 s8">
-            <div id="map"></div>
-            <div id="googleMap" style="width:100%;height:300px;"></div>
-
-            <script>
-            function myMap() {
-              var mapProp= {
-                center:new google.maps.LatLng(11.024389,77.003580),
-                zoom:17,
-              };
-              var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-            }
-            </script>
-
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDInQjNqxLhAH69iVTWAgfl96DhpYr2Ps4&callback=myMap"></script>
-          </div>
-          <div class="col l4 offset-l1 s4">
-            <h5 class="white-text">Contacts</h5>
-            <ul>
-              <li><span class="grey-text text-lighten-3">Harish</span></li>
-              <li><span class="grey-text text-lighten-3">1234567890</span></li>
-              <li><span class="grey-text text-lighten-3">Deepthi</span></li>
-              <li><span class="grey-text text-lighten-3">1234567890</span></li>
-              <li><span class="grey-text text-lighten-3">Kevin</span></li>
-              <li><span class="grey-text text-lighten-3">1234567890</span></li>
-            </ul>
-          </div>
-        </div>
+        INVADAURZ 2017
+        <a class="grey-text text-lighten-4 right" href="../../#!">Quote...</a>
       </div>
-      <div class="footer-copyright">
-        <div class="container">
-          INVADAURZ 2017
-          <a class="grey-text text-lighten-4 right" href="../../#!">Quote...</a>
-        </div>
-      </div>
-    </footer>
+    </div>
+  </footer>
 
-    </html>
+  </html>

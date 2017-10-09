@@ -29,12 +29,6 @@
   });
   </script>
   <style>
-  .carousel .carousel-item{
-    width:100%;
-  }
-  a{
-    text-decoration:none;
-  }
   body {
     display: flex;
     min-height: 100vh;
@@ -44,12 +38,18 @@
   main {
     flex: 1 0 auto;
   }
+  .carousel .carousel-item{
+  width:100%;
+}
+a{
+  text-decoration:none;
+}
   </style>
 </head>
 
 <body style="font-family:Lato;font-size:1.4rem">
-  <div class="navbar-fixed">
     <nav>
+      <div class="navbar">
       <div class="nav-wrapper">
         <a href="../../#" class="center brand-logo">INVADAURZ</a>
         <a href="../../#" data-activates="mobile-demo" class="button-collapse waves-effect"><i class="material-icons">menu</i></a>
@@ -62,117 +62,117 @@
           <li class="right active"><a class="waves-effect" href="../../events.html">EVENTS</a></li>
           <li class="right"><a class="waves-effect" href="../../home.php">HOME</a></li>
         </ul>
+        <ul class="side-nav active" id="mobile-demo" style="display: block">
+          <li><a class="waves-effect" href="../../home.php"><i class="material-icons">home</i></a></li>
+          <li class="active"><a class="waves-effect" href="../../events.html">EVENTS</a></li>
+          <li><a class="waves-effect" href="../../schedule.html">SCHEDULE</a></li>
+          <li><a class="waves-effect" href="../../contact.html">CONTACT US</a></li>
+          <li><a class="waves-effect" href="../../about.html">ABOUT US</a></li>
+          <li><a class="waves-effect" href="../../#">LOG IN</a></li>
+          <li><a class="waves-effect" href="../../#">REGISTER</a></li>
+        </ul>
       </div>
+    </div>
     </nav>
-  </div>
-  <ul class="side-nav active" id="mobile-demo" style="display: block">
-    <li><a class="waves-effect" href="../../home.php"><i class="material-icons">home</i></a></li>
-    <li class="active"><a class="waves-effect" href="../../events.html">EVENTS</a></li>
-    <li><a class="waves-effect" href="../../schedule.html">SCHEDULE</a></li>
-    <li><a class="waves-effect" href="../../contact.html">CONTACT US</a></li>
-    <li><a class="waves-effect" href="../../about.html">ABOUT US</a></li>
-    <li><a class="waves-effect" href="../../#">LOG IN</a></li>
-    <li><a class="waves-effect" href="../../#">REGISTER</a></li>
-  </ul>
 
   <main>
     <div class="parallax-container">
-      <div class="parallax"> <img src="../../img\acute-parallax.png"/> </div>
+      <div class="parallax"> <img src="../../img\parallax.jpg"/> </div>
     </div>
     <p> &nbsp; </p>
     <div class="row <!--wow rollIn--> flow-text">
-      <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-        <div class="container">
-          <div class="">
-            <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> CODE RELAY </div>
-            <span class="red-text text-accent-1"> DESCRIPTION</span>
-            <p> 4 people and 120 seconds of synchronous understanding and teamwork separate the winners from the others. The best teams that we have encountered have a few things in common :teamwork, sync, immeasurable confidence in each other and the ability to pick up from where his predecessor left, better his effort and win the title. </p>
-            <span class="red-text text-accent-1"> DETAILS</span>
-            <p> Each team should have exactly four members. Participants will need to know C or C++. The participants of a team will not be allowed to communicate with one another once the time begins. Use of mobile phones will not be allowed during the event. The team that codes the most optimal solution in the shortest time will be declared as winners. Programs with least complexity would be given preference. Rules are subject to change at any point in time. All rules will be explained at the event. </p>
-            <p>&nbsp;</p>
-            <span class="red-text text-accent-1"> ROUNDS</span>
+    <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
+      <div class="container">
+        <div class="">
+          <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> Code Relay </div>
+          <span class="red-text text-accent-1"> DESCRIPTION</span>
+          <p>  </p>
+          <span class="red-text text-accent-1"> DETAILS</span>
+          <p>  </p>
+          <p>&nbsp;</p>
+          <span class="red-text text-accent-1"> ROUNDS</span>
 
-            <div class="row">
-              <div class="">
-                <div class="card">
-                  <div class="card-tabs">
-                    <ul class="tabs tabs-fixed-width ">
-                      <li class="tab"><a href="#test1" class="active">Round 1</a></li>
-                      <li class="tab"><a class="" href="#test2">Round 2</a></li>
-                      <li class="indicator" style="right: 206px; left: 0px;"></li></ul>
-                    </div>
-                    <div class="card-content">
-                      <div id="test1" style="font-size:0.8em" class="active">
-                        <ul>
-                          <li> <span class="red-text text-accent-1"> > </span> MCQ round of 30 questions for 30 minutes.</li>
-                          <li> <span class="red-text text-accent-1"> > </span> Correct answer will get 2 marks each. </li>
-                          <li> <span class="red-text text-accent-1"> > </span> Wrong answers will have a negative mark of 1 marks. </li>
-                        </ul>
-                      </div>
-                      <div id="test2" class="" style="display: none;font-size:0.8em">
-                        <ul>
-                          <li> <span class="red-text text-accent-1"> > </span> Final round comprises of 3 questions. The team members must decide which order they wish to follow before the final round question has been provided, and will not be allowed to change this order.
-                            The question will be provided to each member only at the start of their own time slot. Once the question has been provided, each member can code for 5 mins initially, then the time slots vary to 10mins, 5mins and 10mins again. After one person’s time slot is complete the next person of the team is expected to continue coding from where his teammate had left off.
-                            Duration for the final round is 120 minutes in total.
-                            The teams that gets the desired output in the shortest time stand a chance to win the prize money.
-                          </li>
-                        </div>
-                      </div>
-                      <div class="card-action">
-                        <div style="font-size:0.8em">
-                          <span class="red-text text-accent-1"> Team: 4 members </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-              <span class="red-text text-accent-1"> CONTACT</span>
-              <p> Deivanai C. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:95970 57800">95970 57800</a>  </span> </p>
-              <p> Preethi R. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:contact">contact</a>  </span></p>
-              <p> Logeshwari R. &nbsp;-&nbsp;<span> <i class="material-icons"> phone  </i> <a href="tel:contact">contact</a>  </span></p>
-            </div>
-          </div>
-        </div>
-      </main>
-      <footer class="page-footer">
-        <div class="container">
           <div class="row">
-            <div class="col l6 offset-l1 s8">
-              <div id="map"></div>
-              <div id="googleMap" style="width:100%;height:300px;"></div>
+          <div class="">
+            <div class="card ">
+              <div class="card-tabs">
+                <ul class="tabs tabs-fixed-width ">
+                  <li class="tab"><a href="#test1" class="active"></a></li>
+                  <li class="tab"><a class="" href="#test2"></a></li>
+                  <li class="tab"><a href="#test3" class=""></a></li>
+                <li class="indicator" style="right: 206px; left: 0px;"></li></ul>
+              </div>
+              <div class="card-content ">
+                <div id="test1" style="font-size:1em" class="active">
+                  <p>
 
-              <script>
-              function myMap() {
-                var mapProp= {
-                  center:new google.maps.LatLng(11.024389,77.003580),
-                  zoom:17,
-                };
-                var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-              }
-              </script>
+                  </p>
+                </div>
+                <div id="test2" class="" style="display: none;font-size:1em">
+                  <p>
 
-              <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDInQjNqxLhAH69iVTWAgfl96DhpYr2Ps4&callback=myMap"></script>
-            </div>
-            <div class="col l4 offset-l1 s4">
-              <h5 class="white-text">Contacts</h5>
-              <ul>
-                <li><span class="grey-text text-lighten-3">Harish</span></li>
-                <li><span class="grey-text text-lighten-3">1234567890</span></li>
-                <li><span class="grey-text text-lighten-3">Deepthi</span></li>
-                <li><span class="grey-text text-lighten-3">1234567890</span></li>
-                <li><span class="grey-text text-lighten-3">Kevin</span></li>
-                <li><span class="grey-text text-lighten-3">1234567890</span></li>
-              </ul>
+                  </p>
+                </div>
+                <div id="test3" style="display: none;font-size:1em" class="">
+                <p>
+
+                </p>
+              </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="footer-copyright">
-          <div class="container">
-            INVADAURZ 2017
-            <a class="grey-text text-lighten-4 right" href="../../#!">Quote...</a>
-          </div>
-        </div>
-      </footer>
 
-      </html>
+
+          <span class="red-text text-accent-1"> CONTACT</span>
+          <p>  &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span> </p>
+          <p>  &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span></p>
+          <p>  &nbsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span></p>
+        </div>
+      </div>
+    </div>
+   </div>
+  </main>
+
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 offset-l1 s8">
+          <div id="map"></div>
+          <div id="googleMap" style="width:100%;height:300px;"></div>
+
+          <script>
+          function myMap() {
+          var mapProp= {
+              center:new google.maps.LatLng(11.024389,77.003580),
+              zoom:17,
+          };
+          var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+          }
+          </script>
+
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDInQjNqxLhAH69iVTWAgfl96DhpYr2Ps4&callback=myMap"></script>
+        </div>
+        <div class="col l4 offset-l1 s4">
+          <h5 class="white-text">Contacts</h5>
+          <ul>
+            <li><span class="grey-text text-lighten-3">Harish</span></li>
+            <li><span class="grey-text text-lighten-3">1234567890</span></li>
+            <li><span class="grey-text text-lighten-3">Deepthi</span></li>
+            <li><span class="grey-text text-lighten-3">1234567890</span></li>
+            <li><span class="grey-text text-lighten-3">Kevin</span></li>
+            <li><span class="grey-text text-lighten-3">1234567890</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        INVADAURZ 2017
+        <a class="grey-text text-lighten-4 right" href="../../#!">Quote...</a>
+      </div>
+    </div>
+  </footer>
+
+  </html>
