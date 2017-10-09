@@ -47,18 +47,18 @@ a{
 </head>
 
 <body style="font-family:Lato;font-size:1.4rem">
-    <nav>
-      <div class="navbar">
+  <nav>
+    <div class="navbar">
       <div class="nav-wrapper">
         <a href="../../#" class="center brand-logo">INVADAURZ</a>
         <a href="../../#" data-activates="mobile-demo" class="button-collapse waves-effect"><i class="material-icons">menu</i></a>
         <ul class=" hide-on-med-and-down">
-          <li class="left"><a class="waves-effect" href="../../#">LOGIN</a></li>
-          <li class="left"><a class="waves-effect" href="../../#">REGISTER</a></li>
-          <li class="right"><a class="waves-effect" href="../../about.html">ABOUT US</a></li>
-          <li class="right"><a class="waves-effect" href="../../contact.html">CONTACT US</a></li>
-          <li class="right"><a class="waves-effect" href="../../schedule.html">SCHEDULE</a></li>
-          <li class="right active"><a class="waves-effect" href="../../events.html">EVENTS</a></li>
+          <li class="left"><a class="waves-effect modal-trigger" href="#loginModal">LOGIN</a></li>
+          <li class="left"><a class="waves-effect" href="../../register.php">REGISTER</a></li>
+          <li class="right"><a class="waves-effect" href="../../about.php">ABOUT US</a></li>
+          <li class="right"><a class="waves-effect" href="../../contact.php">CONTACT US</a></li>
+          <li class="right"><a class="waves-effect" href="../../schedule.php">SCHEDULE</a></li>
+          <li class="right active"><a class="waves-effect" href="../../events.php">EVENTS</a></li>
           <li class="right"><a class="waves-effect" href="../../home.php">HOME</a></li>
         </ul>
         <ul class="side-nav active" id="mobile-demo" style="display: block">
@@ -67,12 +67,12 @@ a{
           <li><a class="waves-effect" href="../../schedule.html">SCHEDULE</a></li>
           <li><a class="waves-effect" href="../../contact.html">CONTACT US</a></li>
           <li><a class="waves-effect" href="../../about.html">ABOUT US</a></li>
-          <li><a class="waves-effect" href="../../#">LOG IN</a></li>
+          <li><a class="waves-effectwaves-effect modal-trigger" href="#loginModal">LOG IN</a></li>
           <li><a class="waves-effect" href="../../#">REGISTER</a></li>
         </ul>
       </div>
     </div>
-    </nav>
+  </nav>
 
   <main>
     <div class="parallax-container">
@@ -129,7 +129,38 @@ a{
     </div>
    </div>
   </main>
-
+  <div class="container">
+    <div class="row">
+      <div id="loginModal" class="modal">
+        <form class="col l12 m12 s12" action="<?php $_SERVER['PHP_SELF'] ?>" method="get">
+          <div class="modal-content">
+            <div class="row center">
+              Participant Login
+            </div>
+            <div class="row">
+              <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
+                <i class="prefix material-icons">account_circle</i>
+                <input id="rollno" name="rollno" type="text" class="validate" required/>
+                <label for="rollno">Roll No.</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
+                <i class="prefix material-icons">lock</i>
+                <input id="password" name="pwd" type="password" class="validate" required/>
+                <label for="password">Password</label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="center">
+              <button type="submit" name="btnLogin" class="btn waves-effect waves-light green center">Login</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <footer class="page-footer">
     <div class="footer">
