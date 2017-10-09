@@ -201,7 +201,7 @@ else{
         <div class="row">
           <hr>
           <h3 class="red-text row center">
-            Register
+            Invadaurz Registration
           </h3>
 
 

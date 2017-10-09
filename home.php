@@ -1,3 +1,59 @@
+<?php
+error_reporting(0);
+$dbhost = "localhost";
+$dbuser = "root";
+$dbpass = "";
+$dbname = "invadaurz";
+$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+if(!$conn){
+  echo '<div class="row">
+  <div class="col l12 m12 s12 center">
+  <span class="center red-text">Error Occurred: '.mysqli_error($conn).'</span>'.
+  '</div>
+  </div>';
+  die($conn);
+}
+else{
+  if(isset($_POST['btnSubmit'])){
+    $rollno = $_POST['roll'];
+    $fname = $_POST['fname'];
+    $lname = $_POST['lname'];
+    $name = $fname.' '.$lname;
+    $degree = $_POST['degree'];
+    $branch = $_POST['branch'];
+    $year = $_POST['year'];
+    $phone = $_POST['phone'];
+    $mail = $_POST['mail'];
+    $password = $_POST['pwd'];
+    if($_POST['pwd']!=$_POST['cpwd']){
+      echo '<script>swal("Warning!","Your passwords don\'t match","warning");</script>';
+    }
+    else{
+      $sql = "SELECT rollno FROM userdetails WHERE rollno = $rollno";
+      $res = mysqli_query($conn, $sql);
+      $res = mysqli_fetch_array($res);
+      if($res['rollno']=$rollno){
+        echo '<script>swal("Warning!","You\'re already registered","warning");</script>';
+      }
+      else{
+        $sql = "INSERT INTO userdetails(rollno, name, degree, branch, year, phone, mail, password) VALUES('$rollno', '$name', '$degree', '$branch', $year, '$phone', '$mail', '$password')";
+        $res = mysqli_query($conn, $sql);
+        if(!$res){
+          echo '<div class="row">
+          <div class="col l12 m12 s12 center">
+          <span class="center red-text">Error Occurred: '.mysqli_error($conn).'</span>'.
+          '</div>
+          </div>';
+        }
+        else{
+          echo '<script>swal("Success!","You\'re successfully registered. Please check out your mail for further details...","success");</script>';
+        }
+      }
+    }
+    unset($_POST['btnSubmit']);
+  }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -132,10 +188,10 @@
 <div class="container">
   <div class="row">
     <div id="loginModal" class="modal">
-      <form class="col l12 m12 s12" action="">
+      <form class="col l12 m12 s12" action="<?php $_SERVER['PHP_SELF'] ?>" method="get">
         <div class="modal-content">
           <div class="row center">
-            Login
+            Participant Login
           </div>
           <div class="row">
             <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
