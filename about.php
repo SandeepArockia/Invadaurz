@@ -39,7 +39,7 @@
         <a href="#" data-activates="mobile-demo" class="button-collapse waves-effect"><i class="material-icons">menu</i></a>
         <ul class=" hide-on-med-and-down">
           <li class="left"><a class="waves-effect modal-trigger" href="#loginModal">LOGIN</a></li>
-          <li class="left"><a class="waves-effect modal-trigger" href="#registerModal">REGISTER</a></li>
+          <li class="left"><a class="waves-effect" href="register.php">REGISTER</a></li>
           <li class="right active"><a class="waves-effect" href="about.html">ABOUT US</a></li>
           <li class="right"><a class="waves-effect" href="contact.html">CONTACT US</a></li>
           <li class="right"><a class="waves-effect" href="schedule.html">SCHEDULE</a></li>
@@ -53,7 +53,7 @@
           <li><a class="waves-effect" href="contact.html">CONTACT US</a></li>
           <li class="active"><a class="waves-effect" href="about.html">ABOUT US</a></li>
           <li><a class="waves-effect modal-trigger" href="#loginModal">LOG IN</a></li>
-          <li><a class="waves-effect modal-trigger" href="#registerModal">REGISTER</a></li>
+          <li><a class="waves-effect" href="register.php">REGISTER</a></li>
         </ul>
       </div>
     </div>
