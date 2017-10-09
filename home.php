@@ -14,28 +14,25 @@ if(!$conn){
   die($conn);
 }
 else{
-  echo '<title>INVADAURZ | ITA | 2017</title>
-  <link rel="icon" href="img/ITALogo.jpeg">
-  <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="css\materialize.min.css"  media="screen,projection"/>
+  echo '<html><head><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link rel="stylesheet" href="css\animate.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="js\materialize.min.js"></script>';
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+  <script src="js\materialize.min.js"></script></head></html>';
   if(isset($_POST['btnLogin'])){
     $rollno = $_POST['rollno'];
+    $rollno = strtolower($rollno);
     $password = $_POST['pwd'];
     $sql = "SELECT password FROM userdetails WHERE rollno = '$rollno'";
     $res = mysqli_query($conn, $sql);
     $res = mysqli_fetch_row($res);
     echo '<script>swal("Error!","'.mysqli_error($conn).'","error");</script>';
     if($res[0]!=$password){
-      echo '<script>swal("Error!","Roll no. or password invalid","error");</script>';
+      echo '<script>swal("Error!","Roll number or password invalid","error");</script>';
     }
     else{
-
+      echo '<script>swal("Logged in!","You\'re logged in to Invadaurz","success");</script>';
     }
     unset($_POST['btnSubmit']);
   }
@@ -93,10 +90,10 @@ else{
         <ul class=" hide-on-med-and-down">
           <li class="left"><a class="waves-effect modal-trigger" href="#loginModal">LOGIN</a></li>
           <li class="left"><a class="waves-effect" href="register.php">REGISTER</a></li>
-          <li class="right"><a class="waves-effect" href="about.html">ABOUT US</a></li>
-          <li class="right"><a class="waves-effect" href="contact.html">CONTACT US</a></li>
-          <li class="right"><a class="waves-effect" href="schedule.html">SCHEDULE</a></li>
-          <li class="right"><a class="waves-effect" href="events.html">EVENTS</a></li>
+          <li class="right"><a class="waves-effect" href="about.php">ABOUT US</a></li>
+          <li class="right"><a class="waves-effect" href="contact.php">CONTACT US</a></li>
+          <li class="right"><a class="waves-effect" href="schedule.php">SCHEDULE</a></li>
+          <li class="right"><a class="waves-effect" href="events.php">EVENTS</a></li>
           <li class="right active"><a class="waves-effect" href="home.php">HOME</a></li>
         </ul>
       </div>
@@ -104,10 +101,10 @@ else{
   </div>
   <ul class="side-nav" id="mobile-demo">
     <li class="active"><a class="waves-effect" href="home.php"><i class="material-icons">home</i></a></li>
-    <li><a class="waves-effect" href="events.html">EVENTS</a></li>
-    <li><a class="waves-effect" href="schedule.html">SCHEDULE</a></li>
-    <li><a class="waves-effect" href="contact.html">CONTACT US</a></li>
-    <li><a class="waves-effect" href="about.html">ABOUT US</a></li>
+    <li><a class="waves-effect" href="events.php">EVENTS</a></li>
+    <li><a class="waves-effect" href="schedule.php">SCHEDULE</a></li>
+    <li><a class="waves-effect" href="contact.php">CONTACT US</a></li>
+    <li><a class="waves-effect" href="about.php">ABOUT US</a></li>
     <li><a class="waves-effect modal-trigger" href="#loginModal">LOG IN</a></li>
     <li><a class="waves-effect" href="register.php">REGISTER</a></li>
   </ul>
@@ -132,7 +129,7 @@ else{
 
   </div>
   <div class="container row center" style="padding:50px 0px 0px 0px">
-    <a href="events.html#technicalText">
+    <a href="events.php#technicalText">
       <div class="col l6 s12 m6" id="techText">
           <div class="card blue-grey" style="padding:0px 20px 0px 20px">
             <div class="card-content white-text">
@@ -145,7 +142,7 @@ else{
           </div>
       </div>
     </a>
-    <a href="events.html#funText">
+    <a href="events.php#funText">
       <div class="col l6 s12 m6" id="funText" style="padding:0px 20px 0px 20px">
         <div class="row">
           <div class="card blue-grey">

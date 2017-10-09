@@ -1,5 +1,5 @@
 <?php
-include "QR_Barcode.php";
+include "QR_BarCode.php";
 include ".\\PHPMailer\\src\\PHPMailer.php";
 error_reporting(0);
 echo '<html><head><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -24,6 +24,7 @@ if(!$conn){
 else{
   if(isset($_POST['btnSubmit'])){
     $rollno = $_POST['roll'];
+    $rollno = strtolower($rollno);
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
     $name = $fname.' '.$lname;
@@ -54,9 +55,11 @@ else{
           </div>';
         }
         else{
-          $qr = new QR_Barcode();
-          $qr->url("http://invadaurz.in?rollno=$rollno");
-          //echo $qr->qrCode(200);//, "\/img\/qr".$rollno);
+          $width = $height = 100;
+          $url   = urlencode("http://invadaurz.in/eventRegistration.php?rollno=$rollno");
+          //echo "<img src=\"http://chart.googleapis.com/chart?chs={$width}x{$height}&cht=qr&chl=$url\">";
+          $content = file_get_contents("http://chart.googleapis.com/chart?chs={$width}x{$height}&cht=qr&chl=$url");
+          file_put_contents("img/qr/$rollno.png",$content);
           //Mail params
           /*$email = new PHPMailer();
           $email->isSMTP();
@@ -236,7 +239,6 @@ else{
     <form class="form" action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
       <div class="container">
         <div class="row">
-          <hr>
           <h3 class="red-text row center">
             Invadaurz Registration
           </h3>
