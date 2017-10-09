@@ -79,8 +79,6 @@
   <div class="center ">
     <div class="card">
       <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4">
-          <i class="mdi-navigation-more-vert right"></i></span>
           <p>
             ⁠⁠⁠⁠⁠"The delight of opening a new pursuit imparts the vivacity of youth to all"
           </p>
@@ -93,7 +91,6 @@
   <div class="container row center" style="padding:50px 0px 0px 0px">
     <a href="events.html#technicalText">
       <div class="col l6 s12 m6" id="techText">
-        <div class="row">
           <div class="card blue-grey" style="padding:0px 20px 0px 20px">
             <div class="card-content white-text">
               <span class="card-title">Technical</span>
@@ -103,7 +100,6 @@
               </p>
             </div>
           </div>
-        </div>
       </div>
     </a>
     <a href="events.html#funText">
@@ -159,45 +155,6 @@
         <div class="row">
           <div class="center">
             <button type="submit" class="btn waves-effect waves-light green center">Login</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="container">
-  <div class="row">
-    <div id="registerModal" class="modal">
-      <form class="col l12 m12 s12" action="">
-        <div class="modal-content">
-          <div class="row center">
-            Register
-          </div>
-          <div class="row">
-            <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-              <i class="prefix material-icons">account_circle</i>
-              <input id="user_name" type="text" class="validate" />
-              <label for="user_name">Username</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-              <i class="prefix material-icons">mail_outline</i>
-              <input id="user_name" type="text" class="validate" />
-              <label for="user_name">Mail id</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-              <i class="prefix material-icons">lock</i>
-              <input id="password" type="password" class="validate" />
-              <label for="password">Password</label>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="center">
-            <button type="submit" class="btn waves-effect waves-light green center">Register</button>
           </div>
         </form>
       </div>
