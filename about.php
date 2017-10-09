@@ -93,12 +93,12 @@
     </div>
     <div class="parallax-container">
       <div class="parallax">
-        <img src="img\about.jpg"/>
+        <img class="" src="img\about.jpg"/>
       </div>
     </div>
 
     <div class="center">
-      <img src="img\invadaurzLogo.png"/>
+      <img class="responsive-img" src="img\invadaurzLogo.png"/>
 
       <div class="row">
         <div class="container">
