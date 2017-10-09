@@ -102,7 +102,7 @@
                       <li class="indicator" style="right: 206px; left: 0px;"></li></ul>
                     </div>
                     <div class="card-content">
-                      <div id="test1" style="font-size:0.8em" class="active">
+                      <div id="test1" style="font-size:0.9em" class="active">
                         <ul>
                           <li> <span class="red-text text-accent-1"> > </span> Catch hold of the logic and start typing by switching off your monitor. </li>
                         </ul>

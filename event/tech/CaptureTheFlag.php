@@ -86,9 +86,9 @@ a{
         <div class="">
           <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> Capture The Flag </div>
           <span class="red-text text-accent-1"> DESCRIPTION</span>
-          <p>  </p>
+          <p> It consists of a single round. It is a Jeopardy style CTF. It consists of Web, Forensic, Crypto, Binary and similar type of questions. </p>
           <span class="red-text text-accent-1"> DETAILS</span>
-          <p>  </p>
+          <p>  Every question is marked based on its difficulty. Questions with three levels of difficulty are present. It happens for period of 4 hours and the team with the highest score, in the end, is declared the winner.  </p>
           <p>&nbsp;</p>
           <span class="red-text text-accent-1"> ROUNDS</span>
 
@@ -97,27 +97,19 @@ a{
             <div class="card ">
               <div class="card-tabs">
                 <ul class="tabs tabs-fixed-width ">
-                  <li class="tab"><a href="#test1" class="active"></a></li>
-                  <li class="tab"><a class="" href="#test2"></a></li>
-                  <li class="tab"><a href="#test3" class=""></a></li>
-                <li class="indicator" style="right: 206px; left: 0px;"></li></ul>
+                  <li class="tab"><a href="#test1" class="active">ROUND 1</a></li>
+                  <li class="indicator" style="right: 206px; left: 0px;"></li></ul>
               </div>
               <div class="card-content ">
                 <div id="test1" style="font-size:1em" class="active">
                   <p>
-
+                    Web, Forensic, Crypto, Binary and similar type of questions.
                   </p>
                 </div>
-                <div id="test2" class="" style="display: none;font-size:1em">
-                  <p>
-
-                  </p>
-                </div>
-                <div id="test3" style="display: none;font-size:1em" class="">
-                <p>
-
-                </p>
-              </div>
+            </div>
+            <div class="card-action">
+              <div style="font-size:0.8em">
+                <span class="red-text text-accent-1"> Team: 2-3 members </span>
               </div>
             </div>
           </div>

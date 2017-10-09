@@ -85,9 +85,9 @@ a{
         <div class="">
           <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> BUG BOSS </div>
           <span class="red-text text-accent-1"> DESCRIPTION</span>
-          <p>  </p>
+          <p> The event focuses on the players ability to find the bugs in various events </p>
           <span class="red-text text-accent-1"> DETAILS</span>
-          <p>  </p>
+          <p> Two levels. </p>
           <p>&nbsp;</p>
           <span class="red-text text-accent-1"> ROUNDS</span>
 
@@ -115,11 +115,12 @@ a{
                     <li> <span class="red-text text-accent-1"> > </span>The Mad Girlfriend Bug </li>
                 </div>
               </div>
-              </div>
+
               <div class="card-action">
                 <div style="font-size:0.8em">
                   <span class="red-text text-accent-1"> Team: 2-3 members </span>
                 </div>
+              </div>
               </div>
             </div>
           </div>

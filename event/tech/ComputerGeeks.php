@@ -97,27 +97,21 @@ a{
             <div class="card ">
               <div class="card-tabs">
                 <ul class="tabs tabs-fixed-width ">
-                  <li class="tab"><a href="#test1" class="active"></a></li>
-                  <li class="tab"><a class="" href="#test2"></a></li>
-                  <li class="tab"><a href="#test3" class=""></a></li>
+                  <li class="tab"><a href="#test1" class="active">Scanty coders</a></li>
+                  <li class="tab"><a class="" href="#test2"> CPU Imbroglio </a></li>
                 <li class="indicator" style="right: 206px; left: 0px;"></li></ul>
               </div>
               <div class="card-content ">
                 <div id="test1" style="font-size:1em" class="active">
                   <p>
-
-                  </p>
+                  It's time to show off your hacking skills!! You will have to prove yourself how good you can code in minimal number of lines. The range of the lines of code will be set by the moderators between which you will have to code as short as possible. The code that is short and precise wins. 10 people are shortlisted in this round.
+                </p>
                 </div>
                 <div id="test2" class="" style="display: none;font-size:1em">
-                  <p>
-
-                  </p>
-                </div>
-                <div id="test3" style="display: none;font-size:1em" class="">
-                <p>
-
+                  <p style="font-size:.9em">
+                  The competition is designed for students to display skills in PC assembly with great precision and speed. All the computer parts must be replaced back on the computer and to the right positions. Participants will identify the different computer components and arrange them to a working Computer, they will be provided Internet and tools until it has started to successful boot to a Microsoft operating system designated.
                 </p>
-              </div>
+                </div>
               </div>
             </div>
           </div>
@@ -125,10 +119,9 @@ a{
 
 
           <span class="red-text text-accent-1"> CONTACT</span>
-          <p>  &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span> </p>
-          <p>  &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span></p>
-          <p>  &nbsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span></p>
-        </div>
+          <p>Mahesh Kumar&emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span> </p>
+          <p> Raghavendra&emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span></p>
+          </div>
       </div>
     </div>
    </div>
