@@ -1,5 +1,6 @@
 <?php
-  $conn = mysqli_connect("localhost","ita","invadaurz2k17");
+  error_reporting(0);
+  $conn = mysqli_connect("localhost","root","");
   if(!$conn){
     echo "DB connection fails: ".mysqli_error();
   }
@@ -7,6 +8,7 @@
   $rollno = $_REQUEST["rollno"];
   echo '<html>
           <head>
+            <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
             <link type="text/css" rel="stylesheet" href="css\materialize.min.css"  media="screen,projection"/>
             <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
@@ -35,7 +37,7 @@
               </div>
               <div class="row">
                 <div class="col s12 center">
-                  <form action="'.$_SERVER['PHP_SELF'].'" method="post">
+                  <form action="" method="post">
                     <div class="input-field col s12">
                       <select name="eventSelect">
                         <option value="" disabled selected>Choose the Event</option>
@@ -74,8 +76,22 @@
           </body>
         </html>';
         if(isset($_POST['btnSubmitPA'])){
-          $sql = "INSERT INTO Attendance () VALUES ()";
-          unset($_POST['btnSubmitPA']);
+          $eventName = $_POST['eventSelect'];
+          $passcode = $_POST['passcode'];
+          if($passcode == "1234"){
+            $sql = "INSERT INTO Attendance (Rollno, Event, Status) VALUES ($rollno, $eventName, 'registered')";
+            $res = mysqli_query($conn, $sql);
+            if($res){
+              echo '<script>swal("Success!","You\'re successfully registered for the event", "success");</script>';
+            }
+            else{
+              echo 'Error Occurred: '.mysqli_error();
+            }
+            unset($_POST['btnSubmitPA']);
+          }
+          else{
+            echo '<script>swal("Error!","Passcode entered is wrong", "error");</script>';
+          }
         }
       }
 ?>
