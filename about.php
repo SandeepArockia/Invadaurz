@@ -93,7 +93,7 @@
     </div>
     <div class="parallax-container">
       <div class="parallax">
-        <img src="img\about.png"/>
+        <img src="img\about.jpg"/>
       </div>
     </div>
 
