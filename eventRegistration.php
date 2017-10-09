@@ -1,11 +1,20 @@
 <?php
   error_reporting(0);
-  $conn = mysqli_connect("localhost","root","");
+  $dbhost = "localhost";
+  $dbuser = "root";
+  $dbpass = "";
+  $dbname = "invadaurz";
+  $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
   if(!$conn){
-    echo "DB connection fails: ".mysqli_error();
+    echo '<div class="row">
+            <div class="col l12 m12 s12 center">
+              <span class="center red-text">Error Occurred: '.mysqli_error($conn).'</span>'.
+            '</div>
+          </div>';
   }
   else{
-  $rollno = $_REQUEST["rollno"];
+  //$rollno = $_REQUEST["rollno"];
+  $rollno = "15i228";
   echo '<html>
           <head>
             <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -39,7 +48,7 @@
                 <div class="col s12 center">
                   <form action="" method="post">
                     <div class="input-field col s12">
-                      <select name="eventSelect">
+                      <select name="eventSelect" required>
                         <option value="" disabled selected>Choose the Event</option>
                         <option value="" disabled >Technical</option>
                         <option value="bugboss" >Bug Boss </option>
@@ -63,7 +72,7 @@
                       <label> Event </label>
                     </div>
                     <div class="input-field col s12">
-                      <input id="passcode" name="passcode" type="text" class="validate" />
+                      <input id="passcode" name="passcode" type="text" class="validate" required/>
                       <label for="passcode">Passcode </label>
                     </div>
                     <div class="input-field col s12">
@@ -72,20 +81,22 @@
                   </form>
                 </div>
               </div>
-            </div>
-          </body>
-        </html>';
+            </div>';
         if(isset($_POST['btnSubmitPA'])){
           $eventName = $_POST['eventSelect'];
           $passcode = $_POST['passcode'];
           if($passcode == "1234"){
-            $sql = "INSERT INTO Attendance (Rollno, Event, Status) VALUES ($rollno, $eventName, 'registered')";
+            $sql = "INSERT INTO eventreg (rollno, event, status) VALUES ('$rollno','$eventName','registered')";
             $res = mysqli_query($conn, $sql);
             if($res){
               echo '<script>swal("Success!","You\'re successfully registered for the event", "success");</script>';
             }
             else{
-              echo 'Error Occurred: '.mysqli_error();
+              echo '<div class="row">
+                      <div class="col l12 m12 s12 center">
+                        <span class="center red-text">Error Occurred: '.mysqli_error($conn).'</span>'.
+                      '</div>
+                    </div>';
             }
             unset($_POST['btnSubmitPA']);
           }
@@ -94,4 +105,6 @@
           }
         }
       }
+      echo '  </body>
+      </html>';
 ?>
