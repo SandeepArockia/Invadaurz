@@ -14,8 +14,7 @@
     die($conn);
   }
   else{
-  //$rollno = $_REQUEST["rollno"];
-  $rollno = "15i228";
+  $rollno = $_REQUEST["rollno"];
   echo '<html>
           <head>
             <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -41,13 +40,17 @@
           </div>
             <div class="container">
               <div class="row">
-                <div class="col s12 center">
+                <div class="col s12 center" style="color:#005985">
                   <h4> Participant Event Registration </h4>
                 </div>
               </div>
               <div class="row">
                 <div class="col s12 center">
                   <form action="" method="post">
+					<div class="input-field col s12">
+						<input type="text" class="center" disabled id="rollno" />
+						<label for="rollno">'.$rollno.'</label>
+					</div>
                     <div class="input-field col s12">
                       <select name="eventSelect" required>
                         <option value="" disabled selected>Choose the Event</option>
@@ -87,31 +90,38 @@
           $eventName = $_POST['eventSelect'];
           $passcode = $_POST['passcode'];
           if($passcode == "1234"){
-            $sql = "LOCK TABLE userdetails WRITE";
-            $res = mysqli_query($conn, $sql);
-            echo mysqli_error($conn);
-            $sql = "INSERT INTO eventreg (rollno, event, status) VALUES ('$rollno','$eventName','registered')";
-            $res = mysqli_query($conn, $sql);
-            if($res){
-              echo '<script>swal("Success!","You\'re successfully registered for the event", "success");</script>';
-            }
-            else{
-              echo '<div class="row">
-                      <div class="col l12 m12 s12 center">
-                        <span class="center red-text">Error Occurred: '.mysqli_error($conn).'</span>'.
-                      '</div>
-                    </div>';
-            }
-            $sql = "UNLOCK TABLES";
-            $res = mysqli_query($conn, $sql);
-            echo mysqli_error($conn);
-            unset($_POST['btnSubmitPA']);
-          }
+            $sql = "SELECT rollno, event FROM eventreg WHERE rollno = '$rollno' AND event = '$eventName'";
+			$res = mysqli_query($conn, $sql);
+			$res = mysqli_fetch_row($res);
+			if($res[0]==$rollno && $res[1]==$eventName){
+				echo '<script>swal("Warning!","Already registered for the event", "warning");</script>';
+			}
+			else{
+				$sql = "LOCK TABLE eventreg WRITE";
+				$res = mysqli_query($conn, $sql);
+				echo mysqli_error($conn);
+				$sql = "INSERT INTO eventreg (rollno, event, status) VALUES ('$rollno','$eventName','registered')";
+				$res = mysqli_query($conn, $sql);
+				if($res){
+					echo '<script>swal("Success!","You\'re successfully registered for the event", "success");</script>';
+				}
+				else{
+					echo '<div class="row">
+							<div class="col l12 m12 s12 center">
+								<span class="center red-text">Error Occurred: '.mysqli_error($conn).'</span>'.
+							'</div>
+						</div>';
+				}
+				$sql = "UNLOCK TABLES";
+				$res = mysqli_query($conn, $sql);
+				echo mysqli_error($conn);
+			}
+		  }
           else{
             echo '<script>swal("Error!","Passcode entered is wrong", "error");</script>';
           }
+		  unset($_POST['btnSubmitPA']);
         }
-      }
-      echo '  </body>
-      </html>';
+		echo '</body></html>';
+  }
 ?>
