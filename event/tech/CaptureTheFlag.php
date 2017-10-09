@@ -86,9 +86,9 @@ a{
         <div class="">
           <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> Capture The Flag </div>
           <span class="red-text text-accent-1"> DESCRIPTION</span>
-          <p> It consists of a single round. It is a Jeopardy style CTF. It consists of Web, Forensic, Crypto, Binary and similar type of questions. </p>
+          <p> It is a Jeopardy style CTF. It consists of Web, Forensic, Crypto, Binary and similar type of questions. </p>
           <span class="red-text text-accent-1"> DETAILS</span>
-          <p>  Every question is marked based on its difficulty. Questions with three levels of difficulty are present. It happens for period of 4 hours and the team with the highest score, in the end, is declared the winner.  </p>
+          <p>  It consists of a single round. Every question is marked based on its difficulty. Questions with three levels of difficulty are present. It happens for period of 4 hours and the team with the highest score, in the end, is declared the winner.  </p>
           <p>&nbsp;</p>
           <span class="red-text text-accent-1"> ROUNDS</span>
 

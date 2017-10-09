@@ -86,9 +86,9 @@ a{
         <div class="">
           <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> Computer Geeks </div>
           <span class="red-text text-accent-1"> DESCRIPTION</span>
-          <p>  </p>
+          <p> It's time to show off your hacking skills!! </p>
           <span class="red-text text-accent-1"> DETAILS</span>
-          <p>  </p>
+          <p> You will have to prove yourself how good you can code in minimal number of lines.  The competition is designed for students to display skills in PC assembly with great precision and speed.  </p>
           <p>&nbsp;</p>
           <span class="red-text text-accent-1"> ROUNDS</span>
 

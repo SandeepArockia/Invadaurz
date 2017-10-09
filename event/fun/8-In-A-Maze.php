@@ -85,9 +85,9 @@
           <div class="">
             <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> 8 IN A MAZE </div>
             <span class="red-text text-accent-1"> DESCRIPTION</span>
-            <p> Description goes here </p>
+            <p> Come and play games where you can travel through data but still you can set your own pace! </p>
             <span class="red-text text-accent-1"> DETAILS</span>
-            <p> Details go here </p>
+            <p> Wanna have fun,come In.1 st round allows 8 participants at once.Further rounds is individual paticipation. </p>
             <p>&nbsp;</p>
             <span class="red-text text-accent-1"> ROUNDS</span>
 

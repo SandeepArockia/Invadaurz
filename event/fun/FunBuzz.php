@@ -86,9 +86,9 @@ a{
         <div class="">
           <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> FUN BUZZ </div>
           <span class="red-text text-accent-1"> DESCRIPTION</span>
-          <p> TBA </p>
+          <p> Fun filled events </p>
           <span class="red-text text-accent-1"> DETAILS</span>
-          <p> TBA </p>
+          <p> Three rounds. It involves blowing ballon, having sugar and salt water, solving rubix cube, eye conduct, etc </p>
           <p>&nbsp;</p>
           <span class="red-text text-accent-1"> ROUNDS</span>
 

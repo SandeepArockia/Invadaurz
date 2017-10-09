@@ -86,9 +86,9 @@
           <div class="">
             <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> CRIME SCENES </div>
             <span class="red-text text-accent-1"> DESCRIPTION</span>
-            <p> Crime Scene Investigation events are engaging and practical; team work, critical thinking and problem solving skills will be put to the test.  </p>
+            <p> Code is your spell, cast it to reveal the marauders map. Build big to win big.  </p>
             <span class="red-text text-accent-1"> DETAILS</span>
-            <p> details </p>
+            <p> The event is composed of 2 rounds. Crack the questions while you run in search of the treasure(straws). Collect as many straws as possible and build the longest tower and help your team to get to the final round. Crack the code and the puzzle together in a smart way. Work as a team and win as a team. </p>
             <p>&nbsp;</p>
             <span class="red-text text-accent-1"> ROUNDS</span>
 

@@ -85,9 +85,9 @@ a{
         <div class="">
           <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> BUG BOSS </div>
           <span class="red-text text-accent-1"> DESCRIPTION</span>
-          <p> The event focuses on the players ability to find the bugs in various events </p>
+          <p> Become the Boss of bugs. </p>
           <span class="red-text text-accent-1"> DETAILS</span>
-          <p> Two levels. </p>
+          <p> Thupucikku Thupucikku Bug Boss! </p>
           <p>&nbsp;</p>
           <span class="red-text text-accent-1"> ROUNDS</span>
 

@@ -87,7 +87,7 @@ a{
           <span class="red-text text-accent-1"> DESCRIPTION</span>
           <p> Luck knows no reason nor what’s right!!  To all the lucky charms out there, count on your luck with your fingers crossed </p>
           <span class="red-text text-accent-1"> DETAILS</span>
-          <p> Grab a partner. Play fair for luck to favor you </p>
+          <p> Three rounds.  Fun filled tasks  for the prelims. Think you know your celebrities too well, portray it in the second round. Spin the wheel isn't just for casinos ! </p>
           <p>&nbsp;</p>
           <span class="red-text text-accent-1"> ROUNDS</span>
 
