@@ -9,8 +9,8 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link rel="stylesheet" href="css\animate.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="js\materialize.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.Joint Secretary"></script>
+  <script src="Joint Secretary\materialize.min.Joint Secretary"></script>
   <script>
   $(document).ready(function(){
     $(".button-collapse").sideNav();
@@ -74,9 +74,9 @@
           <p>
             ITA is a Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
-          <h3 class="red-text text-accent-1">  Faculty </h3>
+          <h3 class="red-text text-accent-1 center">Faculty</h3>
           <div class="center push-l3 col l6">
-            <div class="card horizontal">
+            <div class="card small horizontal">
               <div class="card-image">
                 <img src="img\person\faculty.jpg" class="responsive-image">
               </div>
@@ -85,7 +85,7 @@
                   <a href="#">Radhika Engimuri</a>
                 </div>
                 <div class="card-content">
-                  <p>Faculty Adviser</p>
+                  <p>Faculty Advisor</p>
                 </div>
               </div>
             </div>
@@ -97,16 +97,16 @@
 
         <div class="container">
           <h3 class="red-text text-accent-1">
-            Members
+            Office Bearers
           </h3>
-          <div class="center col l4">
+          <div class="center col l4 m12 s12">
             <div class="card small horizontal">
               <div class="card-image">
                 <img src="img\person\kevin.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Kevin Anto J</a>
+                  <a style="font-size:1.2rem">Kevin Anto J</a>
                 </div>
                 <div class="card-content">
                   <p>Secretary</p>
@@ -114,44 +114,29 @@
               </div>
             </div>
           </div>
-          <div class="center col l4">
-            <div class="card small  horizontal">
-              <div class="card-image">
-                <img src="img\person\madhumithag.jpg" class="responsive-image">
-              </div>
-              <div class="card-stacked">
-                <div class="card-action">
-                  <a href="#">Madhumitha G</a>
-                </div>
-                <div class="card-content">
-                  <p>JS III</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="center col l4">
+          <div class="center col l4 m12 s12">
             <div class="card small horizontal">
               <div class="card-image">
                 <img src="img\person\deepthi.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Deepthi Sri S.</a>
+                  <a style="font-size:1.2rem">Deepthi Sri S.</a>
                 </div>
                 <div class="card-content">
-                  <p>JS III</p>
+                  <p>Joint Secretary III-Year</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="center col l4">
+          <div class="center col l4 m12 s12">
             <div class="card small horizontal">
               <div class="card-image">
                 <img src="img\person\parthiban.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Parthiban S.</a>
+                  <a style="font-size:1.2rem">Parthiban S.</a>
                 </div>
                 <div class="card-content">
                   <p>Joint Secretary-II Year</p>
@@ -159,104 +144,125 @@
               </div>
             </div>
           </div>
-          <div class="center col l4">
+          <div class="center col l4 m12 s12">
             <div class="card small horizontal">
               <div class="card-image">
                 <img src="img\person\harish.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Harish D</a>
+                  <a style="font-size:1.2rem">Harish D</a>
                 </div>
                 <div class="card-content">
-                  <p>Executive III</p>
+                  <p>Executive III-Year</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="center col l4">
-            <div class="card small horizontal">
-              <div class="card-image">
-                <img src="img\person\varshini.jpg" class="responsive-image">
-              </div>
-              <div class="card-stacked">
-                <div class="card-action">
-                  <a href="#">Varshini M.E.</a>
-                </div>
-                <div class="card-content">
-                  <p>Executive IV</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="center col l4">
+          <div class="center col l4 m12 s12">
             <div class="card small horizontal">
               <div class="card-image">
                 <img src="img\person\sree.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Sree Karthik N.</a>
+                  <a style="font-size:1.2rem">Sree Karthik N.</a>
                 </div>
                 <div class="card-content">
-                  <p>Executive</p>
+                  <p>Executive III-Year</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="center col l4">
-            <div class="card small horizontal">
-              <div class="card-image">
-                <img src="img\person\mathumithas.jpg" class="responsive-image">
-              </div>
-              <div class="card-stacked">
-                <div class="card-action">
-                  <a href="#">Mathumitha S.</a>
-                </div>
-                <div class="card-content">
-                  <p>Executive II</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="center col l4">
-            <div class="card small horizontal">
-              <div class="card-image">
-                <img src="img\person\sarav.jpg" class="responsive-image">
-              </div>
-              <div class="card-stacked">
-                <div class="card-action">
-                  <a href="#">Sarav Krishna E</a>
-                </div>
-                <div class="card-content">
-                  <p>Operation Team IV</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="center col l4">
+
+          <div class="center col l4 m12 s12">
             <div class="card small horizontal">
               <div class="card-image">
                 <img src="img\person\roshni.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Roshni Chandrasekar AR</a>
+                  <a style="font-size:1.2rem">Roshni Chandrasekar A.R.</a>
                 </div>
                 <div class="card-content">
-                  <p>Operation Team</p>
+                  <p>Operation Team III-Year</p>
                 </div>
               </div>
             </div>
           </div>
+
           <div class="center col l4">
-            <div class="card small horizontal">
+            <div class="card  horizontal">
+              <div class="card-image">
+                <img src="img\person\madhumithag.jpg" class="responsive-image">
+              </div>
+              <div class="card-stacked">
+                <div class="card-action">
+                  <a style="font-size:1.2rem">Madhumitha G</a>
+                </div>
+                <div class="card-content">
+                  <p>Joint Secretary III-Year</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="center col l4 m12 s12">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img\person\varshini.jpg" class="responsive-image">
+              </div>
+              <div class="card-stacked">
+                <div class="card-action">
+                  <a style="font-size:1.2rem">Varshini M.E.</a>
+                </div>
+                <div class="card-content">
+                  <p>Executive IV-Year</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="center col l4 m12 s12">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img\person\mathumithas.jpg" class="responsive-image">
+              </div>
+              <div class="card-stacked">
+                <div class="card-action">
+                  <a style="font-size:1.2rem">Mathumitha S.</a>
+                </div>
+                <div class="card-content">
+                  <p>Executive II-Year</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="center col l4 m12 s12">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img\person\sarav.jpg" class="responsive-image">
+              </div>
+              <div class="card-stacked">
+                <div class="card-action">
+                  <a style="font-size:1.2rem">Sarav Krishna E</a>
+                </div>
+                <div class="card-content">
+                  <p>Operation Team IV-Year</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="center col l4 m12 s12">
+            <div class="card horizontal">
               <div class="card-image">
                 <img src="img\person\kirubha.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Kirubha R</a>
+                  <a style="font-size:1.2rem">Kirubha R</a>
                 </div>
                 <div class="card-content">
                   <p>Operation Team</p>
@@ -264,17 +270,18 @@
               </div>
             </div>
           </div>
-          <div class="center col l4">
-            <div class="card small horizontal">
+
+          <div class="center col l4 m12 s12">
+            <div class="card horizontal">
               <div class="card-image">
                 <img src="img\person\roohit.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a href="#">Roohit</a>
+                  <a style="font-size:1.2rem">Roohit</a>
                 </div>
                 <div class="card-content">
-                  <p>Operation Team II</p>
+                  <p>Operation Team II-Year</p>
                 </div>
               </div>
             </div>

@@ -84,7 +84,7 @@ a{
       <div class="container">
         <div class="">
           <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> BUG BOSS </div>
-          <span class="red-text text-accent-1"> DESCRIPTION</span>
+          <span class="red-text text-accent-1 bold"> DESCRIPTION</span>
           <p> Become the Boss of bugs. </p>
           <span class="red-text text-accent-1"> DETAILS</span>
           <p> Thupucikku Thupucikku Bug Boss! </p>
@@ -101,7 +101,7 @@ a{
                 <li class="indicator" style="right: 206px; left: 0px;"></li></ul>
               </div>
               <div class="card-content">
-                <div id="test1" style="font-size:0.8em" class="active">
+                <div id="test1" class="active flow-text">
                     <ul>
                       <li> <span class="red-text text-accent-1"> > </span>When Bug Gives You Banana </li>
                       <li> <span class="red-text text-accent-1"> > </span>Refucter it </li>
