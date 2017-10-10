@@ -44,7 +44,7 @@
   </style>
 </head>
 
-<body style="font-family:Lato;font-size:1.4rem">
+<body style="font-size:1.4rem">
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
