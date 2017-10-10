@@ -38,7 +38,6 @@
         <a href="#" class="center brand-logo">INVADAURZ</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse waves-effect"><i class="material-icons">menu</i></a>
         <ul class=" hide-on-med-and-down">
-          <li class="left"><a class="waves-effect modal-trigger" href="#loginModal">LOGIN</a></li>
           <li class="left"><a class="waves-effect" href="register.php">REGISTER</a></li>
           <li class="right active"><a class="waves-effect" href="about.php">ABOUT US</a></li>
           <li class="right"><a class="waves-effect" href="contact.php">CONTACT US</a></li>
@@ -55,43 +54,10 @@
     <li><a class="waves-effect" href="schedule.php">SCHEDULE</a></li>
     <li><a class="waves-effect" href="contact.php">CONTACT US</a></li>
     <li active><a class="waves-effect" href="about.php">ABOUT US</a></li>
-    <li><a class="waves-effect modal-trigger" href="#loginModal">LOG IN</a></li>
     <li><a class="waves-effect" href="register.php">REGISTER</a></li>
   </ul>
 
   <main>
-    <div class="container">
-      <div class="row">
-        <div id="loginModal" class="modal">
-          <form class="col l12 m12 s12" action="">
-            <div class="modal-content">
-              <div class="row center">
-                Login
-              </div>
-              <div class="row">
-                <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-                  <i class="prefix material-icons">account_circle</i>
-                  <input id="user_name" type="text" class="validate" />
-                  <label for="user_name">Username</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-                  <i class="prefix material-icons">lock</i>
-                  <input id="password" type="password" class="validate"/>
-                  <label for="password">Password</label>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="center">
-                <button type="submit" class="btn waves-effect waves-light green center">Login</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="parallax-container">
       <div class="parallax">
         <img class="" src="img\about.jpg"/>
@@ -313,23 +279,23 @@
               </div>
             </div>
           </div>
-              </div>
-            </div>
-          </div>
         </div>
-
       </div>
     </div>
+  </div>
 
-  </main>
+</div>
+</div>
+
+</main>
 
 
 
-  <footer class="page-footer ">
-    <div class="container">
-      INVADAURZ 2k17
-      <a class="grey-text text-lighten-4 right" href="#!">The Science of Today is the Technology of Tomorrow!</a>
-    </div>
-  </footer>
+<footer class="page-footer ">
+  <div class="container">
+    INVADAURZ 2k17
+    <a class="grey-text text-lighten-4 right" href="#!">The Science of Today is the Technology of Tomorrow!</a>
+  </div>
+</footer>
 
-  </html>
+</html>
