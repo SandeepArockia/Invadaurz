@@ -72,14 +72,13 @@ else{
           $host = "ssl://smtp.gmail.com";
     			$port = "465";
 
-          $body = "<h3>Student Detail<h3>\n\n";
-          $body .= "Name:'.$fname.' '.$fname.'\n";
-          $body .= "Roll Number:'.$rollno.'\n";
-          $body .= "Class:'.$year.' '.$degree.'\n";
-          $body .= "Phone:'.$phone.'\n";
-          $body .= "Mail:'.$mail'";
-          $body .= '<img style="align-items:center" src=".$qr.">';
-
+          $body = "Student Detail\n";
+          $body .= "\nName:".$fname.' '.$lname;
+          $body .= "\nRoll Number:".$rollno;
+          $body .= "\nClass:".$year.' '.$degree;
+          $body .= "\nPhone:".$phone;
+          $body .= "\nMail: ".$mail;
+          $body .= "\nQR code:"."http://localhost/invadaurz/".$qr;
 
           $uname = "invadaurz2k17@gmail.com";//Kriya Gmail ID goes here
     			$password = "sandeeppuma";//Kriya Gmail password
@@ -94,8 +93,7 @@ else{
 
           $subject = "Conformation of Registration";
           $body = "
-          You\'re sucessfully registered for Invadaurz 2k17.You\'re sent a QR Code along with this mail. Use this QR Code to register for the events.
-          <p style='color:blue'> Don\'t miss it!</p>";
+          You\'re sucessfully registered for Invadaurz 2k17.You\'re sent a QR Code along with this mail. Use this QR Code to register for the events.";
 
           $to=$mailfinal;
     			$headers = array ('From' => $from,
@@ -109,8 +107,8 @@ else{
     				//die("your account has been created");
     			}
 
-          echo 'qr';
           echo '<script>swal("Success!","You\'re successfully registered. Please check out your mail for further details...","success");</script>';
+
           /*}
           else{
             echo '<script>swal("Error!","An unidentified problem occurred. Please try again. Sorry for the inconvenience.","error");</script>';
@@ -284,13 +282,13 @@ else{
                 </div>
                 <div id="branch" class="input-field col l6 m6 s12">
                   <select name="branch" required>
-                    <option value="1" selected>Automobile Engineering</option>
+                    <option value="1">Automobile Engineering</option>
                     <option value="2"> Bio Technology</option>
                     <option value="3"> Civil Engineering</option>
                     <option value="4"> Computer Science and Engineering</option>
                     <option value="5"> Electrical and Electronics Engineering </option>
                     <option value="6"> Electronics &amp; Communication Engineering</option>
-                    <option value="7">Information Technology</option>
+                    <option value="7" selected>Information Technology</option>
                     <option value="8"> Mechanical Engineering</option>
                     <option value="9"> Metallurgical Engineering</option>
                     <option value="10"> Production Engineering</option>
@@ -354,10 +352,6 @@ else{
             <button type="submit" name="btnSubmit" class="btn waves-effect waves-light green center">Register</button>
           </div>
         </div>
-        <?php
-              if(isset($_POST['btnSubmit']))
-                  echo '<a href="http://localhost/invadaurz/'.$qr.'" download> Click here to download the QR Code</a>';
-         ?>
       </div>
     </form>
   </main>

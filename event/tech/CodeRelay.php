@@ -113,6 +113,11 @@ The question will be provided to each member only at the start of their own time
                   </p>
                 </div>
               </div>
+              <div class="card-action">
+                <div style="font-size:0.8em">
+                  <span class="red-text text-accent-1"> Team: 4 members </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
