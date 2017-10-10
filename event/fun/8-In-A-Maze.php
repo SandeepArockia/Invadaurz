@@ -58,15 +58,15 @@
           <li class="right"><a class="waves-effect" href="../../about.php">ABOUT US</a></li>
           <li class="right"><a class="waves-effect" href="../../contact.php">CONTACT US</a></li>
           <li class="right"><a class="waves-effect" href="../../schedule.php">SCHEDULE</a></li>
-          <li class="right"><a class="waves-effect" href="../../events.php">EVENTS</a></li>
-          <li class="right active"><a class="waves-effect" href="../../home.php">HOME</a></li>
+          <li class="right active"><a class="waves-effect" href="../../events.php">EVENTS</a></li>
+          <li class="right"><a class="waves-effect" href="../../home.php">HOME</a></li>
         </ul>
       </div>
     </nav>
   </div>
   <ul class="side-nav" id="mobile-demo">
-    <li class="active"><a class="waves-effect" href="../../home.php"><i class="material-icons">home</i></a></li>
-    <li><a class="waves-effect" href="../../events.php">EVENTS</a></li>
+    <li]><a class="waves-effect" href="../../home.php"><i class="material-icons">home</i></a></li>
+    <li class="active"><a class="waves-effect" href="../../events.php">EVENTS</a></li>
     <li><a class="waves-effect" href="../../schedule.php">SCHEDULE</a></li>
     <li><a class="waves-effect" href="../../contact.php">CONTACT US</a></li>
     <li><a class="waves-effect" href="../../about.php">ABOUT US</a></li>
@@ -75,7 +75,7 @@
 
   <main>
     <div class="parallax-container">
-      <div class="parallax"> <img src="/../../img/banner/8.jpg"/> </div>
+      <div class="parallax"> <img src="../../img/banner/8inamaze.png"/> </div>
     </div>
     <p> &nbsp; </p>
     <div class="row <!--wow rollIn--> flow-text">

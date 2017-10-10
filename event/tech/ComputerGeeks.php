@@ -59,15 +59,15 @@ a{
           <li class="right"><a class="waves-effect" href="../../about.php">ABOUT US</a></li>
           <li class="right"><a class="waves-effect" href="../../contact.php">CONTACT US</a></li>
           <li class="right"><a class="waves-effect" href="../../schedule.php">SCHEDULE</a></li>
-          <li class="right"><a class="waves-effect" href="../../events.php">EVENTS</a></li>
-          <li class="right active"><a class="waves-effect" href="../../home.php">HOME</a></li>
+          <li class="right active"><a class="waves-effect" href="../../events.php">EVENTS</a></li>
+          <li class="right"><a class="waves-effect" href="../../home.php">HOME</a></li>
         </ul>
       </div>
     </nav>
   </div>
   <ul class="side-nav" id="mobile-demo">
-    <li class="active"><a class="waves-effect" href="../../home.php"><i class="material-icons">home</i></a></li>
-    <li><a class="waves-effect" href="../../events.php">EVENTS</a></li>
+    <li><a class="waves-effect" href="../../home.php"><i class="material-icons">home</i></a></li>
+    <li class="active"><a class="waves-effect" href="../../events.php">EVENTS</a></li>
     <li><a class="waves-effect" href="../../schedule.php">SCHEDULE</a></li>
     <li><a class="waves-effect" href="../../contact.php">CONTACT US</a></li>
     <li><a class="waves-effect" href="../../about.php">ABOUT US</a></li>
@@ -76,7 +76,7 @@ a{
 
   <main>
     <div class="parallax-container">
-      <div class="parallax"> <img src="/../../img/banner/computergeeks.jpg"/> </div>
+      <div class="parallax"> <img src="../../img/banner/computergeeks.png"/> </div>
     </div>
     <p> &nbsp; </p>
     <div class="row <!--wow rollIn--> flow-text">
@@ -118,8 +118,8 @@ a{
 
 
           <span class="blue-text text-accent-2"> CONTACT</span>
-          <p>Mahesh Kumar&emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span> </p>
-          <p> Raghavendra&emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span></p>
+          <p>Mahesh Kumar&emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:75982 74943">75982 74943</a>  </span> </p>
+          <p> Raghavendra&emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:90433 43361">90433 43361</a>  </span></p>
           </div>
       </div>
     </div>

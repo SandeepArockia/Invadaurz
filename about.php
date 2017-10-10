@@ -194,9 +194,6 @@
 
           <div class="center col l4">
             <div class="card  horizontal">
-              <div class="card-image">
-                <img src="img/person/madhumithag.jpg" class="responsive-image">
-              </div>
               <div class="card-stacked">
                 <div class="card-action">
                   <a style="font-size:1rem">Madhumitha G</a>
@@ -209,9 +206,6 @@
           </div>
           <div class="center col l4 m12 s12">
             <div class="card horizontal">
-              <div class="card-image">
-                <img src="img/person/varshini.jpg" class="responsive-image">
-              </div>
               <div class="card-stacked">
                 <div class="card-action">
                   <a style="font-size:1rem">Varshini M.E.</a>
@@ -225,9 +219,6 @@
 
           <div class="center col l4 m12 s12">
             <div class="card horizontal">
-              <div class="card-image">
-                <img src="img/person/mathumithas.jpg" class="responsive-image">
-              </div>
               <div class="card-stacked">
                 <div class="card-action">
                   <a style="font-size:1rem">Mathumitha S.</a>
@@ -240,9 +231,6 @@
           </div>
           <div class="center col l4 m12 s12">
             <div class="card horizontal">
-              <div class="card-image">
-                <img src="img/person/sarav.jpg" class="responsive-image">
-              </div>
               <div class="card-stacked">
                 <div class="card-action">
                   <a style="font-size:1rem">Sarav Krishna E</a>
@@ -253,14 +241,8 @@
               </div>
             </div>
           </div>
-
-
-
           <div class="center col l4 m12 s12">
             <div class="card horizontal">
-              <div class="card-image">
-                <img src="img/person/kirubha.jpg" class="responsive-image">
-              </div>
               <div class="card-stacked">
                 <div class="card-action">
                   <a style="font-size:1rem">Kirubha R</a>
@@ -271,12 +253,8 @@
               </div>
             </div>
           </div>
-
           <div class="center col l4 m12 s12">
             <div class="card horizontal">
-              <div class="card-image">
-                <img src="img/person/roohit.jpg" class="responsive-image">
-              </div>
               <div class="card-stacked">
                 <div class="card-action">
                   <a style="font-size:1rem">Roohit</a>
