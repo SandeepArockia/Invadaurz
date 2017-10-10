@@ -233,7 +233,7 @@
                   <a href="#">Sree Karthik N.</a>
                 </div>
                 <div class="card-content">
-                  <p>Executive III</p>
+                  <p>I am modest, but hard working and I consistently sets firm goals for myself.  Then, once I've defined the benchmarks, I take the necessary steps to achieve those milestones</p>
                 </div>
               </div>
             </div>

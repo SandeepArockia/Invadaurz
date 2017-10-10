@@ -33,6 +33,7 @@ else{
     $phone = $_POST['phone'];
     $mail = $_POST['mail'];
     $password = $_POST['pwd'];
+    $mailfinal = $mail;
     if($_POST['pwd']!=$_POST['cpwd']){
       echo '<script>swal("Warning!","Your passwords don\'t match","warning");</script>';
     }
@@ -62,45 +63,54 @@ else{
           //echo "<img src=\"http://chart.googleapis.com/chart?chs={$width}x{$height}&cht=qr&chl=$url\">";
           $content = file_get_contents("http://chart.googleapis.com/chart?chs={$width}x{$height}&cht=qr&chl=$url");
           file_put_contents("img/qr/$rollno.png",$content);
+          $qr = "img/qr/$rollno.png";
           //Mail params
-          /*$email = new PHPMailer();
-          $email->isSMTP();
-          $email->SMTPDebug=2;
-          $email->Host = 'smtp.gmail.com';
-          $email->Port = 587;
-          $email->SMTPSecure = 'tls';
-          $email->SMTPAuth = true;
-          $email->Username = "pr.gksp@gmail.com";
-          $email->Password = "3110902098";
-          $email->setFrom("pr.gksp@gmail.com","Information Technology Association");
-          $email->Subject = "Invadaurz 2k17 Registration";
-          $email->Body = "hi";/* '<html>
-          <head>
-          <link rel="icon" href="img/ITALogo.jpeg">
-          <meta charset="utf-8">
-          <link type="text/css" rel="stylesheet" href="css\materialize.min.css"  media="screen,projection"/>
-          <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-          <script src="js\materialize.min.js"></script>"
-          </head>
-          <body>
-            <div class="row">
-              <div class="col l12 m12 s12">
-                <h1 class="green"> Registration Successful! </h1>
-                <p class="left"> Hey '.$name.'!</p>
-                <p style="text-align: justify"> You\'re sucessfully registered for Invadaurz 2k17. You\'re sent a QR Code along with this mail. While participating in the event, use this QR Code to register for the events.</p>
-                <p class="center" style="color: #005985"> Don\'t miss it!</p>
-              </div>
-            </div>
-          </body>
-          </html>';
-          $email->AddAddress("pooventhiran_g@icloud.com");
-          $path_of_qr = "/img/qr/";
-          $email->AddAttachment($path_of_qr, $rollno.".png");
-          $mailStat = $email->Send();
-          $mailStat = true;
-          if($mailStat){*/
-            echo '<script>swal("Success!","You\'re successfully registered. Please check out your mail for further details...","success");</script>';
+          require_once "mail.php";
+          $from = "<invadaurz2k17@gmail.com>";//Kriya Gmail ID goes here
+    			$to = "<invadaurz2k17@gmail.com>";//SU email id goes here
+    			$subject = "Student Details";
+          $host = "ssl://smtp.gmail.com";
+    			$port = "465";
+
+          $body = "<h3>Student Detail<h3>\n\n";
+          $body .= "Name:'.$fname.' '.$fname.'\n";
+          $body .= "Roll Number:'.$rollno.'\n";
+          $body .= "Class:'.$year.' '.$degree.'\n";
+          $body .= "Phone:'.$phone.'\n";
+          $body .= "Mail:'.$mail'";
+          $body .= '<img style="align-items:center" src=".$qr.">';
+
+
+          $uname = "invadaurz2k17@gmail.com";//Kriya Gmail ID goes here
+    			$password = "sandeeppuma";//Kriya Gmail password
+    			$headers = array ('From' => $from,
+    			'To' => $to,
+    			'Subject' => $subject);
+    			$smtp = Mail::factory('smtp',array ('host' => $host,'port' => $port,'auth' => true,'username' => $uname, 'password' => $password));
+            if (PEAR::isError($smtp)) {
+              echo("<p>" . $smtp->getMessage() . "</p>");
+            }
+    			$mail = $smtp->send($to, $headers, $body);
+
+          $subject = "Conformation of Registration";
+          $body = "
+          You\'re sucessfully registered for Invadaurz 2k17.You\'re sent a QR Code along with this mail. Use this QR Code to register for the events.
+          <p style='color:blue'> Don\'t miss it!</p>";
+
+          $to=$mailfinal;
+    			$headers = array ('From' => $from,
+    			'To' => $to,
+    			'Subject' => $subject);
+    			$smtp = Mail::factory('smtp',array ('host' => $host,'port' => $port,'auth' => true,'username' => $uname,'password' => $password));
+    			$mail = $smtp->send($to, $headers, $body);
+    			if (PEAR::isError($mail)) {
+    				echo("<p>" . $mail->getMessage() . "</p>");
+    			} else {
+    				//die("your account has been created");
+    			}
+
+          echo 'qr';
+          echo '<script>swal("Success!","You\'re successfully registered. Please check out your mail for further details...","success");</script>';
           /*}
           else{
             echo '<script>swal("Error!","An unidentified problem occurred. Please try again. Sorry for the inconvenience.","error");</script>';
@@ -344,6 +354,10 @@ else{
             <button type="submit" name="btnSubmit" class="btn waves-effect waves-light green center">Register</button>
           </div>
         </div>
+        <?php
+              if(isset($_POST['btnSubmit']))
+                  echo '<a href="http://localhost/invadaurz/'.$qr.'" download> Click here to download the QR Code</a>';
+         ?>
       </div>
     </form>
   </main>
