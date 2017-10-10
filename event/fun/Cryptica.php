@@ -82,13 +82,13 @@ a{
     <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
       <div class="container">
         <div class="">
-          <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> CRIPTICA </div>
-          <span class="red-text text-accent-1"> DESCRIPTION</span>
+          <div class="center blue-text text-accent-2" style="padding: 0 0 10px 0"> CRIPTICA </div>
+          <span class="blue-text text-accent-2"> DESCRIPTION</span>
           <p> Have you ever loved being a mysterious person? Have you ever cracked you heads hard to find a chain of clues finding your way to solve the mystery? Come as a team and dirty your hands in the mysterical case! </p>
-          <span class="red-text text-accent-1"> DETAILS</span>
+          <span class="blue-text text-accent-2"> DETAILS</span>
           <p> Three rounds... </p>
           <p>&nbsp;</p>
-          <span class="red-text text-accent-1"> ROUNDS</span>
+          <span class="blue-text text-accent-2"> ROUNDS</span>
 
           <div class="row">
           <div class="">
@@ -102,25 +102,25 @@ a{
               </div>
               <div id="test1" style="font-size:0.8em" class="active">
                 <ul>
-                  <li> <span class="red-text text-accent-1"> > </span> Answer all the questions</li>
-                  <li> <span class="red-text text-accent-1"> > </span> Jumble the first letters of all the answers to get the Ultimate answer. </li>
+                  <li> <span class="blue-text text-accent-2"> > </span> Answer all the questions</li>
+                  <li> <span class="blue-text text-accent-2"> > </span> Jumble the first letters of all the answers to get the Ultimate answer. </li>
                 </ul>
               </div>
               <div id="test2" style="font-size:0.8em">
                 <ul>
-                  <li> <span class="red-text text-accent-1"> > </span> Find the number in a picture.</li>
-                  <li> <span class="red-text text-accent-1"> > </span> The number is used to open the jar files.</li>
-                  <li> <span class="red-text text-accent-1"> > </span> The next task is story comprehension. </li>
+                  <li> <span class="blue-text text-accent-2"> > </span> Find the number in a picture.</li>
+                  <li> <span class="blue-text text-accent-2"> > </span> The number is used to open the jar files.</li>
+                  <li> <span class="blue-text text-accent-2"> > </span> The next task is story comprehension. </li>
                 </ul>
               </div>
               <div id="test3" style="font-size:0.8em">
                 <ul>
-                  <li> <span class="red-text text-accent-1"> > </span> The task is Number Play(similar to Sudoku)</li>
+                  <li> <span class="blue-text text-accent-2"> > </span> The task is Number Play(similar to Sudoku)</li>
                 </ul>
               </div>
               <div class="card-action">
                 <div style="font-size:0.8em">
-                  <span class="red-text text-accent-1"> Team: 2 members </span>
+                  <span class="blue-text text-accent-2"> Team: 2 members </span>
                 </div>
               </div>
             </div>
@@ -128,7 +128,7 @@ a{
         </div>
 
 
-          <span class="red-text text-accent-1"> CONTACT</span>
+          <span class="blue-text text-accent-2"> CONTACT</span>
           <p> Muthu Gomathi T. S. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:76391 67100">76391 67100</a>  </span> </p>
           <p> Preethi R. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:contact">contact</a>  </span></p>
         </div>
@@ -136,7 +136,7 @@ a{
     </div>
    </div>
   </main>
-  
+
 
 
   <footer class="page-footer">

@@ -82,13 +82,13 @@ a{
     <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
       <div class="container">
         <div class="">
-          <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> Game Arena </div>
-          <span class="red-text text-accent-1"> DESCRIPTION</span>
+          <div class="center blue-text text-accent-2" style="padding: 0 0 10px 0"> Game Arena </div>
+          <span class="blue-text text-accent-2"> DESCRIPTION</span>
           <p>  </p>
-          <span class="red-text text-accent-1"> DETAILS</span>
+          <span class="blue-text text-accent-2"> DETAILS</span>
           <p>  </p>
           <p>&nbsp;</p>
-          <span class="red-text text-accent-1"> ROUNDS</span>
+          <span class="blue-text text-accent-2"> ROUNDS</span>
 
           <div class="row">
           <div class="">
@@ -122,7 +122,7 @@ a{
         </div>
 
 
-          <span class="red-text text-accent-1"> CONTACT</span>
+          <span class="blue-text text-accent-2"> CONTACT</span>
           <p>  &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span> </p>
           <p>  &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span></p>
           <p>  &nbsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span></p>
@@ -131,7 +131,7 @@ a{
     </div>
    </div>
   </main>
-  
+
   <footer class="page-footer">
     <div class="footer">
       <div class="container">

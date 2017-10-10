@@ -82,13 +82,13 @@ a{
     <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
       <div class="container">
         <div class="">
-          <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> FUN BUZZ </div>
-          <span class="red-text text-accent-1"> DESCRIPTION</span>
+          <div class="center blue-text text-accent-2" style="padding: 0 0 10px 0"> FUN BUZZ </div>
+          <span class="blue-text text-accent-2"> DESCRIPTION</span>
           <p> Fun filled events </p>
-          <span class="red-text text-accent-1"> DETAILS</span>
+          <span class="blue-text text-accent-2"> DETAILS</span>
           <p> Three rounds. It involves blowing ballon, having sugar and salt water, solving rubix cube, eye conduct, etc </p>
           <p>&nbsp;</p>
-          <span class="red-text text-accent-1"> ROUNDS</span>
+          <span class="blue-text text-accent-2"> ROUNDS</span>
 
           <div class="row">
           <div class="">
@@ -102,28 +102,28 @@ a{
               </div>
               <div id="test1" style="font-size:0.78em" class="active">
                 <ul>
-                  <li> <span class="red-text text-accent-1"> > </span> Balloon blowing (maximum number of balloons can be blown)</li>
-                  <li> <span class="red-text text-accent-1"> > </span> Drinking maximum cup of salt and sugar mixed water. </li>
-                  <li> <span class="red-text text-accent-1"> > </span> Smiley challenge (draw maximum known smileys correctly) </li>
-                  <li> <span class="red-text text-accent-1"> > </span> The games must be done in a given sequence and within the given time by the team. </li>
+                  <li> <span class="blue-text text-accent-2"> > </span> Balloon blowing (maximum number of balloons can be blown)</li>
+                  <li> <span class="blue-text text-accent-2"> > </span> Drinking maximum cup of salt and sugar mixed water. </li>
+                  <li> <span class="blue-text text-accent-2"> > </span> Smiley challenge (draw maximum known smileys correctly) </li>
+                  <li> <span class="blue-text text-accent-2"> > </span> The games must be done in a given sequence and within the given time by the team. </li>
                 </ul>
               </div>
               <div id="test2" style="font-size:0.78em">
                 <ul>
-                  <li> <span class="red-text text-accent-1"> > </span> SMS typing (A message will be given to type at maximum speed, less errors and including smileys)</li>
-                  <li> <span class="red-text text-accent-1"> > </span> Photomania (3 photos of the fun and frolic around must be captured and sent along with the typed message to a given number. The best will have higher points. Even selfies are allowed)</li>
-                  <li> <span class="red-text text-accent-1"> > </span> Rubix cube (any one colour is sufficient)</li>
+                  <li> <span class="blue-text text-accent-2"> > </span> SMS typing (A message will be given to type at maximum speed, less errors and including smileys)</li>
+                  <li> <span class="blue-text text-accent-2"> > </span> Photomania (3 photos of the fun and frolic around must be captured and sent along with the typed message to a given number. The best will have higher points. Even selfies are allowed)</li>
+                  <li> <span class="blue-text text-accent-2"> > </span> Rubix cube (any one colour is sufficient)</li>
                 </ul>
               </div>
               <div id="test3" style="font-size:0.78em">
                 <ul>
-                  <li> <span class="red-text text-accent-1"> > </span> Eye contact (The team members should be in eye contact for longest time possible. Laughing and giggling is strictly prohibited).</li>
-                  <li> <span class="red-text text-accent-1"> > </span> Android game (Maximum levels of the given game should be reached) </li>
+                  <li> <span class="blue-text text-accent-2"> > </span> Eye contact (The team members should be in eye contact for longest time possible. Laughing and giggling is strictly prohibited).</li>
+                  <li> <span class="blue-text text-accent-2"> > </span> Android game (Maximum levels of the given game should be reached) </li>
                 </ul>
               </div>
               <div class="card-action">
                 <div style="font-size:0.8em">
-                  <span class="red-text text-accent-1"> Team: 2 members </span>
+                  <span class="blue-text text-accent-2"> Team: 2 members </span>
                 </div>
               </div>
             </div>
@@ -131,7 +131,7 @@ a{
         </div>
 
 
-          <span class="red-text text-accent-1"> CONTACT</span>
+          <span class="blue-text text-accent-2"> CONTACT</span>
           <p> Kaviya M. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:contact">contact</a>  </span> </p>
           <p> Tharankini N. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:96293 28628">96293 28628</a>  </span></p>
         </div>
@@ -139,7 +139,7 @@ a{
     </div>
    </div>
   </main>
-  
+
 
   <footer class="page-footer">
     <div class="footer">

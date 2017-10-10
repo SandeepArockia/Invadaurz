@@ -81,13 +81,13 @@ a{
     <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
       <div class="container">
         <div class="">
-          <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> WHEEL OF FORTUNE </div>
-          <span class="red-text text-accent-1"> DESCRIPTION</span>
+          <div class="center blue-text text-accent-2" style="padding: 0 0 10px 0"> WHEEL OF FORTUNE </div>
+          <span class="blue-text text-accent-2"> DESCRIPTION</span>
           <p> Luck knows no reason nor what’s right!!  To all the lucky charms out there, count on your luck with your fingers crossed </p>
-          <span class="red-text text-accent-1"> DETAILS</span>
+          <span class="blue-text text-accent-2"> DETAILS</span>
           <p> Three rounds.  Fun filled tasks  for the prelims. Think you know your celebrities too well, portray it in the second round. Spin the wheel isn't just for casinos ! </p>
           <p>&nbsp;</p>
-          <span class="red-text text-accent-1"> ROUNDS</span>
+          <span class="blue-text text-accent-2"> ROUNDS</span>
 
           <div class="row">
           <div class="">
@@ -102,26 +102,26 @@ a{
               <div class="card-content ">
                 <div id="test1" style="font-size:0.8em" class="active">
                     <ul>
-                      <li> <span class="red-text text-accent-1"> > </span> Tasks! is an outrageously fun filled exciting multi-activity game for you and your friends.</li>
-                      <li> <span class="red-text text-accent-1"> > </span> This round has 5 tasks. Have an eye on the clock while enjoying with your friends. </li>
-                      <li> <span class="red-text text-accent-1"> > </span> The teams with the best scores is considered to have completed their emigration successfully. </li>
+                      <li> <span class="blue-text text-accent-2"> > </span> Tasks! is an outrageously fun filled exciting multi-activity game for you and your friends.</li>
+                      <li> <span class="blue-text text-accent-2"> > </span> This round has 5 tasks. Have an eye on the clock while enjoying with your friends. </li>
+                      <li> <span class="blue-text text-accent-2"> > </span> The teams with the best scores is considered to have completed their emigration successfully. </li>
                     </ul>
                 </div>
                 <div id="test2" class="" style="display: none;font-size:0.8em">
                   <ul>
-                    <li> <span class="red-text text-accent-1"> > </span> Do you think you know celebrities that well? </li>
-                    <li> <span class="red-text text-accent-1"> > </span> There is a mystery person in your mate’s card. Try your luck with it  </li>
+                    <li> <span class="blue-text text-accent-2"> > </span> Do you think you know celebrities that well? </li>
+                    <li> <span class="blue-text text-accent-2"> > </span> There is a mystery person in your mate’s card. Try your luck with it  </li>
                 </div>
                 <div id="test3" style="display: none;font-size:0.8em" class="">
                 <ul>
-                  <li> <span class="red-text text-accent-1"> > </span> Spin the wheel isn’t only for casinos! </li>
-                	<li> <span class="red-text text-accent-1"> > </span> Feeling very lucky today? Spin the wheel  and hope the ticker lands on the right section.</li>
+                  <li> <span class="blue-text text-accent-2"> > </span> Spin the wheel isn’t only for casinos! </li>
+                	<li> <span class="blue-text text-accent-2"> > </span> Feeling very lucky today? Spin the wheel  and hope the ticker lands on the right section.</li>
                 </ul>
               </div>
               </div>
               <div class="card-action">
                 <div style="font-size:0.8em">
-                  <span class="red-text text-accent-1"> Team: 2 members </span>
+                  <span class="blue-text text-accent-2"> Team: 2 members </span>
                 </div>
               </div>
             </div>
@@ -129,7 +129,7 @@ a{
         </div>
 
 
-          <span class="red-text text-accent-1"> CONTACT</span>
+          <span class="blue-text text-accent-2"> CONTACT</span>
           <p> Aneesha &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:78680 92485 ">78680 92485</a>  </span> </p>
           <p> Vaishnavi&emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:94884 56930">948845 6930 </a>  </span></p>
         </div>

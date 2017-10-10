@@ -81,13 +81,13 @@ a{
     <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
       <div class="container">
         <div class="">
-          <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> RUN SOME WHERE </div>
-          <span class="red-text text-accent-1"> DESCRIPTION</span>
+          <div class="center blue-text text-accent-2" style="padding: 0 0 10px 0"> RUN SOME WHERE </div>
+          <span class="blue-text text-accent-2"> DESCRIPTION</span>
           <p> Code is your spell, cast it to reveal the marauders map. Build big to win big. </p>
-          <span class="red-text text-accent-1"> DETAILS</span>
+          <span class="blue-text text-accent-2"> DETAILS</span>
           <p> The event is composed of 2 rounds. Crack the questions while you run in search of the treasure(straws). Collect as many straws as possible and build the longest tower and help your team to get to the final round. Crack the code and the puzzle together in a smart way. Work as a team and win as a team. </p>
           <p>&nbsp;</p>
-          <span class="red-text text-accent-1"> ROUNDS</span>
+          <span class="blue-text text-accent-2"> ROUNDS</span>
 
           <div class="row">
           <div class="">
@@ -114,7 +114,7 @@ a{
           </div>
         </div>
 
-          <span class="red-text text-accent-1"> CONTACT</span>
+          <span class="blue-text text-accent-2"> CONTACT</span>
           <p> Visal &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:99430 09590">99430 09590</a>  </span> </p>
           <p> Manigandan &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:99523 27385">99523 27385</a>  </span></p>
           <p> Maria &nbsp;-&nbsp;<span> <i class="material-icons"> phone  </i> <a href="tel:73730 31212">73730 31212</a>  </span></p>
@@ -127,7 +127,7 @@ a{
     </div>
    </div>
   </main>
-  
+
 
   <footer class="page-footer">
     <div class="footer">

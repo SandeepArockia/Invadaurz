@@ -81,13 +81,13 @@ a{
     <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
       <div class="container">
         <div class="">
-          <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> BUBBLE BUGS </div>
-          <span class="red-text text-accent-1"> DESCRIPTION</span>
+          <div class="center blue-text text-accent-2" style="padding: 0 0 10px 0"> BUBBLE BUGS </div>
+          <span class="blue-text text-accent-2"> DESCRIPTION</span>
           <p> Tired of writing codes? Lets debug then... </p>
-          <span class="red-text text-accent-1"> DETAILS</span>
+          <span class="blue-text text-accent-2"> DETAILS</span>
           <p> Debugging of C and C++ snippets for 2 rounds with 3 levels each </p>
           <p>&nbsp;</p>
-          <span class="red-text text-accent-1"> ROUNDS</span>
+          <span class="blue-text text-accent-2"> ROUNDS</span>
           <div class="row">
           <div class="">
             <div class="card ">
@@ -100,24 +100,24 @@ a{
               <div class="card-content ">
                 <div id="test1" style="font-size:0.8em" class="active">
                     <ul>
-                      <li> <span class="red-text text-accent-1"> > </span> This round has 3 levels. </li>
-                      <li> <span class="red-text text-accent-1"> > </span> Five snippets in each level. Difficulty depends upon the level. </li>
-                      <li> <span class="red-text text-accent-1"> > </span> If a player marks a line with a bug he will be awarded mark. If he chooses the wrong line then his score will be reduced. </li>
-                      <li> <span class="red-text text-accent-1"> > </span> This round mainly has syntactic and type errors. The time limit for each snippet is fixed. </li>
+                      <li> <span class="blue-text text-accent-2"> > </span> This round has 3 levels. </li>
+                      <li> <span class="blue-text text-accent-2"> > </span> Five snippets in each level. Difficulty depends upon the level. </li>
+                      <li> <span class="blue-text text-accent-2"> > </span> If a player marks a line with a bug he will be awarded mark. If he chooses the wrong line then his score will be reduced. </li>
+                      <li> <span class="blue-text text-accent-2"> > </span> This round mainly has syntactic and type errors. The time limit for each snippet is fixed. </li>
                     </ul>
                 </div>
                 <div id="test2" class="" style="display: none;font-size:0.8em">
                   <ul>
-                    <li> <span class="red-text text-accent-1"> > </span> This round also has 3 levels. </li>
-                    <li> <span class="red-text text-accent-1"> > </span> The rules are same as that of round 1 </li>
-                    <li> <span class="red-text text-accent-1"> > </span> This round includes syntactic, semantic, type, run-time and logical errors </li>
-                    <li> <span class="red-text text-accent-1"> > </span> This round can contain some questions related to exceptions  </li>
+                    <li> <span class="blue-text text-accent-2"> > </span> This round also has 3 levels. </li>
+                    <li> <span class="blue-text text-accent-2"> > </span> The rules are same as that of round 1 </li>
+                    <li> <span class="blue-text text-accent-2"> > </span> This round includes syntactic, semantic, type, run-time and logical errors </li>
+                    <li> <span class="blue-text text-accent-2"> > </span> This round can contain some questions related to exceptions  </li>
                   </ul>
                 </div>
               </div>
               <div class="card-action">
                 <div style="font-size:0.8em">
-                  <span class="red-text text-accent-1"> Team: 1-2 members </span>
+                  <span class="blue-text text-accent-2"> Team: 1-2 members </span>
                 </div>
               </div>
             </div>
@@ -125,7 +125,7 @@ a{
         </div>
 
 
-          <span class="red-text text-accent-1"> CONTACT</span>
+          <span class="blue-text text-accent-2"> CONTACT</span>
           <p> Manthiravalli K. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:97891 16499">97891 16499</a>  </span> </p>
           <p> Amirtha Varshini M. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:73730 55828">73730 55828</a>  </span></p>
           <p> Janani R. &nbsp;-&nbsp;<span> <i class="material-icons"> phone  </i> <a href="tel:89037 01728">89037 01728</a>  </span></p>
@@ -135,7 +135,7 @@ a{
     </div>
    </div>
   </main>
-  
+
 
 
   <footer class="page-footer">

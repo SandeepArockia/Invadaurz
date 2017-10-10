@@ -81,13 +81,13 @@
       <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
         <div class="container">
           <div class="">
-            <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> Razz Whale </div>
-            <span class="red-text text-accent-1"> DESCRIPTION</span>
+            <div class="center blue-text text-accent-2" style="padding: 0 0 10px 0"> Razz Whale </div>
+            <span class="blue-text text-accent-2"> DESCRIPTION</span>
             <p> Event desc goes here </p>
-            <span class="red-text text-accent-1"> DETAILS</span>
+            <span class="blue-text text-accent-2"> DETAILS</span>
             <p> deatils goes here </p>
             <p>&nbsp;</p>
-            <span class="red-text text-accent-1"> ROUNDS</span>
+            <span class="blue-text text-accent-2"> ROUNDS</span>
 
             <div class="row">
               <div class="">
@@ -102,25 +102,25 @@
                     <div class="card-content">
                       <div id="test1" style="font-size:0.8em" class="active">
                         <ul>
-                          <li><span class="red-text text-accent-1"> > </span>Given a list of clues and they have to find the places so that all the blocks in the college will be covered. </li>
-                          <li><span class="red-text text-accent-1"> > </span>After finding each location, they have to take a Selfie with the location landmark and send those pics in the group.</li>
+                          <li><span class="blue-text text-accent-2"> > </span>Given a list of clues and they have to find the places so that all the blocks in the college will be covered. </li>
+                          <li><span class="blue-text text-accent-2"> > </span>After finding each location, they have to take a Selfie with the location landmark and send those pics in the group.</li>
                         </ul>
                       </div>
                       <div id="test2" class="" style="display: none;font-size:0.8em">
                         <ul>
-                          <li> <span class="red-text text-accent-1"> > </span>Given a list of gadgets (related to IT), prepare an attractive display (materials will be provided).</li>
-                          <li> <span class="red-text text-accent-1"> > </span>Use your marketing skills to enhance the sales of the gadget.</li>
+                          <li> <span class="blue-text text-accent-2"> > </span>Given a list of gadgets (related to IT), prepare an attractive display (materials will be provided).</li>
+                          <li> <span class="blue-text text-accent-2"> > </span>Use your marketing skills to enhance the sales of the gadget.</li>
                         </ul>
                       </div>
                       <div id="test3" style="display: none;font-size:0.8em" class="">
                         <ul>
-                          <li> <span class="red-text text-accent-1"> > </span>It involves solving general puzzles, riddles and connections and also listing the things which could be seen in the video shown. </li>
+                          <li> <span class="blue-text text-accent-2"> > </span>It involves solving general puzzles, riddles and connections and also listing the things which could be seen in the video shown. </li>
                         </ul>
                         </div>
                       </div>
                       <div class="card-action">
                         <div style="font-size:0.8em" class="active">
-                          <span class="red-text text-accent-1"> Team: 2 members </span>
+                          <span class="blue-text text-accent-2"> Team: 2 members </span>
                         </div>
                       </div>
                     </div>
@@ -128,7 +128,7 @@
                 </div>
 
 
-                <span class="red-text text-accent-1"> CONTACT</span>
+                <span class="blue-text text-accent-2"> CONTACT</span>
 
                 <p> T Bavithra Laxmi  &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:97900 68112">97900 68112</a>  </span> </p>
                 <p> E Reshma &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:97900 68112">97900 68112</a>  </span> </p>
@@ -141,7 +141,7 @@
           </div>
         </div>
       </main>
-    
+
 
       <footer class="page-footer">
         <div class="footer">

@@ -81,13 +81,13 @@
       <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
         <div class="container">
           <div class="">
-            <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> 8 IN A MAZE </div>
-            <span class="red-text text-accent-1"> DESCRIPTION</span>
+            <div class="center blue-text text-accent-2" style="padding: 0 0 10px 0"> 8 IN A MAZE </div>
+            <span class="blue-text text-accent-2"> DESCRIPTION</span>
             <p> Come and play games where you can travel through data but still you can set your own pace! </p>
-            <span class="red-text text-accent-1"> DETAILS</span>
+            <span class="blue-text text-accent-2"> DETAILS</span>
             <p> Wanna have fun,come In.1 st round allows 2 participants at once.Further rounds is individual paticipation. </p>
             <p>&nbsp;</p>
-            <span class="red-text text-accent-1"> ROUNDS</span>
+            <span class="blue-text text-accent-2"> ROUNDS</span>
 
             <div class="row">
               <div class="">
@@ -102,34 +102,34 @@
                     <div class="card-content">
                       <div id="test1" style="font-size:0.8em" class="active">
                         <ul>
-                          <strong class="red-text text-accent-1">Witty Gets</strong>
-                          <li> <span class="red-text text-accent-1"> > </span> A Sudoku of different era. Brush up your dictionary to crack this game </li>
+                          <strong class="blue-text text-accent-2">Witty Gets</strong>
+                          <li> <span class="blue-text text-accent-2"> > </span> A Sudoku of different era. Brush up your dictionary to crack this game </li>
                         </ul>
                       </div>
                       <div id="test2" class="" style="display: none;font-size:0.8em">
                         <ul>
-                          <strong class="red-text text-accent-1">Bag Your Favorite Brand</strong>
-                          <li> <span class="red-text text-accent-1"> > </span> We are to list a few favorite brands ,usually preferred by most . </li>
-                          <li> <span class="red-text text-accent-1"> > </span> The one who identifies the maximum is forwarded to the next round.A max of 10 teams will be selected. </li>
+                          <strong class="blue-text text-accent-2">Bag Your Favorite Brand</strong>
+                          <li> <span class="blue-text text-accent-2"> > </span> We are to list a few favorite brands ,usually preferred by most . </li>
+                          <li> <span class="blue-text text-accent-2"> > </span> The one who identifies the maximum is forwarded to the next round.A max of 10 teams will be selected. </li>
                         </ul>
                       </div>
                       <div id="test3" class="" style="display: none;font-size:0.8em">
                         <ul>
-                          <strong class="red-text text-accent-1">Swipe To A Bigger Slice</strong>
-                          <li> <span class="red-text text-accent-1"> > </span> The participants have to join a game ( a sort of swiping one ) .The game goes on with a timer.  </li>
-                          <li> <span class="red-text text-accent-1"> > </span> The one who swipes to get the bigger number is selected for further rounds. </li>
+                          <strong class="blue-text text-accent-2">Swipe To A Bigger Slice</strong>
+                          <li> <span class="blue-text text-accent-2"> > </span> The participants have to join a game ( a sort of swiping one ) .The game goes on with a timer.  </li>
+                          <li> <span class="blue-text text-accent-2"> > </span> The one who swipes to get the bigger number is selected for further rounds. </li>
                         </ul>
                       </div>
                     </div>
                     <div class="card-action">
                       <div style="font-size:0.8em">
-                        <span class="red-text text-accent-1"> Team: 2 members </span>
+                        <span class="blue-text text-accent-2"> Team: 2 members </span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <span class="red-text text-accent-1"> CONTACT</span>
+              <span class="blue-text text-accent-2"> CONTACT</span>
               <p> Rajeswari N. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:97519 49969">97519 49969</a>  </span> </p>
               <p> Akshaya M. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:87600 36589">87600 36589</a>  </span></p>
               <p> Srivarshni M. &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:86952 28773">86952 28773</a>  </span></p>

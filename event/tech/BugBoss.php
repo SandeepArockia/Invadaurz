@@ -81,13 +81,13 @@ a{
     <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
       <div class="container">
         <div class="">
-          <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> BUG BOSS </div>
-          <span class="red-text text-accent-1 bold"> DESCRIPTION</span>
+          <div class="center blue-text text-accent-2" style="padding: 0 0 10px 0"> BUG BOSS </div>
+          <span class="blue-text text-accent-2 bold"> DESCRIPTION</span>
           <p> Become the Boss of bugs. </p>
-          <span class="red-text text-accent-1"> DETAILS</span>
+          <span class="blue-text text-accent-2"> DETAILS</span>
           <p> Thupucikku Thupucikku Bug Boss! </p>
           <p>&nbsp;</p>
-          <span class="red-text text-accent-1"> ROUNDS</span>
+          <span class="blue-text text-accent-2"> ROUNDS</span>
 
           <div class="row">
           <div class="">
@@ -101,22 +101,22 @@ a{
               <div class="card-content">
                 <div id="test1" class="active flow-text">
                     <ul>
-                      <li> <span class="red-text text-accent-1"> > </span>When Bug Gives You Banana </li>
-                      <li> <span class="red-text text-accent-1"> > </span>Refucter it </li>
-                      <li> <span class="red-text text-accent-1"> > </span>A Funking Fault Finder </li>
+                      <li> <span class="blue-text text-accent-2"> > </span>When Bug Gives You Banana </li>
+                      <li> <span class="blue-text text-accent-2"> > </span>Refucter it </li>
+                      <li> <span class="blue-text text-accent-2"> > </span>A Funking Fault Finder </li>
                     </ul>
                 </div>
                 <div id="test2" class="" style="display: none;font-size:0.8em">
                   <ul>
-                    <li> <span class="red-text text-accent-1"> > </span>The Failures' Monster Bug </li>
-                    <li> <span class="red-text text-accent-1"> > </span>The Heisenberg </li>
-                    <li> <span class="red-text text-accent-1"> > </span>The Mad Girlfriend Bug </li>
+                    <li> <span class="blue-text text-accent-2"> > </span>The Failures' Monster Bug </li>
+                    <li> <span class="blue-text text-accent-2"> > </span>The Heisenberg </li>
+                    <li> <span class="blue-text text-accent-2"> > </span>The Mad Girlfriend Bug </li>
                 </div>
               </div>
 
               <div class="card-action">
                 <div style="font-size:0.8em">
-                  <span class="red-text text-accent-1"> Team: 2-3 members </span>
+                  <span class="blue-text text-accent-2"> Team: 2-3 members </span>
                 </div>
               </div>
               </div>
@@ -125,7 +125,7 @@ a{
         </div>
 
 
-          <span class="red-text text-accent-1"> CONTACT</span>
+          <span class="blue-text text-accent-2"> CONTACT</span>
           <p> Akilan &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> 90958 84527<a href="tel:90958 84527"></a>  </span> </p>
           <p> Abirami &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> 95970 69541<a href="tel:95970 69541 "></a>  </span></p>
         </div>
