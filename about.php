@@ -5,12 +5,12 @@
   <link rel="icon" href="img/ITALogo.jpeg">
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="css\materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link rel="stylesheet" href="css\animate.css">
+  <link rel="stylesheet" href="css/animate.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="js\materialize.min.js"></script>
+  <script src="js/materialize.min.js"></script>
   <script>
   $(document).ready(function(){
     $(".button-collapse").sideNav();
@@ -60,12 +60,12 @@
   <main>
     <div class="parallax-container">
       <div class="parallax">
-        <img src="img\about.jpg"/>
+        <img src="img/about.jpg"/>
       </div>
     </div>
 
     <div class="center">
-      <img class="responsive-img" src="img\invadaurzLogo.png"/>
+      <img class="responsive-img" src="img/invadaurzLogo.png"/>
 
       <div class="row">
         <div class="container">
@@ -78,7 +78,7 @@
           <div class="center push-l3 col l6">
             <div class="card small horizontal">
               <div class="card-image">
-                <img src="img\person\faculty.jpg" class="responsive-image">
+                <img src="img/person/faculty.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
@@ -102,7 +102,7 @@
           <div class="center col l4 m12 s12">
             <div class="card small horizontal">
               <div class="card-image">
-                <img src="img\person\kevin.jpg" class="responsive-image">
+                <img src="img/person/kevin.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
@@ -117,7 +117,7 @@
           <div class="center col l4 m12 s12">
             <div class="card small horizontal">
               <div class="card-image">
-                <img src="img\person\deepthi.jpg" class="responsive-image">
+                <img src="img/person/deepthi.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
@@ -132,7 +132,7 @@
           <div class="center col l4 m12 s12">
             <div class="card small horizontal">
               <div class="card-image">
-                <img src="img\person\parthiban.jpg" class="responsive-image">
+                <img src="img/person/parthiban.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
@@ -147,7 +147,7 @@
           <div class="center col l4 m12 s12">
             <div class="card small horizontal">
               <div class="card-image">
-                <img src="img\person\harish.jpg" class="responsive-image">
+                <img src="img/person/harish.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
@@ -162,7 +162,7 @@
           <div class="center col l4 m12 s12">
             <div class="card small horizontal">
               <div class="card-image">
-                <img src="img\person\sree.jpg" class="responsive-image">
+                <img src="img/person/sree.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
@@ -178,7 +178,7 @@
           <div class="center col l4 m12 s12">
             <div class="card small horizontal">
               <div class="card-image">
-                <img src="img\person\roshni.jpg" class="responsive-image">
+                <img src="img/person/roshni.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
@@ -194,7 +194,7 @@
           <div class="center col l4">
             <div class="card  horizontal">
               <div class="card-image">
-                <img src="img\person\madhumithag.jpg" class="responsive-image">
+                <img src="img/person/madhumithag.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
@@ -209,7 +209,7 @@
           <div class="center col l4 m12 s12">
             <div class="card horizontal">
               <div class="card-image">
-                <img src="img\person\varshini.jpg" class="responsive-image">
+                <img src="img/person/varshini.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
@@ -225,7 +225,7 @@
           <div class="center col l4 m12 s12">
             <div class="card horizontal">
               <div class="card-image">
-                <img src="img\person\mathumithas.jpg" class="responsive-image">
+                <img src="img/person/mathumithas.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
@@ -240,7 +240,7 @@
           <div class="center col l4 m12 s12">
             <div class="card horizontal">
               <div class="card-image">
-                <img src="img\person\sarav.jpg" class="responsive-image">
+                <img src="img/person/sarav.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
@@ -258,7 +258,7 @@
           <div class="center col l4 m12 s12">
             <div class="card horizontal">
               <div class="card-image">
-                <img src="img\person\kirubha.jpg" class="responsive-image">
+                <img src="img/person/kirubha.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
@@ -274,7 +274,7 @@
           <div class="center col l4 m12 s12">
             <div class="card horizontal">
               <div class="card-image">
-                <img src="img\person\roohit.jpg" class="responsive-image">
+                <img src="img/person/roohit.jpg" class="responsive-image">
               </div>
               <div class="card-stacked">
                 <div class="card-action">
