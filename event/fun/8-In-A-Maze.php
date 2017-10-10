@@ -139,39 +139,6 @@
         </div>
       </div>
     </main>
-    <div class="container">
-      <div class="row">
-        <div id="loginModal" class="modal">
-          <form class="col l12 m12 s12" action="<?php $_SERVER['PHP_SELF'] ?>" method="get">
-            <div class="modal-content">
-              <div class="row center">
-                Participant Login
-              </div>
-              <div class="row">
-                <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-                  <i class="prefix material-icons">account_circle</i>
-                  <input id="rollno" name="rollno" type="text" class="validate" required/>
-                  <label for="rollno">Roll No.</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-                  <i class="prefix material-icons">lock</i>
-                  <input id="password" name="pwd" type="password" class="validate" required/>
-                  <label for="password">Password</label>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="center">
-                <button type="submit" name="btnLogin" class="btn waves-effect waves-light green center">Login</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <footer class="page-footer">
       <div class="footer">
         <div class="container">
