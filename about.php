@@ -106,7 +106,7 @@
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a style="font-size:1.2rem">Kevin Anto J</a>
+                  <a style="font-size:1.1rem">Kevin Anto J</a>
                 </div>
                 <div class="card-content">
                   <p>Secretary</p>
@@ -121,7 +121,7 @@
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a style="font-size:1.2rem">Deepthi Sri S.</a>
+                  <a style="font-size:1.1rem">Deepthi Sri S.</a>
                 </div>
                 <div class="card-content">
                   <p>Joint Secretary III-Year</p>
@@ -136,7 +136,7 @@
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a style="font-size:1.2rem">Parthiban S.</a>
+                  <a style="font-size:1.1rem">Parthiban S.</a>
                 </div>
                 <div class="card-content">
                   <p>Joint Secretary-II Year</p>
@@ -151,7 +151,7 @@
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a style="font-size:1.2rem">Harish D</a>
+                  <a style="font-size:1.1rem">Harish D</a>
                 </div>
                 <div class="card-content">
                   <p>Executive III-Year</p>
@@ -166,7 +166,7 @@
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a style="font-size:1.2rem">Sree Karthik N.</a>
+                  <a style="font-size:1.1rem">Sree Karthik N.</a>
                 </div>
                 <div class="card-content">
                   <p>Executive III-Year</p>
@@ -182,7 +182,7 @@
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a style="font-size:1.2rem">Roshni Chandrasekar A.R.</a>
+                  <a style="font-size:1rem">Roshni Chandrasekar A.R.</a>
                 </div>
                 <div class="card-content">
                   <p>Operation Team III-Year</p>
@@ -198,7 +198,7 @@
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a style="font-size:1.2rem">Madhumitha G</a>
+                  <a style="font-size:1.1rem">Madhumitha G</a>
                 </div>
                 <div class="card-content">
                   <p>Joint Secretary III-Year</p>
@@ -213,7 +213,7 @@
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a style="font-size:1.2rem">Varshini M.E.</a>
+                  <a style="font-size:1.1rem">Varshini M.E.</a>
                 </div>
                 <div class="card-content">
                   <p>Executive IV-Year</p>
@@ -229,7 +229,7 @@
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a style="font-size:1.2rem">Mathumitha S.</a>
+                  <a style="font-size:1.1rem">Mathumitha S.</a>
                 </div>
                 <div class="card-content">
                   <p>Executive II-Year</p>
@@ -244,7 +244,7 @@
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a style="font-size:1.2rem">Sarav Krishna E</a>
+                  <a style="font-size:1.1rem">Sarav Krishna E</a>
                 </div>
                 <div class="card-content">
                   <p>Operation Team IV-Year</p>
@@ -262,7 +262,7 @@
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a style="font-size:1.2rem">Kirubha R</a>
+                  <a style="font-size:1.1rem">Kirubha R</a>
                 </div>
                 <div class="card-content">
                   <p>Operation Team</p>
@@ -278,7 +278,7 @@
               </div>
               <div class="card-stacked">
                 <div class="card-action">
-                  <a style="font-size:1.2rem">Roohit</a>
+                  <a style="font-size:1.1rem">Roohit</a>
                 </div>
                 <div class="card-content">
                   <p>Operation Team II-Year</p>
