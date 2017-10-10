@@ -134,7 +134,7 @@
             Members
           </h3>
           <div class="center col l4">
-            <div class="card  horizontal">
+            <div class="card small horizontal">
               <div class="card-image">
                 <img src="img\person\kevin.jpg" class="responsive-image">
               </div>
@@ -149,7 +149,7 @@
             </div>
           </div>
           <div class="center col l4">
-            <div class="card   horizontal">
+            <div class="card small  horizontal">
               <div class="card-image">
                 <img src="img\person\madhumithag.jpg" class="responsive-image">
               </div>
@@ -164,7 +164,7 @@
             </div>
           </div>
           <div class="center col l4">
-            <div class="card  horizontal">
+            <div class="card small horizontal">
               <div class="card-image">
                 <img src="img\person\deepthi.jpg" class="responsive-image">
               </div>
@@ -179,7 +179,7 @@
             </div>
           </div>
           <div class="center col l4">
-            <div class="card  horizontal">
+            <div class="card small horizontal">
               <div class="card-image">
                 <img src="img\person\parthiban.jpg" class="responsive-image">
               </div>
@@ -194,7 +194,7 @@
             </div>
           </div>
           <div class="center col l4">
-            <div class="card  horizontal">
+            <div class="card small horizontal">
               <div class="card-image">
                 <img src="img\person\harish.jpg" class="responsive-image">
               </div>
@@ -209,7 +209,7 @@
             </div>
           </div>
           <div class="center col l4">
-            <div class="card  horizontal">
+            <div class="card small horizontal">
               <div class="card-image">
                 <img src="img\person\varshini.jpg" class="responsive-image">
               </div>
@@ -224,7 +224,7 @@
             </div>
           </div>
           <div class="center col l4">
-            <div class="card  horizontal">
+            <div class="card small horizontal">
               <div class="card-image">
                 <img src="img\person\sree.jpg" class="responsive-image">
               </div>
@@ -233,13 +233,13 @@
                   <a href="#">Sree Karthik N.</a>
                 </div>
                 <div class="card-content">
-                  <p>I am modest, but hard working and I consistently sets firm goals for myself.  Then, once I've defined the benchmarks, I take the necessary steps to achieve those milestones</p>
+                  <p>Executive</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="center col l4">
-            <div class="card  horizontal">
+            <div class="card small horizontal">
               <div class="card-image">
                 <img src="img\person\mathumithas.jpg" class="responsive-image">
               </div>
@@ -254,7 +254,7 @@
             </div>
           </div>
           <div class="center col l4">
-            <div class="card  horizontal">
+            <div class="card small horizontal">
               <div class="card-image">
                 <img src="img\person\sarav.jpg" class="responsive-image">
               </div>
@@ -269,7 +269,7 @@
             </div>
           </div>
           <div class="center col l4">
-            <div class="card  horizontal">
+            <div class="card small horizontal">
               <div class="card-image">
                 <img src="img\person\roshni.jpg" class="responsive-image">
               </div>
@@ -284,7 +284,7 @@
             </div>
           </div>
           <div class="center col l4">
-            <div class="card  horizontal">
+            <div class="card small horizontal">
               <div class="card-image">
                 <img src="img\person\kirubha.jpg" class="responsive-image">
               </div>
@@ -299,7 +299,7 @@
             </div>
           </div>
           <div class="center col l4">
-            <div class="card  horizontal">
+            <div class="card small horizontal">
               <div class="card-image">
                 <img src="img\person\roohit.jpg" class="responsive-image">
               </div>
