@@ -125,6 +125,9 @@
       &emsp;&emsp;
       &emsp;&emsp;
       <img class=""  style="height:100px" src="img/kfcLogo.png">
+      &emsp;&emsp;
+      &emsp;&emsp;
+      <img class=""  style="height:100px" src="img/vakulaaLogo.png">
     </marquee>
   </div>
 </main>
