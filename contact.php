@@ -59,7 +59,7 @@
   <main>
     <div class="container hide-on-med-and-down">
       <div class="row">
-        <h3 class="red-text text-accent-1 center">
+        <h3 class="blue-text text-accent-2 center">
           Get In Touch
           <i class = "material-icons medium">people</i>
         </h3>
@@ -67,31 +67,31 @@
       <div class="row">
         <div class="col l2 m4 s4 center">
           <ul>
-            <li> <i class = "material-icons large red-text text-accent-1">phone</i> </li>
+            <li> <i class = "material-icons large blue-text text-accent-2">phone</i> </li>
           </ul>
         </div>
         <div class="col l4 m8 s8">
           <ul>
-            <li>Kevin &nbsp;-&nbsp; <a href="tel:75984 07070">75984 07070</a></li>
-            <li>Madhu &nbsp;-&nbsp; <a href="tel:82208 66766">82208 66766</a></li>
-            <li>Deepthi &nbsp;-&nbsp; <a href="tel:94420 81821">94420 81821</a></li>
+            <li>Kevin &nbsp;-&nbsp; <a href="tel:75984 07070" class="blue-text text-accent-1">75984 07070</a></li>
+            <li>Madhu &nbsp;-&nbsp; <a href="tel:82208 66766" class="blue-text text-accent-1">82208 66766</a></li>
+            <li>Deepthi &nbsp;-&nbsp; <a href="tel:94420 81821" class="blue-text text-accent-1">94420 81821</a></li>
           </ul>
         </div>
         <div class="col l2 m4 s4 center">
           <ul>
-            <li> <i class = "material-icons large red-text text-accent-1">mail</i> </li>
+            <li> <i class = "material-icons large blue-text text-accent-2">mail</i> </li>
           </ul>
         </div>
         <div class="col l4 m12 s12">
           <br>
-          <a href="mailto:ita2k17@gmail.com" target="_blank">ita2k17@gmail.com</a>
-          <a href="mailto:inavadaurz2k17@gmail.com" target="_blank">inavadaurz2k17@gmail.com</a>
+          <a href="mailto:ita2k17@gmail.com" target="_blank" class="black-text">ita2k17@gmail.com</a>
+          <a href="mailto:inavadaurz2k17@gmail.com" target="_blank" class="black-text">inavadaurz2k17@gmail.com</a>
         </div>
       </div>
     </div>
     <div class="container hide-on-large-only">
       <div class="row">
-        <h3 class="red-text text-accent-1 center">
+        <h3 class="blue-text text-accent-2 center">
           Get In Touch
           <i class = "material-icons medium">people</i>
         </h3>
@@ -99,7 +99,7 @@
       <div class="row">
         <div class="col l2 m4 s4 center">
           <ul>
-            <li> <i class = "material-icons large red-text text-accent-1">phone</i> </li>
+            <li> <i class = "material-icons large blue-text text-accent-2">phone</i> </li>
           </ul>
         </div>
         <div class="col l4 m8 s8">
@@ -113,7 +113,7 @@
       <div class="row">
         <div class="col l2 m4 s4 center">
           <ul>
-            <li> <i class = "material-icons large red-text text-accent-1">mail</i> </li>
+            <li> <i class = "material-icons large blue-text text-accent-2">mail</i> </li>
           </ul>
         </div>
         <div class="col l4 m8 s8">

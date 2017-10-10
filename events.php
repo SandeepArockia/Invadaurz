@@ -68,10 +68,10 @@
     <div class="container">
       <div class="row">
         <a id="technicalText">
-          <h3 class="red-text text-accent-1">
+          <h3 class="blue-text text-accent-2">
             Technical Event
           </h3>
-          <div style="text-indent:10%;">
+          <div style="text-indent:10%;" class="black-text">
             A pursuit and hunt for talents.
             Talent wins games but teamwork and intelligence wins championships.
             Here we are to bring in the champions in you!
@@ -110,10 +110,10 @@
       <p> &nbsp; </p>
       <div class="row">
         <a id="funText">
-          <h3 class="red-text text-accent-1">
+          <h3 class="blue-text text-accent-2">
             Fun Event
           </h3>
-          <div style="text-indent:10%;">
+          <div style="text-indent:10%;"  class="black-text">
             A pursuit and hunt for talents.
             Talent wins games but teamwork and intelligence wins championships.
             Here we are to bring in the champions in you!
@@ -149,7 +149,7 @@
       </div>
     </div>
   </main>
-  
+
   <div class="container">
     <div class="row">
       <div id="registerModal" class="modal">
