@@ -19,11 +19,16 @@
           <head>
             <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
             <link type="text/css" rel="stylesheet" href="css\materialize.min.css"  media="screen,projection"/>
-            <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             <script src="js\materialize.min.js"></script>
             <title> Participant Attendance </title>
+            <style>
+              body{
+                font-family: \'Philosopher\', sans-serif;
+              }
+            </style>
             <script>
               $(document).ready(function() {
                 $("select").material_select();

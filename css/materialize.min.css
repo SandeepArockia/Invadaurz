@@ -9404,3 +9404,28 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/
 }
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    padding:8px;
+    margin:8px;
+}
+
+::-webkit-scrollbar-track {
+    width: 6px;
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 6px;
+    border-radius: 10px;
+    background-color: #1976d2;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
+}
+
+::-webkit-scrollbar-corner {
+    background-color:#000;
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.6);
+
+}

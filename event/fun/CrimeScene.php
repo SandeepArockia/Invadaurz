@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="../../css/materialize.min.css"  media="screen,projection"/>
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
   <link rel="stylesheet" href="../../css/animate.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -39,6 +39,7 @@
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-family: 'Philosopher', sans-serif;
   }
 
   main {
