@@ -1,5 +1,4 @@
 <?php
-include ".\\PHPMailer\\src\\PHPMailer.php";
 error_reporting(0);
 echo '<html><head><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -10,7 +9,7 @@ echo '<html><head><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "";
-$dbname = "test";
+$dbname = "invadaurz";
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 if(!$conn){
   echo '<div class="row">

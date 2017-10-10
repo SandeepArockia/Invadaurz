@@ -1,45 +1,3 @@
-<?php
-//error_reporting(0);
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "";
-$dbname = "test";
-$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
-if(!$conn){
-  echo '<div class="row">
-  <div class="col l12 m12 s12 center">
-  <span class="center red-text">Error Occurred: '.mysqli_error($conn).'</span>'.
-  '</div>
-  </div>';
-  die($conn);
-}
-else{
-  echo '<html><head><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-  <script src="js\materialize.min.js"></script></head></html>';
-  if(isset($_POST['btnLogin'])){
-    $rollno = $_POST['rollno'];
-    $rollno = strtolower($rollno);
-    $password = $_POST['pwd'];
-    $sql = "SELECT password FROM userdetails WHERE rollno = '$rollno'";
-    $res = mysqli_query($conn, $sql);
-    $res = mysqli_fetch_row($res);
-    echo '<script>swal("Error!","'.mysqli_error($conn).'","error");</script>';
-    if($res[0]!=$password){
-      echo '<script>swal("Error!","Roll number or password invalid","error");</script>';
-    }
-    else{
-      echo '<script>swal("Logged in!","You\'re logged in to Invadaurz","success");</script>';
-      session_start();
-      $_SESSION['rollno']=$rollno;
-    }
-    unset($_POST['btnSubmit']);
-  }
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -90,7 +48,6 @@ else{
         <a href="#" class="center brand-logo">INVADAURZ</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse waves-effect"><i class="material-icons">menu</i></a>
         <ul class=" hide-on-med-and-down">
-          <li class="left"><a class="waves-effect modal-trigger" href="#loginModal">LOGIN</a></li>
           <li class="left"><a class="waves-effect" href="register.php">REGISTER</a></li>
           <li class="right"><a class="waves-effect" href="about.php">ABOUT US</a></li>
           <li class="right"><a class="waves-effect" href="contact.php">CONTACT US</a></li>
@@ -107,7 +64,6 @@ else{
     <li><a class="waves-effect" href="schedule.php">SCHEDULE</a></li>
     <li><a class="waves-effect" href="contact.php">CONTACT US</a></li>
     <li><a class="waves-effect" href="about.php">ABOUT US</a></li>
-    <li><a class="waves-effect modal-trigger" href="#loginModal">LOG IN</a></li>
     <li><a class="waves-effect" href="register.php">REGISTER</a></li>
   </ul>
   <main>
@@ -171,40 +127,6 @@ else{
     </marquee>
   </div>
 </main>
-<div class="container">
-  <div class="row">
-    <div id="loginModal" class="modal">
-      <form class="col l12 m12 s12" action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
-        <div class="modal-content">
-          <div class="row center">
-            Participant Login
-          </div>
-          <div class="row">
-            <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-              <i class="prefix material-icons">account_circle</i>
-              <input id="rollno" name="rollno" type="text" class="validate" required/>
-              <label for="rollno">Roll No.</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-              <i class="prefix material-icons">lock</i>
-              <input id="password" name="pwd" type="password" class="validate" required/>
-              <label for="password">Password</label>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="center">
-            <button type="submit" name="btnLogin" class="btn waves-effect waves-light green center">Login</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-
-
 <footer class="page-footer">
   <div class="row">
     <div class="col l6 offset-l1 s12">
