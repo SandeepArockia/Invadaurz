@@ -82,13 +82,13 @@
       <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
         <div class="container">
           <div class="">
-            <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> ACUTE </div>
-            <span class="red-text text-accent-1"> DESCRIPTION</span>
+            <div class="center blue-text text-accent-2" style="padding: 0 0 10px 0"> ACUTE </div>
+            <span class="blue-text text-accent-2"> DESCRIPTION</span>
             <p> Just, don't think too technically. And definitely not too savvy. There's a little grey area in there and that's where you operate. Good luck out there. </p>
-            <span class="red-text text-accent-1"> DETAILS</span>
+            <span class="blue-text text-accent-2"> DETAILS</span>
             <p> This is a three round event. Early rounds are simple but tricky, later round get just harder. Beat the clock ... </p>
             <p>&nbsp;</p>
-            <span class="red-text text-accent-1"> ROUNDS</span>
+            <span class="blue-text text-accent-2"> ROUNDS</span>
 
             <div class="row">
               <div class="">
@@ -103,26 +103,26 @@
                     <div class="card-content ">
                       <div id="test1" style="font-size:0.8em" class="active">
                         <ul>
-                          <li> <span class="red-text text-accent-1"> > </span> Anagram, Ciphers, Crests and Deductions</li>
-                          <li> <span class="red-text text-accent-1"> > </span> Just ASAP</li>
+                          <li> <span class="blue-text text-accent-2"> > </span> Anagram, Ciphers, Crests and Deductions</li>
+                          <li> <span class="blue-text text-accent-2"> > </span> Just ASAP</li>
                         </ul>
                       </div>
                       <div id="test2" class="" style="display: none;font-size:0.8em">
                         <ul>
-                          <li> <span class="red-text text-accent-1"> > </span> A REBUS is a picture representation of a name, work, or phrase</li>
-                          <li> <span class="red-text text-accent-1"> > </span> Each "rebus" puzzle box below portrays a common word or phrase. Can you guess what it is?</li>
+                          <li> <span class="blue-text text-accent-2"> > </span> A REBUS is a picture representation of a name, work, or phrase</li>
+                          <li> <span class="blue-text text-accent-2"> > </span> Each "rebus" puzzle box below portrays a common word or phrase. Can you guess what it is?</li>
                         </div>
                         <div id="test3" style="display: none;font-size:0.8em" class="">
                           <ul>
-                            <li> <span class="red-text text-accent-1"> > </span> Finding output to get number</li>
-                            <li> <span class="red-text text-accent-1"> > </span> Use the number to code</li>
-                            <li> <span class="red-text text-accent-1"> > </span> Being the final round, it contains both coding and decoding, points allocated such as for the players to compete</li>
+                            <li> <span class="blue-text text-accent-2"> > </span> Finding output to get number</li>
+                            <li> <span class="blue-text text-accent-2"> > </span> Use the number to code</li>
+                            <li> <span class="blue-text text-accent-2"> > </span> Being the final round, it contains both coding and decoding, points allocated such as for the players to compete</li>
                           </ul>
                         </div>
                       </div>
                       <div class="card-action">
                         <div style="font-size:0.8em">
-                          <span class="red-text text-accent-1"> Team: 2-3 members </span>
+                          <span class="blue-text text-accent-2"> Team: 2-3 members </span>
                         </div>
                       </div>
                     </div>
@@ -131,7 +131,7 @@
               </div>
 
 
-              <span class="red-text text-accent-1"> CONTACT</span>
+              <span class="blue-text text-accent-2"> CONTACT</span>
               <p> Sandeep Arockia &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:97900 68112">97900 68112</a>  </span> </p>
               <p> Pooventhiran G &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:79042 58168">79042 58168</a>  </span></p>
               <p> Sree Saju Dhawani K &nbsp;-&nbsp;<span> <i class="material-icons"> phone  </i> <a href="tel:87546 71891">87546 71891</a>  </span></p>

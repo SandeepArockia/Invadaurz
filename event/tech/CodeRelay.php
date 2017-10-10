@@ -82,13 +82,13 @@ a{
     <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
       <div class="container">
         <div class="">
-          <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> Code Relay </div>
-          <span class="red-text text-accent-1"> DESCRIPTION</span>
+          <div class="center blue-text text-accent-2" style="padding: 0 0 10px 0"> Code Relay </div>
+          <span class="blue-text text-accent-2"> DESCRIPTION</span>
           <p> A event to prove your team work. </p>
-          <span class="red-text text-accent-1"> DETAILS</span>
+          <span class="blue-text text-accent-2"> DETAILS</span>
           <p> First round it solving the question and second involves simple coding by all 4 members in the team. Participants will need to know C or C++. </p>
           <p>&nbsp;</p>
-          <span class="red-text text-accent-1"> ROUNDS</span>
+          <span class="blue-text text-accent-2"> ROUNDS</span>
 
           <div class="row">
           <div class="">
@@ -113,7 +113,7 @@ The question will be provided to each member only at the start of their own time
               </div>
               <div class="card-action">
                 <div style="font-size:0.8em">
-                  <span class="red-text text-accent-1"> Team: 4 members </span>
+                  <span class="blue-text text-accent-2"> Team: 4 members </span>
                 </div>
               </div>
             </div>
@@ -121,7 +121,7 @@ The question will be provided to each member only at the start of their own time
         </div>
 
 
-          <span class="red-text text-accent-1"> CONTACT</span>
+          <span class="blue-text text-accent-2"> CONTACT</span>
           <p>  C.Deivanai&emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span> </p>
           <p>  R.Preethi&emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span></p>
           <p>  R.Logeshwari&nbsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span></p>
