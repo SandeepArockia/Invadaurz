@@ -75,7 +75,9 @@ a{
 
   <main>
     <div class="parallax-container">
-      <div class="parallax"> <img src="/../../img/banner/ctf.jpg"/> </div>
+      <div class="parallax">
+        <img src="../../img/banner/ctf.png"/>
+       </div>
     </div>
     <p> &nbsp; </p>
     <div class="row <!--wow rollIn--> flow-text">
