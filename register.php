@@ -258,7 +258,6 @@ else{
         <a href="#" class="center brand-logo">INVADAURZ</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse waves-effect"><i class="material-icons">menu</i></a>
         <ul class=" hide-on-med-and-down">
-          <li class="left"><a class="waves-effect modal-trigger" href="#loginModal">LOGIN</a></li>
           <li class="left active"><a class="waves-effect" href="register.php">REGISTER</a></li>
           <li class="right"><a class="waves-effect" href="about.php">ABOUT US</a></li>
           <li class="right"><a class="waves-effect" href="contact.php">CONTACT US</a></li>
@@ -275,7 +274,6 @@ else{
     <li><a class="waves-effect" href="schedule.php">SCHEDULE</a></li>
     <li><a class="waves-effect" href="contact.php">CONTACT US</a></li>
     <li><a class="waves-effect" href="about.php">ABOUT US</a></li>
-    <li><a class="waves-effect modal-trigger" href="#loginModal">LOG IN</a></li>
     <liclass="active"><a class="waves-effect" href="register.php">REGISTER</a></li>
   </ul>
   <main>
