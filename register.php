@@ -1,5 +1,4 @@
 <?php
-error_reporting(0);
 echo '<html><head><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -32,7 +31,6 @@ else{
     $phone = $_POST['phone'];
     $mail = $_POST['mail'];
     $password = $_POST['pwd'];
-    $mailfinal = $mail;
     if($_POST['pwd']!=$_POST['cpwd']){
       echo '<script>swal("Warning!","Your passwords don\'t match","warning");</script>';
     }
@@ -64,8 +62,8 @@ else{
           file_put_contents("img/qr/$rollno.png",$content);
           $qr = "img/qr/$rollno.png";
           //Mail params
-          function mail_attachment($filename, $path, $mailto, $from_mail, $from_name, $replyto, $subject, $message) {
-            $file = $path.$filename;
+          /*function mail_attachment($filename, $path, $mailto, $from_mail, $from_name, $replyto, $subject, $message) {
+            /*$file = $path.$filename;
             $file_size = filesize($file);
             $handle = fopen($file, "r");
             $content = fread($handle, $file_size);
@@ -87,7 +85,7 @@ else{
             $header .= "Content-Disposition: attachment; filename=\"".$filename."\"\r\n\r\n";
             $header .= $content."\r\n\r\n";
             $header .= "--".$uid."--";
-            if (mail($mailto, $subject, "", $header)) {
+            if (mail($mailto, $subject, $message)) {
               echo "mail send ... OK"; // or use booleans here
             } else {
               echo "mail send ... ERROR!";
@@ -100,51 +98,46 @@ else{
           $to_mail = $mail;
           $mail_reply_to = "ita2k17@gmail.com";
           $mail_subject = "Confirmation for Invadaurz Registration";
-          $mail_message = "";
-          mail_attachment($file, $path, $to_mail, $from_mail, $from_name, $mail_reply_to, $mail_subject, $mail_message);
-          /*require_once "mail.php";
+          $mail_message = "hi...";
+          mail_attachment($file, $path, $to_mail, $from_mail, $from_name, $mail_reply_to, $mail_subject, $mail_message);*/
+          require_once "mail.php";
           $from = "<invadaurz2k17@gmail.com>";//Kriya Gmail ID goes here
-    			$to = "<invadaurz2k17@gmail.com>";//SU email id goes here
-    			$subject = "Student Details";
+    			$to = "<$mail>";//SU email id goes here
+    			$subject = "Confirmation for Invadaurz Registration";
           $host = "ssl://smtp.gmail.com";
     			$port = "465";
-
-          $body = "Student Detail\n";
+          $content_type = "text/html; charset: utf8";
+          $mime_version = 1.0;
+          /*$body = "Student Detail\n";
           $body .= "\nName:".$fname.' '.$lname;
           $body .= "\nRoll Number:".$rollno;
           $body .= "\nClass:".$year.' '.$degree;
           $body .= "\nPhone:".$phone;
           $body .= "\nMail: ".$mail;
-          $body .= "\nQR code:"."http://localhost/invadaurz/".$qr;
+          $body .= "\nQR code:"."http://localhost/invadaurz/".$qr;*/
 
           $uname = "invadaurz2k17@gmail.com";//Kriya Gmail ID goes here
     			$password = "sandeeppuma";//Kriya Gmail password
     			$headers = array ('From' => $from,
     			'To' => $to,
-    			'Subject' => $subject);
+    			'Subject' => $subject,
+          'Content-type' => $content_type,
+          'MIME-Version' => $mime_version);
+          $file_url = "http://www.invadaurz.in/img/qr/$rollno.png";
+          $subject = "Confirmation of Invadaurz Registration";
+          $body = '<html><head></head><body>
+          <h1>Hey '.$name.'! </h1>
+          <p>You\'re sucessfully registered for Invadaurz 2k17. You\'re sent a QR Code along with this mail. Use this QR Code to register for the events.</p>
+          <p> <img src="'.$file_url.'" alt="qrcode"/> </p>
+          </body></html>';
     			$smtp = Mail::factory('smtp',array ('host' => $host,'port' => $port,'auth' => true,'username' => $uname, 'password' => $password));
-            if (PEAR::isError($smtp)) {
-              echo("<p>" . $smtp->getMessage() . "</p>");
-            }
-    			$mail = $smtp->send($to, $headers, $body);
-
-          $subject = "Conformation of Registration";
-          $body = "
-          You\'re sucessfully registered for Invadaurz 2k17.You\'re sent a QR Code along with this mail. Use this QR Code to register for the events.";
-
-          $to=$mailfinal;
-    			$headers = array ('From' => $from,
-    			'To' => $to,
-    			'Subject' => $subject);
-    			$smtp = Mail::factory('smtp',array ('host' => $host,'port' => $port,'auth' => true,'username' => $uname,'password' => $password));
-    			$mail = $smtp->send($to, $headers, $body);
-    			if (PEAR::isError($mail)) {
-    				echo("<p>" . $mail->getMessage() . "</p>");
-    			} else {
-    				//die("your account has been created");
-    			}*/
-
-          echo '<script>swal("Success!","You\'re successfully registered. Please check out your mail for further details...","success");</script>';
+          $email = $smtp->send($to, $headers, $body);
+          if (PEAR::isError($email)) {
+              //echo("<p>" . $email->getMessage() . "</p>");
+          }
+          else {
+              echo '<script>swal("Success!","You\'re successfully registered. Please check out your mail for further details...","success");</script>';
+          }
 
           /*}
           else{
@@ -266,24 +259,24 @@ else{
         <a href="#" data-activates="mobile-demo" class="button-collapse waves-effect"><i class="material-icons">menu</i></a>
         <ul class=" hide-on-med-and-down">
           <li class="left"><a class="waves-effect modal-trigger" href="#loginModal">LOGIN</a></li>
-          <li class="left"><a class="waves-effect" href="register.php">REGISTER</a></li>
+          <li class="left active"><a class="waves-effect" href="register.php">REGISTER</a></li>
           <li class="right"><a class="waves-effect" href="about.php">ABOUT US</a></li>
           <li class="right"><a class="waves-effect" href="contact.php">CONTACT US</a></li>
           <li class="right"><a class="waves-effect" href="schedule.php">SCHEDULE</a></li>
           <li class="right"><a class="waves-effect" href="events.php">EVENTS</a></li>
-          <li class="right active"><a class="waves-effect" href="home.php">HOME</a></li>
+          <li class="right"><a class="waves-effect" href="home.php">HOME</a></li>
         </ul>
       </div>
     </nav>
   </div>
   <ul class="side-nav" id="mobile-demo">
-    <li class="active"><a class="waves-effect" href="home.php"><i class="material-icons">home</i></a></li>
+    <li><a class="waves-effect" href="home.php"><i class="material-icons">home</i></a></li>
     <li><a class="waves-effect" href="events.php">EVENTS</a></li>
     <li><a class="waves-effect" href="schedule.php">SCHEDULE</a></li>
     <li><a class="waves-effect" href="contact.php">CONTACT US</a></li>
     <li><a class="waves-effect" href="about.php">ABOUT US</a></li>
     <li><a class="waves-effect modal-trigger" href="#loginModal">LOG IN</a></li>
-    <li><a class="waves-effect" href="register.php">REGISTER</a></li>
+    <liclass="active"><a class="waves-effect" href="register.php">REGISTER</a></li>
   </ul>
   <main>
     <form class="form" action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
