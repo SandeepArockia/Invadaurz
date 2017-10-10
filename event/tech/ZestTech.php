@@ -95,19 +95,27 @@ a{
             <div class="card ">
               <div class="card-tabs">
                 <ul class="tabs tabs-fixed-width ">
-                  <li class="tab"><a href="#test1" class="active">Round 1</a></li>
-                  <li class="tab"><a class="" href="#test2">FINAL ROUND</a></li>
+                  <li class="tab"><a href="#test1" class="active">ROUND 01</a></li>
+                  <li class="tab"><a class="" href="#test2">ROUND 10</a></li>
+                  <li class="tab"><a class="" href="#test2">ROUND 11</a></li>
                 <li class="indicator" style="right: 206px; left: 0px;"></li></ul>
               </div>
               <div class="card-content ">
                 <div id="test1" style="font-size:1em" class="active">
                   <p>
-MCQ round of 30 questions for 30 minutes. Top 8 teams will be Shortlisting to the final round. Correct answer will get 2 marks each. Wrong answers will have a negative mark of 1 marks.
+                    •	Wire a circuit to glow a bulb. But here, No need to wire…,just put your brain in Active mode  to glow your technical skills.
+                    •	Consists of connexionz, doodles and the like…
                   </p>
                 </div>
                 <div id="test2" class="" style="display: none;font-size:1em">
                   <p>
-The question will be provided to each member only at the start of their own time slot. Once the question has been provided, each member can code for 5 mins initially, then the time slots vary to 10mins, 5mins and 10mins again. After one person’s time slot is complete the next person of the team is expected to continue coding from where his teammate had left off.
+                    •	Hunt the puzzles with your technical skill to find a way for the  next round.
+                  </p>
+                </div>
+                <div id="test3" class="" style="display: none;font-size:1em">
+                  <p>
+                    •	Be clear to get confused.
+                    •	Crack others to win your prize!!!
                   </p>
                 </div>
               </div>
@@ -130,7 +138,7 @@ The question will be provided to each member only at the start of their own time
     </div>
    </div>
   </main>
-  
+
 
 
 
