@@ -10,7 +10,7 @@ echo '<html><head><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "";
-$dbname = "invadaurz";
+$dbname = "test";
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 if(!$conn){
   echo '<div class="row">

@@ -40,11 +40,11 @@
         <ul class=" hide-on-med-and-down">
           <li class="left"><a class="waves-effect modal-trigger" href="#loginModal">LOGIN</a></li>
           <li class="left"><a class="waves-effect" href="register.php">REGISTER</a></li>
-          <li class="right"><a class="waves-effect" href="about.php">ABOUT US</a></li>
+          <li class="right active"><a class="waves-effect" href="about.php">ABOUT US</a></li>
           <li class="right"><a class="waves-effect" href="contact.php">CONTACT US</a></li>
           <li class="right"><a class="waves-effect" href="schedule.php">SCHEDULE</a></li>
           <li class="right"><a class="waves-effect" href="events.php">EVENTS</a></li>
-          <li class="right active"><a class="waves-effect" href="home.php">HOME</a></li>
+          <li class="right"><a class="waves-effect" href="home.php">HOME</a></li>
         </ul>
       </div>
     </nav>
@@ -54,11 +54,11 @@
     <li><a class="waves-effect" href="events.php">EVENTS</a></li>
     <li><a class="waves-effect" href="schedule.php">SCHEDULE</a></li>
     <li><a class="waves-effect" href="contact.php">CONTACT US</a></li>
-    <li><a class="waves-effect" href="about.php">ABOUT US</a></li>
+    <li active><a class="waves-effect" href="about.php">ABOUT US</a></li>
     <li><a class="waves-effect modal-trigger" href="#loginModal">LOG IN</a></li>
     <li><a class="waves-effect" href="register.php">REGISTER</a></li>
   </ul>
-  
+
   <main>
     <div class="container">
       <div class="row">

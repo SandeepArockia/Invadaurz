@@ -113,8 +113,8 @@ else{
   <main>
 
 
-    <div class="video-container" style="background-image: url('back.jpg');">
-      <iframe src="data/rastaa.mp4?controls=0" frameborder="0" ></iframe>
+    <div class="video-container" style="">
+      <iframe src="data/rasta.mp4" frameborder="0" ></iframe>
     </div>
   </div>
 
