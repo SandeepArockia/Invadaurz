@@ -53,7 +53,6 @@ a{
         <a href="#" class="center brand-logo">INVADAURZ</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse waves-effect"><i class="material-icons">menu</i></a>
         <ul class=" hide-on-med-and-down">
-          <li class="left"><a class="waves-effect modal-trigger" href="#loginModal">LOGIN</a></li>
           <li class="left"><a class="waves-effect" href="../../register.php">REGISTER</a></li>
           <li class="right"><a class="waves-effect" href="../../about.php">ABOUT US</a></li>
           <li class="right"><a class="waves-effect" href="../../contact.php">CONTACT US</a></li>
@@ -70,7 +69,6 @@ a{
     <li><a class="waves-effect" href="../../schedule.php">SCHEDULE</a></li>
     <li><a class="waves-effect" href="../../contact.php">CONTACT US</a></li>
     <li><a class="waves-effect" href="../../about.php">ABOUT US</a></li>
-    <li><a class="waves-effect modal-trigger" href="#loginModal">LOG IN</a></li>
     <li><a class="waves-effect" href="../../register.php">REGISTER</a></li>
   </ul>
 
@@ -84,7 +82,7 @@ a{
       <div class="container">
         <div class="">
           <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> BUG BOSS </div>
-          <span class="red-text text-accent-1"> DESCRIPTION</span>
+          <span class="red-text text-accent-1 bold"> DESCRIPTION</span>
           <p> Become the Boss of bugs. </p>
           <span class="red-text text-accent-1"> DETAILS</span>
           <p> Thupucikku Thupucikku Bug Boss! </p>
@@ -101,7 +99,7 @@ a{
                 <li class="indicator" style="right: 206px; left: 0px;"></li></ul>
               </div>
               <div class="card-content">
-                <div id="test1" style="font-size:0.8em" class="active">
+                <div id="test1" class="active flow-text">
                     <ul>
                       <li> <span class="red-text text-accent-1"> > </span>When Bug Gives You Banana </li>
                       <li> <span class="red-text text-accent-1"> > </span>Refucter it </li>
@@ -135,38 +133,6 @@ a{
     </div>
    </div>
   </main>
-  <div class="container">
-    <div class="row">
-      <div id="loginModal" class="modal">
-        <form class="col l12 m12 s12" action="<?php $_SERVER['PHP_SELF'] ?>" method="get">
-          <div class="modal-content">
-            <div class="row center">
-              Participant Login
-            </div>
-            <div class="row">
-              <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-                <i class="prefix material-icons">account_circle</i>
-                <input id="rollno" name="rollno" type="text" class="validate" required/>
-                <label for="rollno">Roll No.</label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="input-field col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-                <i class="prefix material-icons">lock</i>
-                <input id="password" name="pwd" type="password" class="validate" required/>
-                <label for="password">Password</label>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="center">
-              <button type="submit" name="btnLogin" class="btn waves-effect waves-light green center">Login</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
 
 
   <footer class="page-footer">
