@@ -84,9 +84,9 @@ a{
         <div class="">
           <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> Code Relay </div>
           <span class="red-text text-accent-1"> DESCRIPTION</span>
-          <p> A event to prove your team work. </p>
+          <p> A Technical bridge between connection and confusion. </p>
           <span class="red-text text-accent-1"> DETAILS</span>
-          <p> First round it solving the question and second involves simple coding by all 4 members in the team. Participants will need to know C or C++. </p>
+          <p> It consists of 3 rounds.first round with connectionz ,doodles.second round with puzzles relating to coding .third round related to coding </p>
           <p>&nbsp;</p>
           <span class="red-text text-accent-1"> ROUNDS</span>
 
@@ -97,13 +97,13 @@ a{
                 <ul class="tabs tabs-fixed-width ">
                   <li class="tab"><a href="#test1" class="active">ROUND 01</a></li>
                   <li class="tab"><a class="" href="#test2">ROUND 10</a></li>
-                  <li class="tab"><a class="" href="#test2">ROUND 11</a></li>
+                  <li class="tab"><a class="" href="#test3">ROUND 11</a></li>
                 <li class="indicator" style="right: 206px; left: 0px;"></li></ul>
               </div>
               <div class="card-content ">
                 <div id="test1" style="font-size:1em" class="active">
                   <p>
-                    •	Wire a circuit to glow a bulb. But here, No need to wire…,just put your brain in Active mode  to glow your technical skills.
+                    •	Wire a circuit to glow a bulb. But here, No need to wire…,just put your brain in Active mode  to glow your technical skills.<br>
                     •	Consists of connexionz, doodles and the like…
                   </p>
                 </div>
@@ -114,14 +114,14 @@ a{
                 </div>
                 <div id="test3" class="" style="display: none;font-size:1em">
                   <p>
-                    •	Be clear to get confused.
+                    •	Be clear to get confused.<br>
                     •	Crack others to win your prize!!!
                   </p>
                 </div>
               </div>
               <div class="card-action">
                 <div style="font-size:0.8em">
-                  <span class="red-text text-accent-1"> Team: 4 members </span>
+                  <span class="red-text text-accent-1"> Team: 2 members </span>
                 </div>
               </div>
             </div>
