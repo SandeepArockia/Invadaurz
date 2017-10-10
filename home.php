@@ -69,12 +69,13 @@
   <main>
 
 
-    <div class="video-container" style="">
-      <iframe src="data/rasta.mp4" frameborder="0" ></iframe>
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="img\about.jpg"/>
+      </div>
     </div>
-  </div>
 
-  <div class="center ">
+  <div class="center">
     <div class="card">
       <div class="card-content">
           <p>
