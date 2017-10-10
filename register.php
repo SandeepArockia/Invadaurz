@@ -64,7 +64,45 @@ else{
           file_put_contents("img/qr/$rollno.png",$content);
           $qr = "img/qr/$rollno.png";
           //Mail params
-          require_once "mail.php";
+          function mail_attachment($filename, $path, $mailto, $from_mail, $from_name, $replyto, $subject, $message) {
+            $file = $path.$filename;
+            $file_size = filesize($file);
+            $handle = fopen($file, "r");
+            $content = fread($handle, $file_size);
+            fclose($handle);
+            $content = chunk_split(base64_encode($content));
+            $uid = md5(uniqid(time()));
+            $header = "From: ".$from_name." <".$from_mail.">\r\n";
+            $header .= "Reply-To: ".$replyto."\r\n";
+            $header .= "MIME-Version: 1.0\r\n";
+            $header .= "Content-Type: multipart/mixed; boundary=\"".$uid."\"\r\n\r\n";
+            $header .= "This is a multi-part message in MIME format.\r\n";
+            $header .= "--".$uid."\r\n";
+            $header .= "Content-type:text/plain; charset=iso-8859-1\r\n";
+            $header .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
+            $header .= $message."\r\n\r\n";
+            $header .= "--".$uid."\r\n";
+            $header .= "Content-Type: application/octet-stream; name=\"".$filename."\"\r\n"; // use different content types here
+            $header .= "Content-Transfer-Encoding: base64\r\n";
+            $header .= "Content-Disposition: attachment; filename=\"".$filename."\"\r\n\r\n";
+            $header .= $content."\r\n\r\n";
+            $header .= "--".$uid."--";
+            if (mail($mailto, $subject, "", $header)) {
+              echo "mail send ... OK"; // or use booleans here
+            } else {
+              echo "mail send ... ERROR!";
+            }
+          }
+          $file = "$rollno.png";
+          $path = "img\qr\\";
+          $from_name = "Invadaurz 2k17";
+          $from_mail = "invadaurz2k17@gmail.com";
+          $to_mail = $mail;
+          $mail_reply_to = "ita2k17@gmail.com";
+          $mail_subject = "Confirmation for Invadaurz Registration";
+          $mail_message = "";
+          mail_attachment($file, $path, $to_mail, $from_mail, $from_name, $mail_reply_to, $mail_subject, $mail_message);
+          /*require_once "mail.php";
           $from = "<invadaurz2k17@gmail.com>";//Kriya Gmail ID goes here
     			$to = "<invadaurz2k17@gmail.com>";//SU email id goes here
     			$subject = "Student Details";
@@ -104,7 +142,7 @@ else{
     				echo("<p>" . $mail->getMessage() . "</p>");
     			} else {
     				//die("your account has been created");
-    			}
+    			}*/
 
           echo '<script>swal("Success!","You\'re successfully registered. Please check out your mail for further details...","success");</script>';
 
