@@ -16,6 +16,7 @@
     $(".button-collapse").sideNav();
     $(".modal").modal();
     $(".parallax").parallax();
+	$(".chips").material_chip();
   });
   var options = [
     {selector: '#techText', offset: 50, callback: function(el) {
@@ -72,28 +73,29 @@
 
     <div class="parallax-container">
       <div class="parallax">
-        <img src="img/home.jpg"/>
+        <img src="img/home.jpeg"/>
       </div>
     </div>
 
   <div class="center">
-    <div class="card">
-      <div class="card-content">
+    <div class="chip col l12 s12 m12">
           <p>
             ⁠⁠⁠⁠⁠"The delight of opening a new pursuit imparts the vivacity of youth to all"
           </p>
-        </div>
       </div>
     </div>
 
 
   </div>
-  <div class="container row center" style="padding:50px 0px 0px 0px">
+  <div class="container row center" style="padding:0px 0px 0px 0px">
+	<div class="container center">
+		 <h4> Events </h4> 
+	</div>
     <a href="events.php#technicalText">
       <div class="col l6 s12 m6" id="techText">
-          <div class="card blue-grey" style="padding:0px 20px 0px 20px">
+          <div class="card blue accent-2" style="padding:0px 20px 0px 20px">
             <div class="card-content white-text">
-              <span class="card-title">Technical</span>
+              <span class="card-title">TECHNICAL</span>
               <hr>
               <p style="text-align: justify">
                 A pursuit and hunt for talents. Talent wins games but teamwork and intelligence wins championships. Here we are to bring in the champions in you!
@@ -105,9 +107,9 @@
     <a href="events.php#funText">
       <div class="col l6 s12 m6" id="funText" style="padding:0px 20px 0px 20px">
         <div class="row">
-          <div class="card blue-grey">
+          <div class="card blue accent-2">
             <div class="card-content white-text">
-              <span class="card-title">Fun</span>
+              <span class="card-title">FUN</span>
               <hr>
               <p style="text-align: justify">
                 Enjoyment is an incredible energizer to the soul! And here is yet another chance in a million to keep your spirits high with our fun events...

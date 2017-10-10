@@ -13,7 +13,8 @@
   <script src="js/materialize.min.js"></script>
   <script>
   $(document).ready(function(){
-    $(".button-collapse").sideNav()
+    $(".button-collapse").sideNav();
+	$(".tooltipped").tooltip({delay: 50});
   });
   </script>
   <style>
@@ -86,28 +87,28 @@
           <div class="row">
           </div>
           <div class="col l3 m6 s6 animated slideInUp">
-            <a href="event/tech/BugBoss.php"> <img src="img/tech/BugBoss.png" class="animated slideInLeft icon-border white" id="eventLogo" style="width:100%" title="Bug Boss"/> </a>
+            <a href="event/tech/BugBoss.php"> <img src="img/tech/BugBoss.png" class="animated slideInLeft icon-border white tooltipped" id="eventLogo" style="width:100%" data-position="top" data-tooltip="Bug Boss"/> </a>
           </div>
           <div class="col l3 m6 s6 animated slideInUp">
-            <a href="event/tech/CaptureTheFlag.php" > <img src="img/tech/CaptureTheFlag.png" class="animated slideInRight icon-border white" id="eventLogo" style="width:100%" title="Capture The Flag"/> </a>
+            <a href="event/tech/CaptureTheFlag.php" > <img src="img/tech/CaptureTheFlag.png" class="animated slideInRight icon-border white tooltipped" id="eventLogo" style="width:100%" data-position="top" data-tooltip="Capture The Flag"/> </a>
           </div>
           <div class="col l3 m6 s6 animated slideInUp " >
-            <a href="event/tech/CodeRelay.php" > <img src="img/tech/CodeRelay.png" class="animated slideInLeft icon-border white" id="eventLogo" style="width:100%" title="Code Relay"/> </a>
+            <a href="event/tech/CodeRelay.php" > <img src="img/tech/CodeRelay.png" class="animated slideInLeft icon-border white tooltipped" id="eventLogo" style="width:100%" data-position="top" data-tooltip="Code Relay"/> </a>
           </div>
           <div class="col l3 m6 s6 animated slideInUp">
-            <a href="event/tech/ComputerGeeks.php" > <img src="img/tech/ComputerGeeks.png" class="animated slideInRight icon-border white" id="eventLogo" style="width:100%" title="Computer Geeks"/> </a>
+            <a href="event/tech/ComputerGeeks.php" > <img src="img/tech/ComputerGeeks.png" class="animated slideInRight icon-border white tooltipped" id="eventLogo" style="width:100%" data-position="top" data-tooltip="Computer Geeks"/> </a>
           </div>
           <div class="col l3 m6 s6 animated slideInUp">
-            <a href="event/tech/DOCTYPE.php" > <img src="img/tech/DOCTYPE.png" class="animated slideInLeft icon-border white" id="eventLogo" style="width:100%" title="<!DOCTYPE>"/> </a>
+            <a href="event/tech/DOCTYPE.php" > <img src="img/tech/DOCTYPE.png" class="animated slideInLeft icon-border white tooltipped" id="eventLogo" style="width:100%" data-position="top" data-tooltip="<!DOCTYPE>"/> </a>
           </div>
           <div class="col l3 m6 s6 animated slideInUp">
-            <a href="event/tech/ZestTech.php" > <img src="img/tech/ZestTech.png" class="animated slideInRight icon-border white" id="eventLogo" style="width:100%" title="Zest Tech"/> </a>
+            <a href="event/tech/ZestTech.php" > <img src="img/tech/ZestTech.png" class="animated slideInRight icon-border white tooltipped" id="eventLogo" style="width:100%" data-position="top" data-tooltip="Zest Tech"/> </a>
           </div>
           <div class="col l3 m6 s6 animated slideInUp">
-            <a href="event/tech/Acute.php" > <img src="img/tech/Acute.png" class="animated slideInLeft icon-border white" id="eventLogo" style="width:100%" title="Acute"/> </a>
+            <a href="event/tech/Acute.php" > <img src="img/tech/Acute.png" class="animated slideInLeft icon-border white tooltipped" id="eventLogo" style="width:100%" data-position="top" data-tooltip="Acute"/> </a>
           </div>
           <div class="col l3 m6 s6 animated slideInUp">
-            <a href="event/tech/BubbleBugs.php" > <img src="img/tech/BubbleBug.png" class="animated slideInRight icon-border white" id="eventLogo" style="width:100%" title="Bubble Bug"/> </a>
+            <a href="event/tech/BubbleBugs.php" > <img src="img/tech/BubbleBug.png" class="animated slideInRight icon-border white tooltipped" id="eventLogo" style="width:100%" data-position="top" data-tooltip="Bubble Bug"/> </a>
           </div>
         </a>
       </div>
@@ -127,28 +128,28 @@
           <p> &nbsp; </p>
           <div class="row">
             <div class="col l3 m6 s6 animated fadeIn">
-              <a href="event/fun/WheelOfFortune.php" > <img src="img/fun/WheelOfFortune.png" class="animated slideInLeft icon-border white" id="eventLogo" style="width:100%" title="Wheel of Fortune"/> </a>
+              <a href="event/fun/WheelOfFortune.php" > <img src="img/fun/WheelOfFortune.png" class="animated slideInLeft icon-border white tooltipped" id="eventLogo" style="width:100%" data-position="top" data-tooltip="Wheel of Fortune"/> </a>
             </div>
             <div class="col l3 m6 s6 animated fadeIn">
-              <a href="event/fun/RazzWhale.php" > <img src="img/fun/RazzWhale.png" class="animated slideInRight icon-border white" id="eventLogo" style="width:100%" title="Razz Whale"/> </a>
+              <a href="event/fun/RazzWhale.php" > <img src="img/fun/RazzWhale.png" class="animated slideInRight icon-border white tooltipped" id="eventLogo" style="width:100%" data-position="top" data-tooltip="Razz Whale"/> </a>
             </div>
             <div class="col l3 m6 s6 animated fadeIn">
-              <a href="event/fun/Cryptica.php" > <img src="img/fun/Cryptica.png" class="animated slideInLeft icon-border white" id="eventLogo" style="width:100%" title="Cryptica"/> </a>
+              <a href="event/fun/Cryptica.php" > <img src="img/fun/Cryptica.png" class="animated slideInLeft icon-border white tooltipped" id="eventLogo" style="width:100%" data-position="top" data-tooltip="Cryptica"/> </a>
             </div>
             <div class="col l3 m6 s6 animated fadeIn">
-              <a href="event/fun/8-In-A-Maze.php" > <img src="img/fun/8.png" class="animated slideInRight icon-border white" id="eventLogo" style="width:100%" title="8-in-a-Maze"/> </a>
+              <a href="event/fun/8-In-A-Maze.php" > <img src="img/fun/8.png" class="animated slideInRight icon-border white tooltipped" id="eventLogo" style="width:100%" data-position="top" data-tooltip="8-in-a-Maze"/> </a>
             </div>
             <div class="col l3 m6 s6 animated fadeIn">
-              <a href="event/fun/GameArena.php" > <img src="img/fun/GameArena.png" class="animated slideInLeft icon-border white" id="eventLogo" style="width:100%" title="Game Arena"/> </a>
+              <a href="event/fun/GameArena.php" > <img src="img/fun/GameArena.png" class="animated slideInLeft icon-border white tooltipped" id="eventLogo" style="width:100%" data-position="top" data-tooltip="Game Arena"/> </a>
             </div>
             <div class="col l3 m6 s6 animated fadeIn">
-              <a href="event/fun/FunBuzz.php" > <img src="img/fun/FunBuzz.png" class="animated slideInRight icon-border white" id="eventLogo" style="width:100%" title="Fun Buzz"/> </a>
+              <a href="event/fun/FunBuzz.php" > <img src="img/fun/FunBuzz.png" class="animated slideInRight icon-border white tooltipped" id="eventLogo" style="width:100%" data-position="top" data-tooltip="Fun Buzz"/> </a>
             </div>
             <div class="col l3 m6 s6 animated fadeIn">
-              <a href="event/fun/CrimeScene.php" > <img src="img/fun/CrimeScene.png" class="animated slideInLeft icon-border white" id="eventLogo" style="width:100%" title="Crime Scene"/> </a>
+              <a href="event/fun/CrimeScene.php" > <img src="img/fun/CrimeScene.png" class="animated slideInLeft icon-border white tooltipped" id="eventLogo" style="width:100%" data-position="top" data-tooltip="Crime Scene"/> </a>
             </div>
             <div class="col l3 m6 s6 animated fadeIn">
-              <a href="event/fun/Run-Some-Where.php" > <img src="img/fun/Run-Some-Where.png" class="animated slideInRight icon-border white" id="eventLogo" style="width:100%" title="Run Somewhere"/> </a>
+              <a href="event/fun/Run-Some-Where.php" > <img src="img/fun/Run-Some-Where.png" class="animated slideInRight icon-border white tooltipped" id="eventLogo" style="width:100%" data-position="top" data-tooltip="Run Somewhere"/> </a>
             </div>
           </div>
         </a>
@@ -161,5 +162,5 @@
       <a class="grey-text text-lighten-4 right" href="#!">The Science of Today is the Technology of Tomorrow!</a>
     </div>
   </footer>
-
-  </html>
+</body>
+</html>
