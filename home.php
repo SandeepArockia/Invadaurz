@@ -71,7 +71,7 @@
 
     <div class="parallax-container">
       <div class="parallax">
-        <img src="img\about.jpg"/>
+        <img src="img\home.jpg"/>
       </div>
     </div>
 
