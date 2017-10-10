@@ -118,8 +118,8 @@ a{
 
 
           <span class="blue-text text-accent-2"> CONTACT</span>
-          <p>  Akshay Ramnath &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span> </p>
-          <p>  Mohammed Anush &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:"></a>  </span></p>
+          <p>  Akshay Ramnath &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:90039 10822">90039 10822</a>  </span> </p>
+          <p>  Mohammed Anush &emsp;-&nbsp;<span> <i class="material-icons"> phone </i> <a href="tel:96779 62401">96779 62401</a>  </span></p>
         </div>
       </div>
     </div>
