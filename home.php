@@ -1,9 +1,9 @@
 <?php
-error_reporting(0);
+//error_reporting(0);
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "";
-$dbname = "invadaurz";
+$dbname = "test";
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 if(!$conn){
   echo '<div class="row">

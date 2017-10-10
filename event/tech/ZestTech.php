@@ -47,87 +47,32 @@ a{
 </head>
 
 <body style="font-family:Lato;font-size:1.4rem">
-  <nav>
-    <div class="navbar">
+  <div class="navbar-fixed">
+    <nav>
       <div class="nav-wrapper">
-        <a href="../../#" class="center brand-logo">INVADAURZ</a>
-        <a href="../../#" data-activates="mobile-demo" class="button-collapse waves-effect"><i class="material-icons">menu</i></a>
+        <a href="#" class="center brand-logo">INVADAURZ</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse waves-effect"><i class="material-icons">menu</i></a>
         <ul class=" hide-on-med-and-down">
           <li class="left"><a class="waves-effect modal-trigger" href="#loginModal">LOGIN</a></li>
           <li class="left"><a class="waves-effect" href="../../register.php">REGISTER</a></li>
           <li class="right"><a class="waves-effect" href="../../about.php">ABOUT US</a></li>
           <li class="right"><a class="waves-effect" href="../../contact.php">CONTACT US</a></li>
           <li class="right"><a class="waves-effect" href="../../schedule.php">SCHEDULE</a></li>
-          <li class="right active"><a class="waves-effect" href="../../events.php">EVENTS</a></li>
-          <li class="right"><a class="waves-effect" href="../../home.php">HOME</a></li>
-        </ul>
-        <ul class="side-nav active" id="mobile-demo" style="display: block">
-          <li><a class="waves-effect" href="../../home.php"><i class="material-icons">home</i></a></li>
-          <li class="active"><a class="waves-effect" href="../../events.php">EVENTS</a></li>
-          <li><a class="waves-effect" href="../../schedule.php">SCHEDULE</a></li>
-          <li><a class="waves-effect" href="../../contact.php">CONTACT US</a></li>
-          <li><a class="waves-effect" href="../../about.php">ABOUT US</a></li>
-          <li><a class="waves-effectwaves-effect modal-trigger" href="#loginModal">LOG IN</a></li>
-          <li><a class="waves-effect" href="../../#">REGISTER</a></li>
+          <li class="right"><a class="waves-effect" href="../../events.php">EVENTS</a></li>
+          <li class="right active"><a class="waves-effect" href="../../home.php">HOME</a></li>
         </ul>
       </div>
-    </div>
-  </nav>
-
-  <main>
-    <div class="parallax-container">
-      <div class="parallax"> <img src="../../img/parallax.jpg"/> </div>
-    </div>
-    <p> &nbsp; </p>
-    <div class="row <!--wow rollIn--> flow-text">
-    <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
-      <div class="container">
-        <div class="">
-          <div class="center red-text text-accent-1" style="padding: 0 0 10px 0"> ZESTTECH</div>
-          <span class="red-text text-accent-1"> DESCRIPTION</span>
-          <p> A Techbridge Between Connection And Confusion  </p>
-          <span class="red-text text-accent-1"> DETAILS</span>
-          <p> Carve your brains for the upcoming rounds! </p>
-          <p>&nbsp;</p>
-          <span class="red-text text-accent-1"> ROUNDS</span>
-
-          <div class="row">
-          <div class="">
-            <div class="card ">
-              <div class="">
-                <ul class="tabs tabs-fixed-width ">
-                  <li class="tab"><a href="#test1" class="active">Round 1</a></li>
-                  <li class="tab"><a class="" href="#test2">Round 2</a></li>
-                  <li class="tab"><a class="" href="#test3">Round 3</a></li>
-                <li class="indicator" style="right: 206px; left: 0px;"></li></ul>
-              </div>
-              <div class="card-content">
-                <div id="test1" style="font-size:0.8em" class="active">
-                    <ul>
-                      <li> <span class="red-text text-accent-1"> > </span> Wire a circuit to glow a bulb. But here, No need to wire…,just put your brain in Active mode  to glow your technical skills. </li>
-                      <li> <span class="red-text text-accent-1"> > </span> Consists of connexionz, doodles and the like… </li>
-                    </ul>
-                </div>
-                <div id="test2" class="" style="display: none;font-size:0.8em">
-                  <ul>
-                    <li> <span class="red-text text-accent-1"> > </span> Hunt the puzzles with your technical skill to find a way for the  next round. </li>
-                  </ul>
-                </div>
-                <div id="test3" style="font-size:0.8em" class="active">
-                    <ul>
-                      <li> <span class="red-text text-accent-1"> > </span> Be clear to get confused. </li>
-                      <li> <span class="red-text text-accent-1"> > </span> Crack others to win your prize!!! </li>
-                    </ul>
-                </div>
-              </div>
-              <div class="card-action">
-                <div style="font-size:0.8em">
-                  <span class="red-text text-accent-1"> Team: 2 members </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    </nav>
+  </div>
+  <ul class="side-nav" id="mobile-demo">
+    <li class="active"><a class="waves-effect" href="../../home.php"><i class="material-icons">home</i></a></li>
+    <li><a class="waves-effect" href="../../events.php">EVENTS</a></li>
+    <li><a class="waves-effect" href="../../schedule.php">SCHEDULE</a></li>
+    <li><a class="waves-effect" href="../../contact.php">CONTACT US</a></li>
+    <li><a class="waves-effect" href="../../about.php">ABOUT US</a></li>
+    <li><a class="waves-effect modal-trigger" href="#loginModal">LOG IN</a></li>
+    <li><a class="waves-effect" href="../../register.php">REGISTER</a></li>
+  </ul>
 
 
           <span class="red-text text-accent-1"> CONTACT</span>
