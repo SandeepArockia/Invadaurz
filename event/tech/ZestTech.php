@@ -75,8 +75,13 @@ a{
   </ul>
 
   <main>
-    <div class="parallax-container">
-      <div class="parallax"> <img src="../../img/banner/zesttech.png"/> </div>
+    <div class="parallax-container hide-on-small-only">
+      <div class="parallax">
+        <img src="../../img/banner/zesttech.png"/>
+      </div>
+    </div>
+    <div class="hide-on-med-and-up">
+      <img src="../../img/banner/zesttech.png" class="responsive-img"/>
     </div>
     <p> &nbsp; </p>
     <div class="row <!--wow rollIn--> flow-text">

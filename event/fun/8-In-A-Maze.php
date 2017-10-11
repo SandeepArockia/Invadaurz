@@ -74,9 +74,16 @@
   </ul>
 
   <main>
-    <div class="parallax-container">
-      <div class="parallax"> <img src="../../img/banner/8inamaze.png"/> </div>
-    </div>
+
+        <div class="parallax-container hide-on-small-only">
+          <div class="parallax">
+            <img src="../../img/banner/8.png"/>
+          </div>
+        </div>
+        <div class="hide-on-med-and-up">
+          <img src="../../img/banner/8.png" class="responsive-img"/>
+        </div>
+
     <p> &nbsp; </p>
     <div class="row <!--wow rollIn--> flow-text">
       <div class="section-white col l10 offset-l1 m10 offset-m1 s10 offset-s1">
