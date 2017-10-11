@@ -126,7 +126,6 @@ a{
               <div class="card-action">
                 <div style="font-size:0.8em">
                   <span class="blue-text text-accent-2"> Team: 1-2 members </span>
-                  <span class="blue-text text-accent-2 right"> For I and II Years only </span>
                 </div>
               </div>
             </div>
