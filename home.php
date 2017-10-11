@@ -44,7 +44,7 @@
 </head>
 
 <body style="font-size:1.4rem;overflow-x: hidden;">
-  <div class="navbar-fixed">
+  <div class="navbar">
     <nav>
       <div class="nav-wrapper">
         <a href="#" class="center brand-logo">INVADAURZ</a>

@@ -33,7 +33,7 @@
 </head>
 
 <body style="font-size:1.4rem;overflow-x: hidden;">
-  <div class="navbar-fixed">
+  <div class="navbar">
     <nav>
       <div class="nav-wrapper">
         <a href="#" class="center brand-logo">INVADAURZ</a>
@@ -61,7 +61,7 @@
   <main>
     <div class="parallax-container">
       <div class="parallax">
-        <img src="img/about.jpg"/>
+        <img src="img/invadaurz-banner.jpg"/>
       </div>
     </div>
 
@@ -193,8 +193,11 @@
             </div>
           </div>
 
-          <div class="center col l4">
-            <div class="card  horizontal">
+          <div class="center col l4 m12 s12">
+            <div class="card small horizontal">
+              <div class="card-image">
+                <img src="img/person/madhumithag.jpg" class="responsive-image">
+              </div>
               <div class="card-stacked">
                 <div class="card-action">
                   <a style="font-size:1rem">Madhumitha G</a>
@@ -205,8 +208,12 @@
               </div>
             </div>
           </div>
+
           <div class="center col l4 m12 s12">
-            <div class="card horizontal">
+            <div class="card small horizontal">
+              <div class="card-image">
+                <img src="img/person/varshini.jpg" class="responsive-image">
+              </div>
               <div class="card-stacked">
                 <div class="card-action">
                   <a style="font-size:1rem">Varshini M.E.</a>
@@ -217,6 +224,7 @@
               </div>
             </div>
           </div>
+
 
           <div class="center col l4 m12 s12">
             <div class="card horizontal">

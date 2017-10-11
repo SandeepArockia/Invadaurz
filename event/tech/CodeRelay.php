@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>INVADAURZ | ITA | 2017</title>
@@ -49,7 +49,7 @@ a{
 </head>
 
 <body style="font-size:1.4rem">
-  <div class="navbar-fixed">
+  <div class="navbar">
     <nav>
       <div class="nav-wrapper">
         <a href="#" class="center brand-logo">INVADAURZ</a>
