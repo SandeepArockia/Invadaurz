@@ -43,7 +43,7 @@
   </style>
 </head>
 
-<body style="font-size:1.4rem">
+<body style="font-size:1.4rem;overflow:none">
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
@@ -71,17 +71,20 @@
   <main>
 
 
-    <div class="parallax-container">
+    <div class="parallax-container hide-on-small-only">
       <div class="parallax">
         <img src="img/home.jpeg"/>
       </div>
     </div>
+    <div class="hide-on-med-and-up">
+      <img src="img/home.jpeg" class="responsive-img"/>
+    </div>
 
   <div class="center">
-    <div class="chip col l12 s12 m12">
-          <p>
+    <div class="col l12 s12 m12">
+          <h4 style="color:darkblue">
             ⁠⁠⁠⁠⁠"The delight of opening a new pursuit imparts the vivacity of youth to all"
-          </p>
+          </h4>
       </div>
     </div>
 
@@ -89,15 +92,15 @@
   </div>
   <div class="container row center" style="padding:0px 0px 0px 0px">
 	<div class="container center">
-		 <h4> Events </h4> 
+		 <h4> Events </h4>
 	</div>
     <a href="events.php#technicalText">
       <div class="col l6 s12 m6" id="techText">
-          <div class="card blue accent-2" style="padding:0px 20px 0px 20px">
+          <div class="card small blue accent-2" style="padding:0px 20px 0px 20px">
             <div class="card-content white-text">
               <span class="card-title">TECHNICAL</span>
               <hr>
-              <p style="text-align: justify">
+              <p style="text-align: center  ">
                 A pursuit and hunt for talents. Talent wins games but teamwork and intelligence wins championships. Here we are to bring in the champions in you!
               </p>
             </div>
@@ -106,16 +109,14 @@
     </a>
     <a href="events.php#funText">
       <div class="col l6 s12 m6" id="funText" style="padding:0px 20px 0px 20px">
-        <div class="row">
-          <div class="card blue accent-2">
+          <div class="card small blue accent-2">
             <div class="card-content white-text">
               <span class="card-title">FUN</span>
               <hr>
-              <p style="text-align: justify">
+              <p style="text-align: center">
                 Enjoyment is an incredible energizer to the soul! And here is yet another chance in a million to keep your spirits high with our fun events...
               </p>
             </div>
-          </div>
         </div>
       </div>
     </a>
@@ -124,13 +125,13 @@
   <div class="container center">
     <h4>Sponsors</h4>
     <marquee behavior="scroll" direction="left">
-      <img class=""  style="height:100px" src="img/time.jpg">
+      <img class=""  style="height:120px" src="img/time.jpg">
       &emsp;&emsp;
       &emsp;&emsp;
-      <img class=""  style="height:100px" src="img/kfcLogo.png">
+      <img class=""  style="height:120px" src="img/kfcLogo.png">
       &emsp;&emsp;
       &emsp;&emsp;
-      <img class=""  style="height:100px" src="img/vakulaaLogo.png">
+      <img class=""  style="height:120px" src="img/vakulaaLogo.png">
     </marquee>
   </div>
 </main>
@@ -150,7 +151,7 @@
       </script>
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDInQjNqxLhAH69iVTWAgfl96DhpYr2Ps4&callback=myMap"></script>
     </div>
-    <div class="col l4 offset-l1 s12">
+    <div class="col l4 offset-l1 s12 push-s2">
       <h5 class="white-text">Contact</h5>
       <ul>
         <li>Kevin &nbsp;-&nbsp; <a class="white-text" href="tel:75984 07070">75984 07070</a></li>
@@ -162,7 +163,7 @@
   <div class="footer-copyright">
     <div class="container">
       INVADAURZ 2k17
-      <a class="grey-text text-lighten-4 right" href="#!">The Science of Today is the Technology of Tomorrow!</a>
+      <a class="grey-text text-lighten-4 right">The Science of Today is the Technology of Tomorrow!</a>
     </div>
   </div>
 </footer>
