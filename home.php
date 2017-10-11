@@ -16,7 +16,7 @@
     $(".button-collapse").sideNav();
     $(".modal").modal();
     $(".parallax").parallax();
-	$(".chips").material_chip();
+    $(".chips").material_chip();
   });
   var options = [
     {selector: '#techText', offset: 50, callback: function(el) {
@@ -80,46 +80,46 @@
       <img src="img/home.jpeg" class="responsive-img"/>
     </div>
 
-  <div class="center">
-    <div class="col l12 s12 m12">
-          <h4 style="color:darkblue">
-            <br>
-            ⁠⁠⁠⁠⁠"The delight of opening a new pursuit imparts the vivacity of youth to all"
-            <br>
-            <br>
-          </h4>
+    <div class="center">
+      <div class="col l12 s12 m12">
+        <h4 style="color:darkblue">
+          <br>
+          ⁠⁠⁠⁠⁠"The delight of opening a new pursuit imparts the vivacity of youth to all"
+          <br>
+          <br>
+        </h4>
       </div>
     </div>
 
 
   </div>
   <div class="container row center" style="padding:0px 0px 0px 0px">
-	<div class="container center">
-		 <h4> Events </h4>
-	</div>
+    <div class="container center">
+      <h4> Events </h4>
+    </div>
     <a href="events.php#technicalText">
       <div class="col l6 s12 m6" id="techText">
-          <div class="card small blue accent-2" style="padding:0px 20px 0px 20px">
-            <div class="card-content white-text">
-              <span class="card-title">TECHNICAL</span>
-              <hr>
-              <p style="text-align: center  ">
-                A pursuit and hunt for talents. Talent wins games but teamwork and intelligence wins championships. Here we are to bring in the champions in you!
-              </p>
-            </div>
+        <div class="card small blue accent-2" style="padding:0px 20px 0px 20px">
+          <div class="card-content white-text">
+            <span class="card-title">TECHNICAL</span>
+            <hr>
+            <p style="text-align: center  ">
+              A pursuit and hunt for talents. Talent wins games but teamwork and intelligence wins championships. Here we are to bring in the champions in you!
+            </p>
           </div>
+        </div>
       </div>
     </a>
     <a href="events.php#funText">
       <div class="col l6 s12 m6" id="funText" style="padding:0px 20px 0px 20px">
-          <div class="card small blue accent-2">
-            <div class="card-content white-text">
-              <span class="card-title">FUN</span>
-              <hr>
-              <p style="text-align: center">
-                Enjoyment is an incredible energizer to the soul! And here is yet another chance in a million to keep your spirits high with our fun events...
-              </p>
-            </div>
+        <div class="card small blue accent-2">
+          <div class="card-content white-text">
+            <span class="card-title">FUN</span>
+            <hr>
+            <p style="text-align: center">
+              Enjoyment is an incredible energizer to the soul! And here is yet another chance in a million to keep your spirits high with our fun events...
+            </p>
+          </div>
         </div>
       </div>
     </a>
@@ -130,11 +130,16 @@
     <marquee behavior="scroll" direction="left">
       <img class=""  style="height:120px" src="img/time.jpg">
       &emsp;&emsp;
-      &emsp;&emsp;
       <img class=""  style="height:120px" src="img/kfcLogo.png">
       &emsp;&emsp;
-      &emsp;&emsp;
       <img class=""  style="height:120px" src="img/vakulaaLogo.png">
+      &emsp;&emsp;
+      <img class=""  style="height:120px" src="img/battleground.png">
+      &emsp;&emsp;
+      <img class=""  style="height:120px" src="img/niit.png">
+      <img class=""  style="height:120px" src="img/sanga.jpg">
+      &emsp;&emsp;
+      <img class=""  style="height:120px" src="img/batman.png">
     </marquee>
   </div>
 </main>
