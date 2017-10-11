@@ -77,11 +77,11 @@ a{
 
         <div class="parallax-container hide-on-small-only">
           <div class="parallax">
-            <img src="../../img/banner/Run-Some-Where.png"/>
+            <img src="../../img/banner/runsomewhere.png"/>
           </div>
         </div>
         <div class="hide-on-med-and-up">
-          <img src="../../img/banner/Run-Some-Where.png" class="responsive-img"/>
+          <img src="../../img/banner/runsomewhere.png" class="responsive-img"/>
         </div>
 
     <p> &nbsp; </p>

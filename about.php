@@ -72,9 +72,8 @@
         <div class="container">
 
           <h3 class="blue-text text-accent-2">  About ITA </h3>
-          <p class="flow-text">
-            The Department of Information Technology,PSG College of Technology offers an excellent atmosphere for students to learn and acquire the necessary skills demanded by the Industry. Our depatment's activities are managed by a Information Technology Association, ITA.  The ITA is a student run organization which is assisted by a faculty advisor.The association is active through out the year conducting technical and fun events for students and encouraging them.
-            The invadaurz is the next biggest event of ITA and it is being conducted every year .It is scheduled on 14,15 of this month with great involvement of its members and looking forward for participation from students.
+          <p class="flow-text" style="text-align: justify; text-indent: 10%;">
+            The Department of Information Technology, PSG College of Technology offers an excellent atmosphere for students to learn and acquire the necessary skills demanded by the Industry. Our depatment's activities are managed by Information Technology Association, ITA. The ITA is a student-run organization which is assisted by a faculty advisor. The association is active through out the year conducting technical and fun events for students and encouraging them. The invadaurz is the next biggest event of ITA and it is being conducted every year. It is scheduled on 14,15 of this month with great involvement of its members and looking forward for participation from students.
           </p>
           <h3 class="blue-text text-accent-2 center">Faculty Advisor</h3>
           <div class="center push-l3 col l6">
@@ -227,7 +226,10 @@
 
 
           <div class="center col l4 m12 s12">
-            <div class="card horizontal">
+            <div class="card small horizontal">
+              <div class="card-image">
+                <img src="img/person/mathumithas.jpeg" class="responsive-image">
+              </div>
               <div class="card-stacked">
                 <div class="card-action">
                   <a style="font-size:1rem">Mathumitha S.</a>

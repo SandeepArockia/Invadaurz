@@ -77,11 +77,11 @@ a{
 
         <div class="parallax-container hide-on-small-only">
           <div class="parallax">
-            <img src="../../img/banner/BubbleBug.png"/>
+            <img src="../../img/banner/BubbleBugs.jpg"/>
           </div>
         </div>
         <div class="hide-on-med-and-up">
-          <img src="../../img/banner/BubbleBus.png" class="responsive-img"/>
+          <img src="../../img/banner/BubbleBugs.jpg" class="responsive-img"/>
         </div>
 
     <p> &nbsp; </p>
@@ -126,6 +126,7 @@ a{
               <div class="card-action">
                 <div style="font-size:0.8em">
                   <span class="blue-text text-accent-2"> Team: 1-2 members </span>
+                  <span class="blue-text text-accent-2 right"> For I and II Years only </span>
                 </div>
               </div>
             </div>
