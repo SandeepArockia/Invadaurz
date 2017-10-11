@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Oct 09, 2017 at 01:08 PM
+-- Generation Time: Oct 11, 2017 at 08:47 AM
 -- Server version: 5.6.12-log
 -- PHP Version: 5.4.16
 
@@ -19,6 +19,28 @@ SET time_zone = "+00:00";
 --
 -- Database: `invadaurz`
 --
+CREATE DATABASE IF NOT EXISTS `invadaurz` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `invadaurz`;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `eventreg`
+--
+
+CREATE TABLE IF NOT EXISTS `eventreg` (
+  `rollno` varchar(10) NOT NULL DEFAULT '',
+  `event` varchar(20) NOT NULL,
+  `status` varchar(10) DEFAULT 'pending',
+  PRIMARY KEY (`rollno`,`event`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `eventreg`
+--
+
+INSERT INTO `eventreg` (`rollno`, `event`, `status`) VALUES
+('15i228', 'bugboss', 'registered');
 
 -- --------------------------------------------------------
 
@@ -43,8 +65,9 @@ CREATE TABLE IF NOT EXISTS `userdetails` (
 --
 
 INSERT INTO `userdetails` (`rollno`, `name`, `degree`, `branch`, `year`, `phone`, `mail`, `password`) VALUES
-('15i228', 'Pooventhiran G', '1', '7', 3, '9965951487', 'pooventhiran_g@icloud.com', 'password'),
-('15i243', 'sandeep a', '1', '1', 1, '7894561235', 'poo@gmail.com', 'password');
+('15', 'a a', '1', '7', 1, '9965951487', 'pr.gksp@gmail.com', 'p'),
+('a', 'a a', '1', '7', 1, '9898989889', 'p@d.c', 'a'),
+('k', 'k k', '1', '7', 1, '9876543210', 'p@k.l', 'l');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
