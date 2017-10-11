@@ -43,7 +43,8 @@
   </style>
 </head>
 
-<body style="font-size:1.4rem;overflow-x: hidden;">
+<body style="font-size:1.4rem;overflow-x: hidden;background:#e3f2fd">
+
   <div class="navbar">
     <nav>
       <div class="nav-wrapper">

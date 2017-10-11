@@ -35,7 +35,7 @@
               });
             </script>
           </head>
-          <body>
+          <body style="font-size:1.4rem;overflow-x: hidden;background:#e3f2fd">
           <div class="navbar-fixed" style="background: #005985">
             <nav style="background: #005985">
               <div class="nav-wrapper">
