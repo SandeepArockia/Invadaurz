@@ -1,8 +1,8 @@
 <?php
   error_reporting(0);
   $dbhost = "localhost";
-  $dbuser = "root";
-  $dbpass = "";
+  $dbuser = "itinvadaurz";
+  $dbpass = "itinvadaurz";
   $dbname = "invadaurz";
   $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
   if(!$conn){

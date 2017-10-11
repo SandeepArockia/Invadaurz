@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 echo '<html><head><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -6,8 +7,8 @@ echo '<html><head><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 <script src="js\materialize.min.js"></script></head></html>';
 $dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "";
+$dbuser = "itinvadaurz";
+$dbpass = "itinvadaurz";
 $dbname = "invadaurz";
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 if(!$conn){
@@ -254,37 +255,36 @@ else{
                 </span>
                 <div id="degree" class="input-field col l6 m6 s12">
                   <select name="degree" required>
-                    <option value="1" selected>B.Tech.</option>
-                    <option value="2">B.E.</option>
-                    <option value="3">M.Tech.</option>
-                    <option value="4">M.E.</option>
-                    <option value="5">M.Sc.</option>
+                    <option value="B.E.">B.E.</option>
+                    <option value="B.Tech." selected>B.Tech.</option>
+                    <option value="Others">Others</option>
                   </select>
                   <label for="degree">Degree</label>
                 </div>
                 <div id="branch" class="input-field col l6 m6 s12">
                   <select name="branch" required>
-                    <option value="1">Automobile Engineering</option>
-                    <option value="2"> Bio Technology</option>
-                    <option value="3"> Civil Engineering</option>
-                    <option value="4"> Computer Science and Engineering</option>
-                    <option value="5"> Electrical and Electronics Engineering </option>
-                    <option value="6"> Electronics &amp; Communication Engineering</option>
-                    <option value="7" selected>Information Technology</option>
-                    <option value="8"> Mechanical Engineering</option>
-                    <option value="9"> Metallurgical Engineering</option>
-                    <option value="10"> Production Engineering</option>
-                    <option value="11"> Mechanical Engineering (Sandwich) </option>
-                    <option value="12"> Electrical and Electronics Engineering (Sandwich)</option>
-                    <option value="13"> Production Engineering (Sandwich)</option>
-                    <option value="14"> Robotics and Automation Engineering</option>
-                    <option value="15"> Textile Technology</option>
-                    <option value="16"> Textile Technology (Part Time)</option>
-                    <option value="17"> Bio Medical Engineering</option>
-                    <option value="18"> Fashion Technology</option>
-                    <option value="19"> Instrumentation and Control Engineering</option>
-                    <option value="20"> Applied Sciences</option>
-                    <option value="21"> Computer System and Design</option>
+                    <option value="Automobile Engineering">Automobile Engineering</option>
+                    <option value="Bio Technology"> Bio Technology</option>
+                    <option value="Civil Engineering"> Civil Engineering</option>
+                    <option value="Computer Science and Engineering"> Computer Science and Engineering</option>
+                    <option value="Electrical and Electronics Engineering"> Electrical and Electronics Engineering </option>
+                    <option value="Electronics &amp; Communication Engineering"> Electronics &amp; Communication Engineering</option>
+                    <option value="Information Technology" selected>Information Technology</option>
+                    <option value="Mechanical Engineering"> Mechanical Engineering</option>
+                    <option value="Metallurgical Engineering"> Metallurgical Engineering</option>
+                    <option value="Production Engineering"> Production Engineering</option>
+                    <option value="Mechanical Engineering (Sandwich)"> Mechanical Engineering (Sandwich) </option>
+                    <option value="Electrical and Electronics Engineering (Sandwich)"> Electrical and Electronics Engineering (Sandwich)</option>
+                    <option value="Production Engineering (Sandwich)"> Production Engineering (Sandwich)</option>
+                    <option value="Robotics and Automation Engineering"> Robotics and Automation Engineering</option>
+                    <option value="Textile Technology"> Textile Technology</option>
+                    <option value="Textile Technology (Part Time)"> Textile Technology (Part Time)</option>
+                    <option value="Bio Medical Engineering"> Bio Medical Engineering</option>
+                    <option value="Fashion Technology"> Fashion Technology</option>
+                    <option value="Instrumentation and Control Engineering">Instrumentation and Control Engineering</option>
+                    <option value="Applied Sciences">Applied Sciences</option>
+                    <option value="Computer System and Design">Computer System and Design</option>
+                    <option value="Others">Others</option>
                   </select>
                   <label for="branch">Branch</label>
                 </div>
