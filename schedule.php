@@ -58,7 +58,12 @@
   </ul>
 
   <main>
-
+      <h1 class="center">
+        Schedule
+      </h1>
+      <p class="flow-text">
+        Schedule will be updated soon.
+      </p>
   </main>
   <div class="container">
     <div class="row">
