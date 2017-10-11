@@ -83,7 +83,10 @@
   <div class="center">
     <div class="col l12 s12 m12">
           <h4 style="color:darkblue">
+            <br>
             ⁠⁠⁠⁠⁠"The delight of opening a new pursuit imparts the vivacity of youth to all"
+            <br>
+            <br>
           </h4>
       </div>
     </div>
