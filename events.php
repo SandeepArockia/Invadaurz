@@ -45,7 +45,7 @@
   </style>
 </head>
 
-<body style="font-size:1.4rem">
+<body style="font-size:1.4rem;overflow-x: hidden;">
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
@@ -87,7 +87,7 @@
           <div class="row">
           </div>
           <div class="col l3 m6 s6 animated slideInUp">
-            <a href="event/tech/BugBoss.php"> <img src="img/tech/BugBoss.png" class="animated slideInLeft icon-border white tooltipped" id="eventLogo" style="width:100%" data-position="top" data-tooltip="Bug Boss"/> </a>
+            <a href="event/tech/BugBoss.php"> <img src="img/tech/BugBoss.png" class="animated slideInLeft icon-border white tooltipped" id="eventLogo" style="width:100%" data-position="-126" data-tooltip="Bug Boss"/> </a>
           </div>
           <div class="col l3 m6 s6 animated slideInUp">
             <a href="event/tech/CaptureTheFlag.php" > <img src="img/tech/CaptureTheFlag.png" class="animated slideInRight icon-border white tooltipped" id="eventLogo" style="width:100%" data-position="top" data-tooltip="Capture The Flag"/> </a>
